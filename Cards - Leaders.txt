@@ -1,4 +1,4 @@
-LINK="C:\Users\jeffr\OneDrive\Documents\nanDECK\WftS\Cards\Cards - Leaders.csv"
+LINK="1AMsYoQ4pvxz6I74FW8BloelE14svXZ14v06cF3brc_8!Leaders"
 
 ;Settings
 UNIT = INCH
@@ -16,7 +16,7 @@ FONT=Arial,10,,#F5F5F5,#404040
 TEXT="1-{(EFFECT)}",[EFFECT],{1071/400}%,{40583/600}%,{2366/25}%,{1253/40}%,LEFT,WORDWRAP
 ENDVISUAL
 
-save=,"cards\[NAME].png"
+save=,"cards\leader_[NAME].png"
 
 
 
