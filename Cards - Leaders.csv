@@ -1,0 +1,10 @@
+Name,Type,Energy Cost,Power,Effect
+Elrond Hubbard,Leader,1,1,I can reroll any damage dice assigned to my ship once.
+Migdin Bowles,Leader,1,1,My thrusters provide one additional thrust.
+Sasha Brin,Leader,1,1,"My orders cost 1e less, and enemy orders cost 1e more."
+Zep Gee,Leader,1,1,Modules produced at my location cost 1e less.
+Orin Solis,Leader,1,1,My Energy Network modules can transfer one additional energy.
+Tarkos Dren,Leader,1,1,"At the start of each round, I generate 1 energy."
+Dr. Veyna Kross,Leader,1,1,"At the start of the round, you may pay 1e. If you do, you may look at the top three cards of your deck, reveal a module from among them, and put it into your hand. Bottom the rest."
+Professor Alric Zane,Leader,1,1,"When I enter, search your deck for a module and put it into your hand."
+Major Kael Draven,Leader,1,1,Prevent the first damage dealt to each ship in my fleet when I retreat.
