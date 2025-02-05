@@ -44,17 +44,18 @@
             leader: ["leader"]
         };
 
-        function filterCards(category) {
-            const cards = document.querySelectorAll(".card");
-            cards.forEach(card => {
-                const cardName = card.getAttribute("data-name").toLowerCase();
-                if (category === "all" || categoryMap[category].some(keyword => cardName.includes(keyword))) {
-                    card.style.display = "block";
-                } else {
-                    card.style.display = "none";
-                }
-            });
-        }
+		function filterCards(category) {
+				const cards = document.querySelectorAll(".card");
+				cards.forEach(card => {
+				const cardName = card.getAttribute("data-name").toLowerCase();
+				if (category === "all" || cardName.startsWith(category + "_")) {
+						card.style.display = "block";
+				} else {
+						card.style.display = "none";
+				}
+			});
+		}
+
 
         fetch("cards.json")
             .then(response => response.json())
