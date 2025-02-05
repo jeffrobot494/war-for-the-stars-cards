@@ -1,4 +1,4 @@
-LINK="C:\Users\jeffr\OneDrive\Documents\nanDECK\WftS\Cards\Cards - Modules.csv"
+LINK="1AMsYoQ4pvxz6I74FW8BloelE14svXZ14v06cF3brc_8!Modules"
 
 ;Settings
 UNIT = INCH
