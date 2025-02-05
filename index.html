@@ -23,7 +23,7 @@
                 const gallery = document.getElementById("gallery");
                 images.forEach(name => {
                     let img = document.createElement("img");
-                    img.src = name;
+                    img.src = imageFolder+name;
                     img.className = "card";
                     gallery.appendChild(img);
                 });
