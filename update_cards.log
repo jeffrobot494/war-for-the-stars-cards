@@ -21,3 +21,24 @@ error: failed to push some refs to 'https://github.com/jeffrobot494/war-for-the-
 Running generate_card_list.sh...
 Updated cards.json with PNG files!
 Staging changes...
+warning: in the working copy of 'cards.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'update_cards.log', LF will be replaced by CRLF the next time Git touches it
+Committing changes: Auto-update: 2025-02-06 16:32:03
+[main 71084d9] Auto-update: 2025-02-06 16:32:03
+ 3 files changed, 19 insertions(+)
+ delete mode 100644 art/Intimate Map.png
+ create mode 100644 art/Local Map.png
+Pushing to GitHub...
+remote: warning: File art/Local Map.png is 73.78 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: error: Trace: 366915a6f900a24be94c45852ea4f8fe73ec1ad3ececf637936b541821ef665b        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File art/Intimate Map.png is 177.91 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/jeffrobot494/war-for-the-stars-cards.git'
+========== Update Completed: Thu Feb  6 16:32:19 CST 2025 ==========
+========== Update Started: Thu Feb  6 17:25:58 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
