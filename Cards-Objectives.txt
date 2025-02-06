@@ -1,0 +1,15 @@
+LINK="1AMsYoQ4pvxz6I74FW8BloelE14svXZ14v06cF3brc_8!Objectives"
+
+;Settings
+UNIT = INCH
+PAGE = 8.5, 11, PORTRAIT
+BORDER = RECTANGLE, #00000, .1
+
+VISUAL=, 10, 10
+RECTANGLE=1,0%,0%,100%,100%,#000000
+IMAGE="1-{(NAME)}","art\[NAME].png",{141/40}%,{5813/600}%,{37009/400}%,{873/10}%
+FONT=Arial,16,,#F5F5F5,#404040
+TEXT=1,[NAME],2.25%,1.5%,95.75%,7%
+ENDVISUAL
+
+save=,"cards\objective_[NAME].png"
