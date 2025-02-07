@@ -143,7 +143,14 @@
         }
 
 		// Prevent the right-click menu on the entire deck section
-		document.getElementById("deck").addEventListener("contextmenu", (e) => e.preventDefault());
+		document.addEventListener('contextmenu', function(event) {
+
+        event.preventDefault(); // Prevents the default right-click menu
+
+        // Add your custom function here, using 'event' to access details about the right-click
+
+        // For example, display a custom popup:
+    });
 
 		// Fix the right-click functionality in updateDeckDisplay()
 		function updateDeckDisplay() {
