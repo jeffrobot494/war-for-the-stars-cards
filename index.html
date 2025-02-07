@@ -17,9 +17,22 @@
             border-radius: 5px;
         }
         .filter-btn:hover { background-color: #0056b3; }
-        .active-filter { background-color: #ffcc00; color: black; } /* Highlight active button */
+        .active-filter { background-color: #ffcc00; color: black; }
         .card-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
-        .card { width: 200px; height: auto; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.2); display: block; }
+        .card { width: 200px; height: auto; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.2); cursor: pointer; }
+        .deck-list { margin-top: 20px; text-align: left; display: inline-block; }
+        .deck-item { cursor: pointer; padding: 5px; border-bottom: 1px solid #ccc; }
+        .download-btn {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 15px;
+            border: none;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .download-btn:hover { background-color: #218838; }
     </style>
 </head>
 <body>
@@ -35,8 +48,13 @@
 
     <div class="card-container" id="gallery"></div>
 
+    <h2>Your Deck</h2>
+    <div class="deck-list" id="deck"></div>
+    <button class="download-btn" onclick="downloadDeck()">Download Deck</button>
+
     <script>
         const imageFolder = "cards/";
+        const deck = {}; // Stores card names and quantities
 
         function filterCards(category, button) {
             const cards = document.querySelectorAll(".card");
@@ -49,10 +67,50 @@
                 }
             });
 
-            // Remove 'active-filter' class from all buttons
             document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active-filter"));
-            // Add 'active-filter' class to clicked button
             button.classList.add("active-filter");
+        }
+
+        function updateDeckDisplay() {
+            const deckContainer = document.getElementById("deck");
+            deckContainer.innerHTML = "";
+            for (const cardName in deck) {
+                const item = document.createElement("div");
+                item.className = "deck-item";
+                item.innerText = `${deck[cardName]}x ${cardName}`;
+                item.onclick = () => removeFromDeck(cardName);
+                deckContainer.appendChild(item);
+            }
+        }
+
+        function addToDeck(cardName) {
+            if (deck[cardName]) {
+                deck[cardName]++;
+            } else {
+                deck[cardName] = 1;
+            }
+            updateDeckDisplay();
+        }
+
+        function removeFromDeck(cardName) {
+            if (deck[cardName] > 1) {
+                deck[cardName]--;
+            } else {
+                delete deck[cardName];
+            }
+            updateDeckDisplay();
+        }
+
+        function downloadDeck() {
+            let deckText = "War for the Stars - Deck List\n\n";
+            for (const card in deck) {
+                deckText += `${deck[card]}x ${card}\n`;
+            }
+            const blob = new Blob([deckText], { type: "text/plain" });
+            const a = document.createElement("a");
+            a.href = URL.createObjectURL(blob);
+            a.download = "decklist.txt";
+            a.click();
         }
 
         fetch("cards.json")
@@ -63,7 +121,8 @@
                     let img = document.createElement("img");
                     img.src = imageFolder + name;
                     img.className = "card";
-                    img.setAttribute("data-name", name); // Store filename for filtering
+                    img.setAttribute("data-name", name);
+                    img.onclick = () => addToDeck(name);
                     gallery.appendChild(img);
                 });
             })
