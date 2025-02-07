@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>War for the Stars - Card Gallery</title>
+    <title>War for the Stars - Gallery and Deckbuilder</title>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; display: flex; }
         .main-content { flex: 1; padding: 20px; margin-right: 320px; }
@@ -101,7 +101,9 @@
 </head>
 <body>
     <div class="main-content">
-        <h1>War for the Stars - Card Gallery</h1>
+        <h1>War for the Stars - Gallery and Deckbuilder</h1>
+		<p style="font-size: 14px; color: #666;">Version 1.0</p>
+
 
         <!-- Filter Buttons -->
         <div class="button-container">
@@ -140,6 +142,10 @@
             });
         }
 
+		// Prevent the right-click menu on the entire deck section
+		document.getElementById("deck").addEventListener("contextmenu", (e) => e.preventDefault());
+
+		// Fix the right-click functionality in updateDeckDisplay()
 		function updateDeckDisplay() {
 			const deckContainer = document.getElementById("deck");
 			deckContainer.innerHTML = "";
@@ -152,11 +158,10 @@
 				item.className = "deck-item";
 				item.innerText = `${deck[cardName]} ${cardName.replace(".png", "")}`;
 				item.onclick = () => addToDeck(cardName); // Left-click adds
-				item.oncontextmenu = (e) => {
-					e.preventDefault(); // Prevent default right-click menu
+				item.addEventListener("contextmenu", (e) => {
+					e.preventDefault(); // Fully prevent right-click menu
 					removeFromDeck(cardName);
-					return false; // Ensure the event is fully handled
-				};
+				});
 
 				deckContainer.appendChild(item);
 			}
@@ -178,6 +183,7 @@
 				}
 			});
 		}
+
 
 
         function addToDeck(cardName) {
