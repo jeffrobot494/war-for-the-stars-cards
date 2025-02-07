@@ -52,16 +52,31 @@
             height: 100%;
             overflow-y: auto;
         }
-        .deck-title {
+        .deck-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             font-weight: bold;
-            margin-bottom: 10px;
-            outline: none;
-            width: 100%;
             font-size: 18px;
-            text-align: center;
+            margin-bottom: 5px;
+        }
+        .deck-title {
+            outline: none;
+            width: auto;
             border: none;
             background: none;
+            text-align: center;
+            font-size: 18px;
             cursor: text;
+        }
+        .pencil-icon {
+            cursor: pointer;
+            margin-left: 5px;
+        }
+        .deck-count {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 10px;
         }
         .deck-item {
             cursor: pointer;
@@ -101,7 +116,11 @@
 
     <!-- Deck Section (Always Visible) -->
     <div class="deck-section">
-        <input type="text" id="deck-name" class="deck-title" value="Deck List" />
+        <div class="deck-header">
+            <input type="text" id="deck-name" class="deck-title" value="Deck List" />
+            <span class="pencil-icon">✏️</span>
+        </div>
+        <div class="deck-count">Total Cards: <span id="deck-count">0</span></div>
         <div class="deck-list" id="deck"></div>
         <button class="download-btn" onclick="downloadDeck()">Download Deck</button>
         <button class="clear-btn" onclick="clearDeck()">Clear Deck</button>
@@ -124,18 +143,22 @@
         function updateDeckDisplay() {
             const deckContainer = document.getElementById("deck");
             deckContainer.innerHTML = "";
+            let totalCards = 0;
 
             for (const cardName in deck) {
+                totalCards += deck[cardName];
                 const item = document.createElement("div");
                 item.className = "deck-item";
-                item.innerText = `${deck[cardName]}x ${cardName}`;
+                item.innerText = `${deck[cardName]} ${cardName.replace(".png", "")}`;
                 item.onclick = () => addToDeck(cardName);
                 item.oncontextmenu = (e) => {
-                    e.preventDefault(); // Prevent right-click menu
+                    e.preventDefault(); // Prevents default right-click menu
                     removeFromDeck(cardName);
                 };
                 deckContainer.appendChild(item);
             }
+
+            document.getElementById("deck-count").innerText = totalCards;
 
             document.querySelectorAll(".card-wrapper").forEach(wrapper => {
                 const name = wrapper.getAttribute("data-name");
@@ -174,68 +197,19 @@
             updateDeckDisplay();
         }
 
-		function downloadDeck() {
-			const deckName = document.getElementById("deck-name").value.trim() || "Unnamed Deck";
-			let deckText = `### War for the Stars Deck: ${deckName}\n`;
+        function downloadDeck() {
+            const deckName = document.getElementById("deck-name").value.trim() || "decklist";
+            let deckText = `### War for the Stars Deck: ${deckName}\n`;
 
-			// Categorize cards
-			let modules = [];
-			let orders = [];
-			let leaders = [];
+            let deckList = Object.keys(deck).map(card => `${deck[card]} ${card.replace(".png", "")}`);
+            deckText += deckList.join("\n");
 
-			for (const card in deck) {
-				let cardName = card.replace(".png", ""); // Remove file extension
-
-				if (cardName.startsWith("module_")) {
-					modules.push(`${deck[card]} ${cardName}`);
-				} else if (cardName.startsWith("order_")) {
-					orders.push(`${deck[card]} ${cardName}`);
-				} else {
-					leaders.push(`${deck[card]} ${cardName}`); // Default category if not module or order
-				}
-			}
-
-			// Sort cards as: Modules → Orders → Leaders
-			deckText += modules.join("\n") + "\n";
-			deckText += orders.join("\n") + "\n";
-			if (leaders.length > 0) {
-				deckText += leaders.join("\n");
-			}
-
-			// Create and trigger file download
-			const blob = new Blob([deckText.trim()], { type: "text/plain" });
-			const a = document.createElement("a");
-			a.href = URL.createObjectURL(blob);
-			a.download = `${deckName.replace(/\s+/g, "_")}.txt`;
-			a.click();
-		}
-
-
-        fetch("cards.json")
-            .then(response => response.json())
-            .then(images => {
-                const gallery = document.getElementById("gallery");
-                images.forEach(name => {
-                    let cardWrapper = document.createElement("div");
-                    cardWrapper.className = "card-wrapper";
-                    cardWrapper.setAttribute("data-name", name);
-
-                    let img = document.createElement("img");
-                    img.src = imageFolder + name;
-                    img.className = "card";
-                    img.onclick = () => addToDeck(name);
-
-                    let counter = document.createElement("div");
-                    counter.className = "card-counter";
-                    counter.innerText = "x1";
-                    counter.style.display = "none";
-
-                    cardWrapper.appendChild(img);
-                    cardWrapper.appendChild(counter);
-                    gallery.appendChild(cardWrapper);
-                });
-            })
-            .catch(error => console.error("Error loading images:", error));
+            const blob = new Blob([deckText.trim()], { type: "text/plain" });
+            const a = document.createElement("a");
+            a.href = URL.createObjectURL(blob);
+            a.download = `${deckName.replace(/\s+/g, "_")}.txt`;
+            a.click();
+        }
     </script>
 </body>
 </html>
