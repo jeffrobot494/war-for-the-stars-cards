@@ -210,6 +210,32 @@
             a.download = `${deckName.replace(/\s+/g, "_")}.txt`;
             a.click();
         }
+		
+		fetch("cards.json")
+            .then(response => response.json())
+            .then(images => {
+                const gallery = document.getElementById("gallery");
+                images.forEach(name => {
+                    let cardWrapper = document.createElement("div");
+                    cardWrapper.className = "card-wrapper";
+                    cardWrapper.setAttribute("data-name", name);
+
+                    let img = document.createElement("img");
+                    img.src = imageFolder + name;
+                    img.className = "card";
+                    img.onclick = () => addToDeck(name);
+
+                    let counter = document.createElement("div");
+                    counter.className = "card-counter";
+                    counter.innerText = "x1";
+                    counter.style.display = "none";
+
+                    cardWrapper.appendChild(img);
+                    cardWrapper.appendChild(counter);
+                    gallery.appendChild(cardWrapper);
+                });
+            })
+            .catch(error => console.error("Error loading images:", error));
     </script>
 </body>
 </html>
