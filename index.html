@@ -174,18 +174,42 @@
             updateDeckDisplay();
         }
 
-        function downloadDeck() {
-            const deckName = document.getElementById("deck-name").value.trim() || "decklist";
-            let deckText = `${deckName} - War for the Stars Deck\n\n`;
-            for (const card in deck) {
-                deckText += `${deck[card]}x ${card}\n`;
-            }
-            const blob = new Blob([deckText], { type: "text/plain" });
-            const a = document.createElement("a");
-            a.href = URL.createObjectURL(blob);
-            a.download = `${deckName.replace(/\s+/g, "_")}.txt`;
-            a.click();
-        }
+		function downloadDeck() {
+			const deckName = document.getElementById("deck-name").value.trim() || "Unnamed Deck";
+			let deckText = `### War for the Stars Deck: ${deckName}\n`;
+
+			// Categorize cards
+			let modules = [];
+			let orders = [];
+			let leaders = [];
+
+			for (const card in deck) {
+				let cardName = card.replace(".png", ""); // Remove file extension
+
+				if (cardName.startsWith("module_")) {
+					modules.push(`${deck[card]} ${cardName}`);
+				} else if (cardName.startsWith("order_")) {
+					orders.push(`${deck[card]} ${cardName}`);
+				} else {
+					leaders.push(`${deck[card]} ${cardName}`); // Default category if not module or order
+				}
+			}
+
+			// Sort cards as: Modules → Orders → Leaders
+			deckText += modules.join("\n") + "\n";
+			deckText += orders.join("\n") + "\n";
+			if (leaders.length > 0) {
+				deckText += leaders.join("\n");
+			}
+
+			// Create and trigger file download
+			const blob = new Blob([deckText.trim()], { type: "text/plain" });
+			const a = document.createElement("a");
+			a.href = URL.createObjectURL(blob);
+			a.download = `${deckName.replace(/\s+/g, "_")}.txt`;
+			a.click();
+		}
+
 
         fetch("cards.json")
             .then(response => response.json())
