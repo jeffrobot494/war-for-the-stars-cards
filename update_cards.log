@@ -2,3 +2,21 @@
 Running generate_card_list.sh...
 Updated cards.json with PNG files!
 Staging changes...
+warning: in the working copy of 'cards.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'update_cards.log', LF will be replaced by CRLF the next time Git touches it
+Committing changes: Auto-update: 2025-02-06 17:52:01
+[main d49c738] Auto-update: 2025-02-06 17:52:01
+ 1 file changed, 1 insertion(+), 68 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/jeffrobot494/war-for-the-stars-cards.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+========== Update Completed: Thu Feb  6 17:52:02 CST 2025 ==========
+========== Update Started: Thu Feb  6 18:00:38 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
