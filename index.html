@@ -102,7 +102,7 @@
 <body>
     <div class="main-content">
         <h1>War for the Stars - Gallery and Deckbuilder</h1>
-		<p style="font-size: 14px; color: #666;">Version 1.3</p>
+		<p style="font-size: 14px; color: #666;">Version 1.4</p>
 
 
         <!-- Filter Buttons -->
@@ -141,15 +141,6 @@
                 wrapper.style.display = (category === "all" || cardName.startsWith(category + "_")) ? "block" : "none";
             });
         }
-
-		// Prevent the right-click menu on the entire deck section
-		document.addEventListener('contextmenu', function(event) {
-
-        event.preventDefault(); // Prevents the default right-click menu
-        // Add your custom function here, using 'event' to access details about the right-click
-
-        // For example, display a custom popup:
-		});
 
 		function updateDeckDisplay() {
 			const deckContainer = document.getElementById("deck");
@@ -242,6 +233,13 @@
                     img.src = imageFolder + name;
                     img.className = "card";
                     img.onclick = () => addToDeck(name);
+					
+					// Prevent the right-click menu on the entire deck section
+					img.addEventListener('contextmenu', function(event) {
+						event.preventDefault(); // Prevents the default right-click menu
+						// Add your custom function here, using 'event' to access details about the right-click
+						removeFromDeck(name);
+					});
 
                     let counter = document.createElement("div");
                     counter.className = "card-counter";
