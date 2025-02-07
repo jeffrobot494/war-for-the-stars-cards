@@ -6,7 +6,7 @@
     <title>War for the Stars - Card Gallery</title>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; display: flex; }
-        .main-content { flex: 1; padding: 20px; margin-right: 320px; } /* Ensures cards don't get hidden under deck section */
+        .main-content { flex: 1; padding: 20px; margin-right: 320px; }
         .button-container { margin-bottom: 20px; }
         .filter-btn {
             padding: 10px 15px;
@@ -20,10 +20,7 @@
         .filter-btn:hover { background-color: #0056b3; }
         .active-filter { background-color: #ffcc00; color: black; }
         .card-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
-        .card-wrapper {
-            position: relative;
-            display: inline-block;
-        }
+        .card-wrapper { position: relative; display: inline-block; }
         .card {
             width: 200px;
             height: auto;
@@ -32,9 +29,7 @@
             cursor: pointer;
             transition: border 0.2s ease-in-out;
         }
-        .in-deck {
-            border: 4px solid yellow; /* Properly highlights all cards in the deck */
-        }
+        .in-deck { border: 4px solid yellow; }
         .card-counter {
             position: absolute;
             bottom: 5px;
@@ -44,7 +39,7 @@
             padding: 5px 8px;
             border-radius: 5px;
             font-size: 14px;
-            display: none; /* Hidden unless card is in deck */
+            display: none;
         }
         .deck-section {
             width: 300px;
@@ -56,6 +51,17 @@
             top: 0;
             height: 100%;
             overflow-y: auto;
+        }
+        .deck-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            outline: none;
+            width: 100%;
+            font-size: 18px;
+            text-align: center;
+            border: none;
+            background: none;
+            cursor: text;
         }
         .deck-item {
             cursor: pointer;
@@ -76,7 +82,6 @@
         .clear-btn { background-color: #dc3545; }
         .clear-btn:hover { background-color: #c82333; }
         .download-btn:hover { background-color: #218838; }
-        .deck-header { font-weight: bold; margin-bottom: 10px; }
     </style>
 </head>
 <body>
@@ -96,7 +101,7 @@
 
     <!-- Deck Section (Always Visible) -->
     <div class="deck-section">
-        <div class="deck-header">Deck List (<span id="deck-count">0</span> cards)</div>
+        <input type="text" id="deck-name" class="deck-title" value="Deck List" />
         <div class="deck-list" id="deck"></div>
         <button class="download-btn" onclick="downloadDeck()">Download Deck</button>
         <button class="clear-btn" onclick="clearDeck()">Clear Deck</button>
@@ -119,20 +124,19 @@
         function updateDeckDisplay() {
             const deckContainer = document.getElementById("deck");
             deckContainer.innerHTML = "";
-            let totalCards = 0;
 
             for (const cardName in deck) {
-                totalCards += deck[cardName];
                 const item = document.createElement("div");
                 item.className = "deck-item";
                 item.innerText = `${deck[cardName]}x ${cardName}`;
-                item.onclick = () => removeFromDeck(cardName);
+                item.onclick = () => addToDeck(cardName);
+                item.oncontextmenu = (e) => {
+                    e.preventDefault(); // Prevent right-click menu
+                    removeFromDeck(cardName);
+                };
                 deckContainer.appendChild(item);
             }
 
-            document.getElementById("deck-count").innerText = totalCards;
-
-            // Update visuals on cards
             document.querySelectorAll(".card-wrapper").forEach(wrapper => {
                 const name = wrapper.getAttribute("data-name");
                 const counter = wrapper.querySelector(".card-counter");
@@ -171,14 +175,15 @@
         }
 
         function downloadDeck() {
-            let deckText = "War for the Stars - Deck List\n\n";
+            const deckName = document.getElementById("deck-name").value.trim() || "decklist";
+            let deckText = `${deckName} - War for the Stars Deck\n\n`;
             for (const card in deck) {
                 deckText += `${deck[card]}x ${card}\n`;
             }
             const blob = new Blob([deckText], { type: "text/plain" });
             const a = document.createElement("a");
             a.href = URL.createObjectURL(blob);
-            a.download = "decklist.txt";
+            a.download = `${deckName.replace(/\s+/g, "_")}.txt`;
             a.click();
         }
 
