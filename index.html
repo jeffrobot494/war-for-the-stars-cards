@@ -140,41 +140,45 @@
             });
         }
 
-        function updateDeckDisplay() {
-            const deckContainer = document.getElementById("deck");
-            deckContainer.innerHTML = "";
-            let totalCards = 0;
+		function updateDeckDisplay() {
+			const deckContainer = document.getElementById("deck");
+			deckContainer.innerHTML = "";
+			let totalCards = 0;
 
-            for (const cardName in deck) {
-                totalCards += deck[cardName];
-                const item = document.createElement("div");
-                item.className = "deck-item";
-                item.innerText = `${deck[cardName]} ${cardName.replace(".png", "")}`;
-                item.onclick = () => addToDeck(cardName);
-                item.oncontextmenu = (e) => {
-                    e.preventDefault(); // Prevents default right-click menu
-                    removeFromDeck(cardName);
-                };
-                deckContainer.appendChild(item);
-            }
+			for (const cardName in deck) {
+				totalCards += deck[cardName];
 
-            document.getElementById("deck-count").innerText = totalCards;
+				const item = document.createElement("div");
+				item.className = "deck-item";
+				item.innerText = `${deck[cardName]} ${cardName.replace(".png", "")}`;
+				item.onclick = () => addToDeck(cardName); // Left-click adds
+				item.oncontextmenu = (e) => {
+					e.preventDefault(); // Prevent default right-click menu
+					removeFromDeck(cardName);
+					return false; // Ensure the event is fully handled
+				};
 
-            document.querySelectorAll(".card-wrapper").forEach(wrapper => {
-                const name = wrapper.getAttribute("data-name");
-                const counter = wrapper.querySelector(".card-counter");
-                const cardImg = wrapper.querySelector(".card");
+				deckContainer.appendChild(item);
+			}
 
-                if (deck[name]) {
-                    cardImg.classList.add("in-deck");
-                    counter.style.display = "block";
-                    counter.innerText = `x${deck[name]}`;
-                } else {
-                    cardImg.classList.remove("in-deck");
-                    counter.style.display = "none";
-                }
-            });
-        }
+			document.getElementById("deck-count").innerText = totalCards;
+
+			document.querySelectorAll(".card-wrapper").forEach(wrapper => {
+				const name = wrapper.getAttribute("data-name");
+				const counter = wrapper.querySelector(".card-counter");
+				const cardImg = wrapper.querySelector(".card");
+
+				if (deck[name]) {
+					cardImg.classList.add("in-deck");
+					counter.style.display = "block";
+					counter.innerText = `x${deck[name]}`;
+				} else {
+					cardImg.classList.remove("in-deck");
+					counter.style.display = "none";
+				}
+			});
+		}
+
 
         function addToDeck(cardName) {
             deck[cardName] = (deck[cardName] || 0) + 1;
@@ -236,6 +240,9 @@
                 });
             })
             .catch(error => console.error("Error loading images:", error));
-    </script>
+			
+		document.getElementById("deck").oncontextmenu = (e) => e.preventDefault();
+		
+	</script>
 </body>
 </html>
