@@ -102,7 +102,7 @@
 <body>
     <div class="main-content">
         <h1>War for the Stars - Gallery and Deckbuilder</h1>
-		<p style="font-size: 14px; color: #666;">Version 1.2</p>
+		<p style="font-size: 14px; color: #666;">Version 1.3</p>
 
 
         <!-- Filter Buttons -->
@@ -146,13 +146,11 @@
 		document.addEventListener('contextmenu', function(event) {
 
         event.preventDefault(); // Prevents the default right-click menu
-		updateDeckDisplay();
         // Add your custom function here, using 'event' to access details about the right-click
 
         // For example, display a custom popup:
-    });
+		});
 
-		// Fix the right-click functionality in updateDeckDisplay()
 		function updateDeckDisplay() {
 			const deckContainer = document.getElementById("deck");
 			deckContainer.innerHTML = "";
@@ -165,9 +163,11 @@
 				item.className = "deck-item";
 				item.innerText = `${deck[cardName]} ${cardName.replace(".png", "")}`;
 				item.onclick = () => addToDeck(cardName); // Left-click adds
-				item.addEventListener("contextmenu", (e) => {
-					e.preventDefault(); // Fully prevent right-click menu
-					removeFromDeck(cardName);
+
+				// Ensure right-click removes a card
+				item.addEventListener("contextmenu", function(e) {
+					e.preventDefault(); // Prevents browser menu
+					removeFromDeck(cardName); // Removes one copy
 				});
 
 				deckContainer.appendChild(item);
@@ -198,14 +198,15 @@
             updateDeckDisplay();
         }
 
-        function removeFromDeck(cardName) {
-            if (deck[cardName] > 1) {
-                deck[cardName]--;
-            } else {
-                delete deck[cardName];
-            }
-            updateDeckDisplay();
-        }
+		function removeFromDeck(cardName) {
+			if (deck[cardName] > 1) {
+				deck[cardName]--;
+			} else {
+				delete deck[cardName]; // Remove from the deck entirely if count reaches 0
+			}
+			updateDeckDisplay(); // Ensure the UI updates immediately
+		}
+
 
         function clearDeck() {
             for (const card in deck) {
