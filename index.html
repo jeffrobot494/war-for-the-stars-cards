@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <title>War for the Stars - Gallery and Deckbuilder</title>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; display: flex; }
@@ -102,7 +103,7 @@
 <body>
     <div class="main-content">
         <h1>War for the Stars - Gallery and Deckbuilder</h1>
-		<p style="font-size: 14px; color: #666;">Version 1.4</p>
+		<p style="font-size: 14px; color: #666;">Version 1.5</p>
 
 
         <!-- Filter Buttons -->
@@ -126,6 +127,7 @@
         <div class="deck-list" id="deck"></div>
         <button class="download-btn" onclick="downloadDeck()">Download Deck</button>
         <button class="clear-btn" onclick="clearDeck()">Clear Deck</button>
+		<button class="download-btn" onclick="downloadAllCards()">Download All Cards</button>
     </div>
 
     <script>
@@ -219,6 +221,42 @@
             a.download = `${deckName.replace(/\s+/g, "_")}.txt`;
             a.click();
         }
+		
+		// Function to download all card images in a ZIP file
+		async function downloadAllCards() {
+			const zip = new JSZip();
+			const version = document.querySelector("p").innerText.replace("Version ", "").trim(); // Get version number
+			const zipFilename = `War for the Stars_Cards_v${version}.zip`;
+
+			try {
+				const response = await fetch("cards.json");
+				const images = await response.json();
+
+				const folder = zip.folder("War for the Stars Cards"); // Create folder inside ZIP
+
+				// Fetch each image and add it to the ZIP
+				const imagePromises = images.map(async (imageName) => {
+					const response = await fetch(`cards/${imageName}`);
+					const blob = await response.blob();
+					folder.file(imageName, blob);
+				});
+
+				await Promise.all(imagePromises); // Wait for all images to be added
+
+				// Generate the ZIP file and trigger download
+				zip.generateAsync({ type: "blob" }).then((content) => {
+					const a = document.createElement("a");
+					a.href = URL.createObjectURL(content);
+					a.download = zipFilename;
+					a.click();
+				});
+
+			} catch (error) {
+				console.error("Error downloading card images:", error);
+				alert("Failed to download card images.");
+			}
+		}
+
 		
 		fetch("cards.json")
             .then(response => response.json())
