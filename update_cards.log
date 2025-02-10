@@ -287,3 +287,42 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with PNG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-09 14:48:39
+[main c95858b] Auto-update: 2025-02-09 14:48:39
+ 96 files changed, 267 insertions(+), 64 deletions(-)
+ create mode 100644 art/Give it All She's Got!.png
+ create mode 100644 art/Ion Cannon.png
+ create mode 100644 art/Major Falcina.png
+ create mode 100644 art/Pilot Dave.png
+ create mode 100644 art/Small Laser.png
+ create mode 100644 card_backs/back_00.png
+ create mode 100644 card_backs/back_01.png
+ create mode 100644 card_backs/back_02.png
+ create mode 100644 card_backs/back_03.png
+ create mode 100644 card_backs/back_04.png
+ create mode 100644 card_grid.png
+ create mode 100644 cards/leader_Major Falcina.png
+ create mode 100644 cards/leader_Pilot Dave.png
+ create mode 100644 cards/module_Ion Cannon.png
+ create mode 100644 cards/module_Small Laser.png
+ delete mode 100644 cards/module_Thruster II.png
+ delete mode 100644 cards/order_Fighting Retreat.png
+ create mode 100644 cards/order_Give it All She's Got!.png
+ create mode 100644 create_grid.sh
+ create mode 100644 generate_starry_background.sh
+ create mode 100644 maps/Full Hex Grid Map.jpg
+ create mode 100644 maps/Full Hex Grid Map.png
+ create mode 100644 maps/Map_Sun_Hexes_Rectangles.jpg
+ create mode 100644 resize_stitched_image.sh
+ create mode 100644 starry_sky.png
+ create mode 100644 stitch_images.sh
+ create mode 100644 stitched_cards.jpg
+ create mode 100644 stitched_cards_resized.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   e2c01b2..c95858b  main -> main
+========== Update Completed: Sun Feb  9 14:48:51 CST 2025 ==========
+========== Update Started: Sun Feb  9 23:24:05 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
