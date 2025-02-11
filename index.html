@@ -194,7 +194,7 @@
 
 				const item = document.createElement("div");
 				item.className = "deck-item";
-				item.innerText = `${deck[cardName]} ${cardName.replace(".png", "")}`;
+				item.innerText = `${deck[cardName]} ${cardName.replace(".jpg", "")}`;
 				item.onclick = () => addToDeck(cardName); // Left-click adds
 
 				// Ensure right-click removes a card
@@ -252,7 +252,7 @@
             const deckName = document.getElementById("deck-name").value.trim() || "decklist";
             let deckText = `### War for the Stars Deck: ${deckName}\n`;
 
-            let deckList = Object.keys(deck).map(card => `${deck[card]} ${card.replace(".png", "")}`);
+            let deckList = Object.keys(deck).map(card => `${deck[card]} ${card.replace(".jpg", "")}`);
             deckText += deckList.join("\n");
 
             const blob = new Blob([deckText.trim()], { type: "text/plain" });

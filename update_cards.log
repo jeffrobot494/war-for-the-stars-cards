@@ -693,3 +693,16 @@ Running generate_card_list.sh...
 ls: cannot access 'cards/*.png': No such file or directory
 Updated cards.json with PNG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-11 17:23:40
+[main 2673f93] Auto-update: 2025-02-11 17:23:40
+ 2 files changed, 12 insertions(+)
+ rename basic rules.html => basic_rules.html (100%)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   5ce2636..2673f93  main -> main
+========== Update Completed: Tue Feb 11 17:23:41 CST 2025 ==========
+========== Update Started: Tue Feb 11 17:27:30 CST 2025 ==========
+Running generate_card_list.sh...
+ls: cannot access 'cards/*.png': No such file or directory
+Updated cards.json with PNG files!
+Staging changes...
