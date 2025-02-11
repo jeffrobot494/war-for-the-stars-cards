@@ -373,3 +373,18 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with PNG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-10 17:33:13
+[main e140d9d] Auto-update: 2025-02-10 17:33:13
+ 6 files changed, 15 insertions(+), 1 deletion(-)
+ delete mode 100644 maps/Construction Grid.png
+ delete mode 100644 maps/Map_5x3.png
+ delete mode 100644 maps/Map_Sun_Hexes_Rectangles.jpg
+ delete mode 100644 maps/Smaller Hex Grid Map.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   5a7002a..e140d9d  main -> main
+========== Update Completed: Mon Feb 10 17:33:15 CST 2025 ==========
+========== Update Started: Mon Feb 10 18:22:45 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...

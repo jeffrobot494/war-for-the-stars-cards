@@ -118,7 +118,8 @@
 
         <div class="card-container" id="gallery"></div>
 		<div id="game-map" style="display: none;">
-			<img src="maps/Map_Construction Area_01.jpg" alt="Game Map" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.2);">
+			<img src="maps/Map_Construction Area_01.jpg" alt="Game Map" 
+			style="width: 100%; max-width: 1200px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.2);">
 		</div>
     </div>
 
@@ -139,15 +140,25 @@
         const imageFolder = "cards/";
         const deck = {}; // Stores card names and quantities
 
-        function filterCards(category, button) {
-            document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active-filter"));
-            button.classList.add("active-filter");
+		function filterCards(category, button) {
+			const gallery = document.getElementById("gallery");
+			const map = document.getElementById("game-map");
 
-            document.querySelectorAll(".card-wrapper").forEach(wrapper => {
-                const cardName = wrapper.getAttribute("data-name").toLowerCase();
-                wrapper.style.display = (category === "all" || cardName.startsWith(category + "_")) ? "block" : "none";
-            });
-        }
+			// Hide the game map and show the card gallery
+			map.style.display = "none";
+			gallery.style.display = "flex";
+
+			// Show only the relevant cards based on category
+			document.querySelectorAll(".card-wrapper").forEach(wrapper => {
+				const cardName = wrapper.getAttribute("data-name").toLowerCase();
+				wrapper.style.display = (category === "all" || cardName.startsWith(category + "_")) ? "block" : "none";
+			});
+
+			// Move the yellow highlight to the clicked filter button
+			document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active-filter"));
+			button.classList.add("active-filter");
+		}
+
 
 		function updateDeckDisplay() {
 			const deckContainer = document.getElementById("deck");
@@ -239,6 +250,7 @@
 			document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active-filter"));
 			document.querySelector("button[onclick='showGameMap()']").classList.add("active-filter");
 		}
+
 
 		
 		// Function to download all card images in a ZIP file
