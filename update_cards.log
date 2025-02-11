@@ -582,3 +582,102 @@ Running generate_card_list.sh...
 ls: cannot access 'cards/*.png': No such file or directory
 Updated cards.json with PNG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-11 16:38:06
+[main 6b0f999] Auto-update: 2025-02-11 16:38:06
+ 89 files changed, 117 insertions(+), 87 deletions(-)
+ delete mode 100644 cards/leader_Bronin Briggs, Shipbuilder.png
+ delete mode 100644 cards/leader_Captain Jace Brigley.png
+ delete mode 100644 cards/leader_Chip Roy, Engineer.png
+ delete mode 100644 cards/leader_Convict 24601.png
+ delete mode 100644 cards/leader_Dr. Veyna Kross.png
+ delete mode 100644 cards/leader_Elrond Hubbard.png
+ delete mode 100644 cards/leader_Major Falcina.png
+ delete mode 100644 cards/leader_Major Kael Draven.png
+ delete mode 100644 cards/leader_Migdin Bowles.png
+ delete mode 100644 cards/leader_Mystic Malorno.png
+ delete mode 100644 cards/leader_Orin Solis.png
+ delete mode 100644 cards/leader_Pilot Dave.png
+ delete mode 100644 cards/leader_Professor Alric Zane.png
+ delete mode 100644 cards/leader_Sasha Brin.png
+ delete mode 100644 cards/leader_Serena May, Ace Pilot.png
+ delete mode 100644 cards/leader_Tarkos Dren.png
+ delete mode 100644 cards/leader_Volkar the Still.png
+ delete mode 100644 cards/leader_Zep Gee.png
+ delete mode 100644 cards/leader_Zexter Fal, Fighter Pilot.png
+ delete mode 100644 cards/module_Adaptive Plating.png
+ delete mode 100644 cards/module_Advanced Construction Bay.png
+ delete mode 100644 cards/module_Armor Plating.png
+ delete mode 100644 cards/module_Basic Construction Bay.png
+ delete mode 100644 cards/module_Beam Expander.png
+ delete mode 100644 cards/module_C-M Pocket Drive.png
+ delete mode 100644 cards/module_C-M Sapien Gate.png
+ delete mode 100644 cards/module_Cargo Bay.png
+ delete mode 100644 cards/module_Chen-Morrison Drive.png
+ delete mode 100644 cards/module_Cloaking Field.png
+ delete mode 100644 cards/module_Cloning Lab.png
+ delete mode 100644 cards/module_Command and Control.png
+ delete mode 100644 cards/module_Construction Bay.png
+ delete mode 100644 cards/module_Cryostasis Pod.png
+ delete mode 100644 cards/module_Drydock.png
+ delete mode 100644 cards/module_Energon Battery.png
+ delete mode 100644 cards/module_Energon Cell.png
+ delete mode 100644 cards/module_Energy Network.png
+ delete mode 100644 cards/module_Energy Shield.png
+ delete mode 100644 cards/module_Energy Well.png
+ delete mode 100644 cards/module_Engineering Room.png
+ delete mode 100644 cards/module_Entropy Engine.png
+ delete mode 100644 cards/module_Fighter Bay.png
+ delete mode 100644 cards/module_Freeze Ray.png
+ delete mode 100644 cards/module_Fusion Core.png
+ delete mode 100644 cards/module_Gravity Well Generator.png
+ delete mode 100644 cards/module_Hydrogen Thruster.png
+ delete mode 100644 cards/module_Hypersonic Missiles.png
+ delete mode 100644 cards/module_Icebreaker.png
+ delete mode 100644 cards/module_Impulse Core.png
+ delete mode 100644 cards/module_Ion Cannon.png
+ delete mode 100644 cards/module_Laser Drive.png
+ delete mode 100644 cards/module_Living Quarters.png
+ delete mode 100644 cards/module_Manipulating Arm.png
+ delete mode 100644 cards/module_Manned Turret.png
+ delete mode 100644 cards/module_Mining Laser.png
+ delete mode 100644 cards/module_Missile Pod.png
+ delete mode 100644 cards/module_Mobile Beam Rifle.png
+ delete mode 100644 cards/module_Mobile Beam Saber.png
+ delete mode 100644 cards/module_Mobile Reactor Core.png
+ delete mode 100644 cards/module_Mobile Thrusters.png
+ delete mode 100644 cards/module_Nicol-Dyson Beam.png
+ delete mode 100644 cards/module_Nuclear Warhead.png
+ delete mode 100644 cards/module_Power Core.png
+ delete mode 100644 cards/module_Probe.png
+ delete mode 100644 cards/module_Small Laser.png
+ delete mode 100644 cards/module_Solar Collector.png
+ delete mode 100644 cards/module_Thruster.png
+ delete mode 100644 cards/module_Tractor Beam.png
+ delete mode 100644 cards/objective_Asteroids.png
+ delete mode 100644 cards/order_Be Still.png
+ delete mode 100644 cards/order_EMP Disruption.png
+ delete mode 100644 cards/order_Electronic Warfare I.png
+ delete mode 100644 cards/order_Electronic Warfare II.png
+ delete mode 100644 cards/order_Electronic Warfare III.png
+ delete mode 100644 cards/order_Emergency Jump.png
+ delete mode 100644 cards/order_Expedited Construction.png
+ delete mode 100644 cards/order_Full Power to Engines.png
+ delete mode 100644 cards/order_Get it Fixed!.png
+ delete mode 100644 cards/order_Give it All She's Got!.png
+ delete mode 100644 cards/order_Kamikaze.png
+ delete mode 100644 cards/order_MK-I Torpedo.png
+ delete mode 100644 cards/order_Missile Barrage.png
+ delete mode 100644 cards/order_Outmaneuver.png
+ delete mode 100644 cards/order_Past the Red Line.png
+ delete mode 100644 cards/order_Supply Shipment.png
+ delete mode 100644 cards/order_Vigilance.png
+ delete mode 100644 cards/order_Wormhole Anomaly.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   2483a09..6b0f999  main -> main
+========== Update Completed: Tue Feb 11 16:38:08 CST 2025 ==========
+========== Update Started: Tue Feb 11 16:48:48 CST 2025 ==========
+Running generate_card_list.sh...
+ls: cannot access 'cards/*.png': No such file or directory
+Updated cards.json with PNG files!
+Staging changes...
