@@ -465,3 +465,120 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with PNG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-11 16:37:14
+[main 2483a09] Auto-update: 2025-02-11 16:37:14
+ 121 files changed, 130 insertions(+), 3 deletions(-)
+ create mode 100644 art/Mobile Beam Rifle.png
+ create mode 100644 art/Mobile Beam Saber.png
+ create mode 100644 art/Mobile Reactor Core.png
+ create mode 100644 art/Mobile Thrusters.png
+ create mode 100644 basic rules.html
+ create mode 100644 basic_rules.txt
+ create mode 100644 cards/leader_Bronin Briggs, Shipbuilder.jpg
+ create mode 100644 cards/leader_Captain Jace Brigley.jpg
+ create mode 100644 cards/leader_Chip Roy, Engineer.jpg
+ create mode 100644 cards/leader_Convict 24601.jpg
+ create mode 100644 cards/leader_Dr. Veyna Kross.jpg
+ create mode 100644 cards/leader_Elrond Hubbard.jpg
+ create mode 100644 cards/leader_Major Falcina.jpg
+ create mode 100644 cards/leader_Major Kael Draven.jpg
+ create mode 100644 cards/leader_Migdin Bowles.jpg
+ create mode 100644 cards/leader_Mystic Malorno.jpg
+ create mode 100644 cards/leader_Orin Solis.jpg
+ create mode 100644 cards/leader_Pilot Dave.jpg
+ create mode 100644 cards/leader_Professor Alric Zane.jpg
+ create mode 100644 cards/leader_Rocketman.jpg
+ create mode 100644 cards/leader_Sasha Brin.jpg
+ create mode 100644 cards/leader_Serena May, Ace Pilot.jpg
+ create mode 100644 cards/leader_Tarkos Dren.jpg
+ create mode 100644 cards/leader_Volkar the Still.jpg
+ create mode 100644 cards/leader_Zep Gee.jpg
+ create mode 100644 cards/leader_Zexter Fal, Fighter Pilot.jpg
+ create mode 100644 cards/module_Adaptive Plating.jpg
+ create mode 100644 cards/module_Advanced Construction Bay.jpg
+ create mode 100644 cards/module_Armor Plating.jpg
+ create mode 100644 cards/module_Basic Construction Bay.jpg
+ create mode 100644 cards/module_Beam Expander.jpg
+ create mode 100644 cards/module_C-M Pocket Drive.jpg
+ create mode 100644 cards/module_C-M Sapien Gate.jpg
+ create mode 100644 cards/module_Cargo Bay.jpg
+ create mode 100644 cards/module_Chen-Morrison Drive.jpg
+ create mode 100644 cards/module_Cloaking Field.jpg
+ create mode 100644 cards/module_Cloning Lab.jpg
+ create mode 100644 cards/module_Command and Control.jpg
+ create mode 100644 cards/module_Construction Bay.jpg
+ create mode 100644 cards/module_Cryostasis Pod.jpg
+ create mode 100644 cards/module_Drydock.jpg
+ create mode 100644 cards/module_Energon Battery.jpg
+ create mode 100644 cards/module_Energon Cell.jpg
+ create mode 100644 cards/module_Energy Network.jpg
+ create mode 100644 cards/module_Energy Shield.jpg
+ create mode 100644 cards/module_Energy Well.jpg
+ create mode 100644 cards/module_Engineering Room.jpg
+ create mode 100644 cards/module_Entropy Engine.jpg
+ create mode 100644 cards/module_Fighter Bay.jpg
+ create mode 100644 cards/module_Freeze Ray.jpg
+ create mode 100644 cards/module_Fusion Core.jpg
+ create mode 100644 cards/module_Gravity Well Generator.jpg
+ create mode 100644 cards/module_Hydrogen Thruster.jpg
+ create mode 100644 cards/module_Hypersonic Missiles.jpg
+ create mode 100644 cards/module_Icebreaker.jpg
+ create mode 100644 cards/module_Impulse Core.jpg
+ create mode 100644 cards/module_Ion Cannon.jpg
+ create mode 100644 cards/module_Laser Drive.jpg
+ create mode 100644 cards/module_Living Quarters.jpg
+ create mode 100644 cards/module_Manipulating Arm.jpg
+ create mode 100644 cards/module_Manipulating Arm.png
+ create mode 100644 cards/module_Manned Turret.jpg
+ create mode 100644 cards/module_Mining Laser.jpg
+ create mode 100644 cards/module_Missile Pod.jpg
+ create mode 100644 cards/module_Mobile Beam Rifle.jpg
+ create mode 100644 cards/module_Mobile Beam Rifle.png
+ create mode 100644 cards/module_Mobile Beam Saber.jpg
+ create mode 100644 cards/module_Mobile Beam Saber.png
+ create mode 100644 cards/module_Mobile Reactor Core.jpg
+ create mode 100644 cards/module_Mobile Reactor Core.png
+ create mode 100644 cards/module_Mobile Thrusters.jpg
+ create mode 100644 cards/module_Mobile Thrusters.png
+ create mode 100644 cards/module_Nicol-Dyson Beam.jpg
+ create mode 100644 cards/module_Nuclear Warhead.jpg
+ create mode 100644 cards/module_Power Core.jpg
+ create mode 100644 cards/module_Probe.jpg
+ create mode 100644 cards/module_Small Laser.jpg
+ create mode 100644 cards/module_Solar Collector.jpg
+ create mode 100644 cards/module_Solid Rocket Motor.jpg
+ create mode 100644 cards/module_Thruster.jpg
+ create mode 100644 cards/module_Tractor Beam.jpg
+ create mode 100644 cards/objective_Asteroids.jpg
+ create mode 100644 cards/order_Be Still.jpg
+ create mode 100644 cards/order_EMP Disruption.jpg
+ create mode 100644 cards/order_Electronic Warfare I.jpg
+ create mode 100644 cards/order_Electronic Warfare II.jpg
+ create mode 100644 cards/order_Electronic Warfare III.jpg
+ create mode 100644 cards/order_Emergency Jump.jpg
+ create mode 100644 cards/order_Expedited Construction.jpg
+ create mode 100644 cards/order_Full Power to Engines.jpg
+ create mode 100644 cards/order_Get it Fixed!.jpg
+ create mode 100644 cards/order_Give it All She's Got!.jpg
+ create mode 100644 cards/order_Kamikaze.jpg
+ create mode 100644 cards/order_MK-I Torpedo.jpg
+ create mode 100644 cards/order_Missile Barrage.jpg
+ create mode 100644 cards/order_Outmaneuver.jpg
+ create mode 100644 cards/order_Past the Red Line.jpg
+ create mode 100644 cards/order_Supply Shipment.jpg
+ create mode 100644 cards/order_Vigilance.jpg
+ create mode 100644 cards/order_Wormhole Anomaly.jpg
+ create mode 100644 imgs/battle.jpg
+ create mode 100644 imgs/example_ship_01.jpg
+ create mode 100644 imgs/example_ship_02.jpg
+ create mode 100644 imgs/planets.jpg
+ create mode 100644 imgs/populated_board.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   e8bc924..2483a09  main -> main
+========== Update Completed: Tue Feb 11 16:37:22 CST 2025 ==========
+========== Update Started: Tue Feb 11 16:38:06 CST 2025 ==========
+Running generate_card_list.sh...
+ls: cannot access 'cards/*.png': No such file or directory
+Updated cards.json with PNG files!
+Staging changes...
