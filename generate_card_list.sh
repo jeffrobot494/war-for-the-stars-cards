@@ -4,8 +4,8 @@ cd "$(dirname "$0")"
 
 # Generate a JSON list of PNG filenames manually
 echo "[" > cards.json
-ls cards/*.png | sed 's|cards/||' | awk '{ print "  \"" $0 "\"," }' >> cards.json
+ls cards/*.jpg | sed 's|cards/||' | awk '{ print "  \"" $0 "\"," }' >> cards.json
 sed -i '$ s/,$//' cards.json  # Remove the trailing comma on the last line
 echo "]" >> cards.json
 
-echo "Updated cards.json with PNG files!"
+echo "Updated cards.json with JPG files!"
