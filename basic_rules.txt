@@ -1,0 +1,77 @@
+War for the Stars - Basic Rules
+
+1. Introduction
+
+Construct powerful warships from scratch using your preconstructed deck and lead bold commanders into battle. Build an economic engine to fuel your war machine, control key locations, and unleash devastating Orders to dominate the system. Your ultimate goal: bring doom to your enemies' homeworlds and claim dominance over the stars.
+
+imgs/populated_board.jpg
+
+2. Defend Your Homeworld
+
+imgs/planets.jpg
+
+This is your homeworld. You must defend it from attack while simultaneously traveling across the system to destroy your opponents'.
+
+3. Building a Spaceship
+
+Ships in War for the Stars are constructed from individual modules, each providing specific functionality. 
+
+imgs/example_ship_01.jpg
+
+Most modules require power to function. The Power Core module provides power to each module on adjacent hexes. The Thruster module adds seven thrust, which is enough to give our four-module ship a movement speed of 1. The Small Laser will deal 1 damage to enemy ships in combat, perfect for disabling modules on un-armored ships like mining rigs. The Armor Plating module absorbs enemy fire and protects our Power Core from being disabled.
+
+imgs/example_shop_02.jpg
+
+With a second thruster providing an additional seven thrust, the movement speed of our ship will increase two. Now we can start zooming around the map. Let's also add a second Small Laser to make quicker work of our enemies.
+
+Deploying these modules onto our ship costs energy, so we need a lot if we want to build big ships. There are many ways to increase your energy supply. You can see our Power Core taps to add 2 to our energy pool. Energon Cells add 1. Some Leader characters give us energy, too.
+
+4. Battle
+
+imgs/battle.jpg
+
+When you move your ship into a hex occupied by an enemy ship, a battle ensues. During battle, ships fire their weapons at the each other. Damage is assigned to modules rather than the ship as a whole. When a module is damaged, it is disabled and ceases to function. Flip the card over to indicate disability. If a disabled module is damaged again, it is destroyed and removed from the ship and the card goes to your discard pile.
+
+5. Stellar Objects
+
+There are asteroids to mine for resources, and the sun represents an incredibly energy source if you can manage to exploit it. 
+
+cards/objective_Asteroids.jpg
+cards/module_Mining Laser.jpg
+cards/module_Solar Collector.jpg
+
+One of the first things an intelligent leader will do is send ships equipped with Mining Lasers out into the system. For each mining laser on ships parked on asteroids, that player will draw a card. If you outmine your opponents, you're sure to outproduce them.
+
+Massive amounts of energy can be harvested by ships adjacent to the sun. Imagine the output of an orbital shipyard parked there... Some say there are even special weapons with so much destructive force they can only be powered by a swarm of solar collectors.
+
+6. Leaders
+
+Your society is nothing without its leaders. Leaders are deployed for a small amount of energy and reside inside your ships, granting passive bonuses to your fleet. Some have abilities that trigger when they enter the battlefield.
+
+cards/leader_Tarkos Dren.jpg
+cards/leader_Zep Gee.jpg
+cards/leader_Convict 24601.jpg
+
+Each ship can hold a single leader. If you want to change the leader inside a ship, simply deploy a new one there. The old one is blown out into the freezing vacuum of space, then sent to your discard pile. If you want your ship to hold more leaders, build the Living Quarters module.
+
+cards/module_Living Quarters.jpg
+
+7. Orders
+
+Orders are commands to your ships and fleet given by your leaders. They are one-off cards with dramatic effects.
+
+There are also Standing Orders, which persist indefinitely, or until the Leader who issued them is killed.
+
+As orders are given by leaders, they can only target things inside the hex of the leader who issues them. However, there are ways to increase their range.
+
+cards/module_Probe.jpg
+cards/leader_Mystic Malarno.jpg
+
+8. Your Starting Ship
+
+Each player starts with a ship from which their fleet will grow. Before the game starts, each player takes out any number of modules, leaders, and/or Standing Orders with a sum total energy cost of 10 or less, and puts them into play over their homeworld. 
+
+You're now ready to get started! Go build your deck and get started as questions arise, you can consult the Detailed Rules section of the book that begins on the next page.
+
+
+

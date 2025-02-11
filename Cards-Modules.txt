@@ -17,4 +17,4 @@ TEXT="1-{(EFFECT)}",[EFFECT],{197/200}%,{40583/600}%,{39097/400}%,{1253/40}%,LEF
 TEXT=,"Tier [TIER] [TYPE]",{31/20}%,{3539/60}%,{38871/400}%,{4007/600}%,LEFT
 ENDVISUAL
 
-save=,"cards\module_[NAME].png"
+save=,"cards\module_[NAME].jpg"
