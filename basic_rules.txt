@@ -1,5 +1,3 @@
-War for the Stars - Basic Rules
-
 1. Introduction
 
 Construct powerful warships from scratch using your preconstructed deck and lead bold commanders into battle. Build an economic engine to fuel your war machine, control key locations, and unleash devastating Orders to dominate the system. Your ultimate goal: bring doom to your enemies' homeworlds and claim dominance over the stars.
@@ -8,7 +6,7 @@ Construct powerful warships from scratch using your preconstructed deck and lead
 
 2. Defend Your Homeworld
 
-[imgs/planets.jpg]
+[imgs/planets.jpg, .5]
 
 This is your homeworld. You must defend it from attack while simultaneously traveling across the system to destroy your opponents'.
 
@@ -16,11 +14,11 @@ This is your homeworld. You must defend it from attack while simultaneously trav
 
 Ships in War for the Stars are constructed from individual modules, each providing specific functionality. 
 
-[imgs/example_ship_01.jpg, .5]
+[imgs/example_ship_01.jpg, .25]
 
 Most modules require power to function. The Power Core module provides power to each module on adjacent hexes. The Thruster module adds seven thrust, which is enough to give our four-module ship a movement speed of 1. The Small Laser will deal 1 damage to enemy ships in combat, perfect for disabling modules on un-armored ships like mining rigs. The Armor Plating module absorbs enemy fire and protects our Power Core from being disabled.
 
-[imgs/example_ship_02.jpg, .5]
+[imgs/example_ship_02.jpg, .25]
 
 With a second thruster providing an additional seven thrust, the movement speed of our ship will increase two. Now we can start zooming around the map. Let's also add a second Small Laser to make quicker work of our enemies.
 
@@ -36,9 +34,9 @@ When you move your ship into a hex occupied by an enemy ship, a battle ensues. D
 
 There are asteroids to mine for resources, and the sun represents an incredibly energy source if you can manage to exploit it. 
 
-[cards/objective_Asteroids.jpg, .25]
-[cards/module_Mining Laser.jpg, .25]
-[cards/module_Solar Collector.jpg, .25]
+[cards/objective_Asteroids.jpg, .15]
+[cards/module_Mining Laser.jpg, .15]
+[cards/module_Solar Collector.jpg, .15]
 
 One of the first things an intelligent leader will do is send ships equipped with Mining Lasers out into the system. For each mining laser on ships parked on asteroids, that player will draw a card. If you outmine your opponents, you're sure to outproduce them.
 
@@ -48,13 +46,13 @@ Massive amounts of energy can be harvested by ships adjacent to the sun. Imagine
 
 Your society is nothing without its leaders. Leaders are deployed for a small amount of energy and reside inside your ships, granting passive bonuses to your fleet. Some have abilities that trigger when they enter the battlefield.
 
-[cards/leader_Tarkos Dren.jpg, .25]
-[cards/leader_Zep Gee.jpg, .25]
-[cards/leader_Convict 24601.jpg, .25]
+[cards/leader_Tarkos Dren.jpg, .15]
+[cards/leader_Zep Gee.jpg, .15]
+[cards/leader_Convict 24601.jpg, .15]
 
 Each ship can hold a single leader. If you want to change the leader inside a ship, simply deploy a new one there. The old one is blown out into the freezing vacuum of space, then sent to your discard pile. If you want your ship to hold more leaders, build the Living Quarters module.
 
-[cards/module_Living Quarters.jpg, .25]
+[cards/module_Living Quarters.jpg, .15]
 
 7. Orders
 
@@ -64,8 +62,8 @@ There are also Standing Orders, which persist indefinitely, or until the Leader 
 
 As orders are given by leaders, they can only target things inside the hex of the leader who issues them. However, there are ways to increase their range.
 
-[cards/module_Probe.jpg, .25]
-[cards/leader_Mystic Malorno.jpg, .25]
+[cards/module_Probe.jpg, .15]
+[cards/leader_Mystic Malorno.jpg, .15]
 
 8. Your Starting Ship
 
