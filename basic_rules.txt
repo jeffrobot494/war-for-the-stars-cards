@@ -18,13 +18,9 @@ Ships in War for the Stars are constructed from individual modules, each providi
 [imgs/example_ship_01.jpg, .25]
 
 Power Core: powers adjacent modules
-Thruster: adds seven thrust 
+Thruster: adds thrust 
 Small Laser: deal 1 damage
 Armor Plating: absorbs damage
-
-[imgs/example_ship_02.jpg, .25]
-
-With a second thruster providing an additional seven thrust, the movement speed of our ship will increase two. Now we can start zooming around the map. Let's also add a second Small Laser to make quicker work of our enemies.
 
 4. Energy
 
