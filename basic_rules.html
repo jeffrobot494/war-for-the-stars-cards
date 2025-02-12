@@ -70,13 +70,14 @@
 			lines.forEach(line => {
 				line = line.trim();
 
-				if (line.startsWith("Section")) {
-					// If there's an image group, add it before inserting a new section
+				// Detect numbered section headings (e.g., "1. Building a Spaceship")
+				if (/^\d+\.\s/.test(line)) {
+					// If there's an image group waiting, wrap them into an image-row before inserting a new section
 					if (imageGroup.length > 0) {
 						content += `<div class="image-row">${imageGroup.join("")}</div>`;
 						imageGroup = [];
 					}
-					content += `<h2>${line.replace("Section ", "")}</h2>`;
+					content += `<h2>${line}</h2>`;
 				} else if (line.startsWith("[") && line.endsWith("]")) {
 					// Extract image file and optional scale multiplier
 					let imgData = line.slice(1, -1).split(",");
@@ -106,9 +107,10 @@
 			}
 
 			document.getElementById("rules-content").innerHTML = content;
-	}
-	// Run the function when the page loads
-	window.onload = loadRules;
+		}
+
+		// Run the function when the page loads
+		window.onload = loadRules;
 
     loadRules();
     </script>
