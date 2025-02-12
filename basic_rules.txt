@@ -43,8 +43,6 @@ There are asteroids to mine for resources, and the sun represents an incredibly 
 [cards/module_Mining Laser.jpg, .15]
 [cards/module_Solar Collector.jpg, .15]
 
-For each mining laser on ships parked on asteroids, its controller will draw a card.
-
 7. Leaders
 
 Your society is nothing without its leaders. Leaders are deployed for a small amount of energy and reside inside your ships, granting passive bonuses to your fleet. Some have abilities that trigger when they enter the battlefield.
