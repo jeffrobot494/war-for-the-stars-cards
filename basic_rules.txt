@@ -65,17 +65,21 @@ Each ship can hold a single leader. If you want to change the leader inside a sh
 
 Orders are one-off cards with dramatic effects. They are issued by Leaders and only target objects in the same hex.
 
-[cards/order_Missile Barrage.jpg]
-[cards/order_Outmaneuver.jpg]
-[cards/order_Supply Shipment.jpg]
+[cards/order_Missile Barrage.jpg, .15]
+[cards/order_Outmaneuver.jpg, .15]
+[cards/order_Supply Shipment.jpg, .15]
 
 There are also Standing Orders, which persist indefinitely, or until the Leader who issued them is killed.
 
-[cards/order_Full Power to Engines.jpg]
+[cards/order_Full Power to Engines.jpg, .15]
 
 9. Your Starting Ship
 
-Each player starts with a ship from which their fleet will grow. Before the game starts, each player takes out any number of modules, leaders, and/or Standing Orders with a sum total energy cost of 10 or less, and puts them into play over their homeworld. 
+Players start with a ship from which their fleet will grow. Before the game starts, each player takes out any number of modules, leaders, and/or Standing Orders with a sum total energy cost of 10 or less, and puts them into play in a hex over their homeworld. 
+
+[imgs/starting_ship.jpg, .15]
+[imgs/starting_ship_02.jpg, .15]
+[imgs/starting_ship_03.jpg, .15]
 
 You're now ready to get started! Go build your deck and get started as questions arise, you can consult the Detailed Rules section of the book that begins on the next page.
 
