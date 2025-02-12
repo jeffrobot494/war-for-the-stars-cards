@@ -28,7 +28,7 @@ Deploying these modules onto our ship costs energy, so we need a lot if we want 
 
 4. Battle
 
-[imgs/battle.jpg, .5, .5]
+[imgs/battle.jpg, .5]
 
 When you move your ship into a hex occupied by an enemy ship, a battle ensues. During battle, ships fire their weapons at the each other. Damage is assigned to modules rather than the ship as a whole. When a module is damaged, it is disabled and ceases to function. Flip the card over to indicate disability. If a disabled module is damaged again, it is destroyed and removed from the ship and the card goes to your discard pile.
 
@@ -36,9 +36,9 @@ When you move your ship into a hex occupied by an enemy ship, a battle ensues. D
 
 There are asteroids to mine for resources, and the sun represents an incredibly energy source if you can manage to exploit it. 
 
-[cards/objective_Asteroids.jpg, .5]
-[cards/module_Mining Laser.jpg, .5]
-[cards/module_Solar Collector.jpg, .5]
+[cards/objective_Asteroids.jpg, .25]
+[cards/module_Mining Laser.jpg, .25]
+[cards/module_Solar Collector.jpg, .25]
 
 One of the first things an intelligent leader will do is send ships equipped with Mining Lasers out into the system. For each mining laser on ships parked on asteroids, that player will draw a card. If you outmine your opponents, you're sure to outproduce them.
 
