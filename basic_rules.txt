@@ -36,7 +36,9 @@ When you move your ship into a hex occupied by an enemy ship, a battle ensues. D
 
 There are asteroids to mine for resources, and the sun represents an incredibly energy source if you can manage to exploit it. 
 
-[cards/objective_Asteroids.jpg, .25][cards/module_Mining Laser.jpg, .25][cards/module_Solar Collector.jpg, .25]
+[cards/objective_Asteroids.jpg, .25]
+[cards/module_Mining Laser.jpg, .25]
+[cards/module_Solar Collector.jpg, .25]
 
 One of the first things an intelligent leader will do is send ships equipped with Mining Lasers out into the system. For each mining laser on ships parked on asteroids, that player will draw a card. If you outmine your opponents, you're sure to outproduce them.
 
@@ -46,7 +48,9 @@ Massive amounts of energy can be harvested by ships adjacent to the sun. Imagine
 
 Your society is nothing without its leaders. Leaders are deployed for a small amount of energy and reside inside your ships, granting passive bonuses to your fleet. Some have abilities that trigger when they enter the battlefield.
 
-[cards/leader_Tarkos Dren.jpg, .25][cards/leader_Zep Gee.jpg, .25][cards/leader_Convict 24601.jpg, .25]
+[cards/leader_Tarkos Dren.jpg, .25]
+[cards/leader_Zep Gee.jpg, .25]
+[cards/leader_Convict 24601.jpg, .25]
 
 Each ship can hold a single leader. If you want to change the leader inside a ship, simply deploy a new one there. The old one is blown out into the freezing vacuum of space, then sent to your discard pile. If you want your ship to hold more leaders, build the Living Quarters module.
 
@@ -60,7 +64,8 @@ There are also Standing Orders, which persist indefinitely, or until the Leader 
 
 As orders are given by leaders, they can only target things inside the hex of the leader who issues them. However, there are ways to increase their range.
 
-[cards/module_Probe.jpg, .25][cards/leader_Mystic Malorno.jpg, .25]
+[cards/module_Probe.jpg, .25]
+[cards/leader_Mystic Malorno.jpg, .25]
 
 8. Your Starting Ship
 
