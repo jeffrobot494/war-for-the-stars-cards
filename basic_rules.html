@@ -49,58 +49,54 @@
     <div id="rules-content"></div>
 
     <script>
-	async function loadRules() {
-		const response = await fetch("basic_rules.txt");
-		const text = await response.text();
-		const lines = text.split("\n");
+		async function loadRules() {
+			const response = await fetch("basic_rules.txt");
+			const text = await response.text();
+			const lines = text.split("\n");
 
-		let content = "";
-		let imageGroup = [];
+			let content = "";
+			let imageGroup = [];
 
-		lines.forEach(line => {
-			line = line.trim();
+			lines.forEach(line => {
+				line = line.trim();
 
-			if (line.startsWith("Section")) {
-				// If there's an image group waiting, wrap them into an image-row before inserting a new section
-				if (imageGroup.length > 0) {
-					content += `<div class="image-row">${imageGroup.join("")}</div>`;
-					imageGroup = [];
-				}
-				content += `<h2>${line.replace("Section ", "")}</h2>`;
-			} else if (line.startsWith("[") && line.endsWith("]")) {
-				// Extract image file and optional scale multiplier
-				let imgData = line.slice(1, -1).split(",");
-				let imgSrc = imgData[0].trim();
-				let scaleMultiplier = imgData.length > 1 ? parseFloat(imgData[1].trim()) : 1;
-				
-				// Style size based on multiplier
-				let imgStyle = `max-width: ${100 * scaleMultiplier}%;`;
+				if (line.startsWith("Section")) {
+					// If there's an image group, add it before inserting a new section
+					if (imageGroup.length > 0) {
+						content += `<div class="image-row">${imageGroup.join("")}</div>`;
+						imageGroup = [];
+					}
+					content += `<h2>${line.replace("Section ", "")}</h2>`;
+				} else if (line.startsWith("[") && line.endsWith("]")) {
+					// Extract image file and optional scale multiplier
+					let imgData = line.slice(1, -1).split(",");
+					let imgSrc = imgData[0].trim();
+					let scaleMultiplier = imgData.length > 1 ? parseFloat(imgData[1].trim()) : 1;
+					
+					// Style size based on multiplier
+					let imgStyle = `max-width: ${100 * scaleMultiplier}%;`;
 
-				let imgTag = `<img src="${imgSrc}" style="${imgStyle}">`;
+					let imgTag = `<img src="${imgSrc}" style="${imgStyle}">`;
 
-				if (imageGroup.length > 0) {
-					imageGroup.push(imgTag); // Add to existing row
+					// Add image to the group
+					imageGroup.push(imgTag);
 				} else {
-					imageGroup = [imgTag]; // Start a new row
+					// If there's an image group, insert it before adding text
+					if (imageGroup.length > 0) {
+						content += `<div class="image-row">${imageGroup.join("")}</div>`;
+						imageGroup = [];
+					}
+					content += `<p>${line}</p>`;
 				}
-			} else {
-				// If there's an image group waiting, wrap them into an image-row before inserting normal text
-				if (imageGroup.length > 0) {
-					content += `<div class="image-row">${imageGroup.join("")}</div>`;
-					imageGroup = [];
-				}
-				content += `<p>${line}</p>`;
+			});
+
+			// Ensure any remaining images are added at the end
+			if (imageGroup.length > 0) {
+				content += `<div class="image-row">${imageGroup.join("")}</div>`;
 			}
-		});
 
-		// If there's a leftover image group at the end, wrap it in an image-row
-		if (imageGroup.length > 0) {
-			content += `<div class="image-row">${imageGroup.join("")}</div>`;
-		}
-
-		document.getElementById("rules-content").innerHTML = content;
+			document.getElementById("rules-content").innerHTML = content;
 	}
-
 	// Run the function when the page loads
 	window.onload = loadRules;
 
