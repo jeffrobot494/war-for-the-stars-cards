@@ -860,3 +860,17 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-12 12:00:08
+[main eb33e62] Auto-update: 2025-02-12 12:00:08
+ 6 files changed, 23 insertions(+), 6 deletions(-)
+ create mode 100644 imgs/starting_ship.jpg
+ create mode 100644 imgs/starting_ship_02.jpg
+ create mode 100644 imgs/starting_ship_03.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   02aa6e9..eb33e62  main -> main
+========== Update Completed: Wed Feb 12 12:00:10 CST 2025 ==========
+========== Update Started: Wed Feb 12 12:02:45 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
