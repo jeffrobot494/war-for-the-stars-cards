@@ -1172,3 +1172,105 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-13 17:15:58
+[main 806e145] Auto-update: 2025-02-13 17:15:58
+ 97 files changed, 31 insertions(+), 17 deletions(-)
+ create mode 100644 cards/leader_Bronin Briggs, Shipbuilder.png
+ create mode 100644 cards/leader_Captain Jace Brigley.png
+ create mode 100644 cards/leader_Chip Roy, Engineer.png
+ create mode 100644 cards/leader_Convict 24601.png
+ create mode 100644 cards/leader_Dr. Veyna Kross.png
+ create mode 100644 cards/leader_Elrond Hubbard.png
+ create mode 100644 cards/leader_Major Falcina.png
+ create mode 100644 cards/leader_Major Kael Draven.png
+ create mode 100644 cards/leader_Migdin Bowles.png
+ create mode 100644 cards/leader_Mystic Malorno.png
+ create mode 100644 cards/leader_Orin Solis.png
+ create mode 100644 cards/leader_Pilot Dave.png
+ create mode 100644 cards/leader_Professor Alric Zane.png
+ create mode 100644 cards/leader_Rocket Man.png
+ create mode 100644 cards/leader_Sasha Brin.png
+ create mode 100644 cards/leader_Serena May, Ace Pilot.png
+ create mode 100644 cards/leader_Tarkos Dren.png
+ create mode 100644 cards/leader_Volkar the Still.png
+ create mode 100644 cards/leader_Zep Gee.png
+ create mode 100644 cards/leader_Zexter Fal, Fighter Pilot.png
+ create mode 100644 cards/module_Adaptive Plating.png
+ create mode 100644 cards/module_Armor Plating.png
+ create mode 100644 cards/module_Basic Construction Bay.png
+ create mode 100644 cards/module_Beam Expander.png
+ create mode 100644 cards/module_C-M Pocket Drive.png
+ create mode 100644 cards/module_C-M Sapien Gate.png
+ create mode 100644 cards/module_Cargo Bay.png
+ create mode 100644 cards/module_Chen-Morrison Drive.png
+ create mode 100644 cards/module_Cloaking Field.png
+ create mode 100644 cards/module_Cloning Lab.png
+ create mode 100644 cards/module_Command and Control.png
+ create mode 100644 cards/module_Construction Bay.png
+ create mode 100644 cards/module_Cryostasis Pod.png
+ create mode 100644 cards/module_Drydock.png
+ create mode 100644 cards/module_Energon Battery.png
+ create mode 100644 cards/module_Energon Cell.png
+ create mode 100644 cards/module_Energy Network.png
+ create mode 100644 cards/module_Energy Shield.png
+ create mode 100644 cards/module_Energy Well.png
+ create mode 100644 cards/module_Engineering Room.png
+ create mode 100644 cards/module_Entropy Engine.png
+ create mode 100644 cards/module_Fighter Bay.png
+ create mode 100644 cards/module_Freeze Ray.png
+ create mode 100644 cards/module_Fusion Core.png
+ create mode 100644 cards/module_Garrison.png
+ create mode 100644 cards/module_Gravity Well Generator.png
+ create mode 100644 cards/module_Hydrogen Thruster.png
+ create mode 100644 cards/module_Hypersonic Missiles.png
+ create mode 100644 cards/module_Icebreaker.png
+ create mode 100644 cards/module_Impulse Core.png
+ create mode 100644 cards/module_Ion Cannon.png
+ create mode 100644 cards/module_Laser Drive.png
+ create mode 100644 cards/module_Living Quarters.png
+ create mode 100644 cards/module_Manipulating Arm.png
+ create mode 100644 cards/module_Manned Turret.png
+ create mode 100644 cards/module_Mining Laser.png
+ create mode 100644 cards/module_Missile Pod.png
+ create mode 100644 cards/module_Mobile Beam Rifle.png
+ create mode 100644 cards/module_Mobile Beam Saber.png
+ create mode 100644 cards/module_Mobile Reactor Core.png
+ create mode 100644 cards/module_Mobile Thrusters.png
+ create mode 100644 cards/module_Nicol-Dyson Beam.png
+ create mode 100644 cards/module_Nuclear Warhead.png
+ create mode 100644 cards/module_Power Core.png
+ create mode 100644 cards/module_Probe.png
+ create mode 100644 cards/module_Rapid Construction Bay.png
+ create mode 100644 cards/module_Rocket Bay.png
+ create mode 100644 cards/module_Small Laser.png
+ create mode 100644 cards/module_Solar Collector.png
+ create mode 100644 cards/module_Solid Rocket Motor.png
+ create mode 100644 cards/module_Thruster.png
+ create mode 100644 cards/module_Tractor Beam.png
+ create mode 100644 cards/objective_Asteroids.png
+ create mode 100644 cards/order_Be Still.png
+ create mode 100644 cards/order_EMP Disruption.png
+ create mode 100644 cards/order_Electronic Warfare I.png
+ create mode 100644 cards/order_Electronic Warfare II.png
+ create mode 100644 cards/order_Electronic Warfare III.png
+ create mode 100644 cards/order_Emergency Jump.png
+ create mode 100644 cards/order_Expedited Construction.png
+ create mode 100644 cards/order_Full Power to Engines.png
+ create mode 100644 cards/order_Get it Fixed!.png
+ create mode 100644 cards/order_Give it All She's Got!.png
+ create mode 100644 cards/order_Kamikaze.png
+ create mode 100644 cards/order_MK-I Torpedo.png
+ create mode 100644 cards/order_Missile Barrage.png
+ create mode 100644 cards/order_Outmaneuver.png
+ create mode 100644 cards/order_Past the Red Line.png
+ create mode 100644 cards/order_Supply Shipment.png
+ create mode 100644 cards/order_Vigilance.png
+ create mode 100644 cards/order_Wormhole Anomaly.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   d82c230..806e145  main -> main
+========== Update Completed: Thu Feb 13 17:16:09 CST 2025 ==========
+========== Update Started: Thu Feb 13 17:36:18 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
