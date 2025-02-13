@@ -127,7 +127,7 @@
 		</div>
 
         <h1>War for the Stars - Gallery and Deckbuilder</h1>
-		<p style="font-size: 14px; color: #666;">Version 1.9</p>
+		<p style="font-size: 14px; color: #666;">Version 1.9.1</p>
 
 
         <!-- Filter Buttons -->
@@ -192,7 +192,9 @@
 			const reader = new FileReader();
 			reader.onload = function(e) {
 				const lines = e.target.result.split("\n");
-				const newDeck = {};
+
+				// Clear the existing deck
+				Object.keys(deck).forEach(key => delete deck[key]);
 
 				lines.forEach(line => {
 					line = line.trim();
@@ -200,17 +202,16 @@
 
 					const parts = line.split(" ");
 					const count = parseInt(parts[0]);
-					const cardName = parts.slice(1).join(" "); // Get the full card name
+					const cardName = parts.slice(1).join(" "); // Get full card name
 
 					if (!isNaN(count) && cardName) {
-						newDeck[cardName] = count;
+						deck[cardName] = count;
 					}
 				});
 
-				// Replace current deck with loaded deck
-				deck = newDeck;
-				updateDeckDisplay();
+				updateDeckDisplay(); // Ensure UI updates
 			};
+
 			reader.readAsText(file);
 		});
 
