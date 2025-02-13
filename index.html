@@ -208,16 +208,26 @@
 			reader.onload = function(e) {
 				const lines = e.target.result.split("\n");
 
+				// Extract the deck name from the first line (ignoring empty lines)
+				let deckName = "My Deck"; // Default name if no valid name is found
+				if (lines.length > 0 && lines[0].startsWith("### War for the Stars Deck: ")) {
+					deckName = lines[0].replace("### War for the Stars Deck: ", "").trim();
+				}
+
+				// Set the deck name in the UI
+				document.getElementById("deck-name").innerText = deckName;
+
 				// Clear the existing deck
 				Object.keys(deck).forEach(key => delete deck[key]);
 
-				lines.forEach(line => {
+				// Read card entries
+				lines.slice(1).forEach(line => { // Skip the first line (deck name)
 					line = line.trim();
 					if (line === "" || line.startsWith("#")) return; // Skip empty lines and comments
 
 					const parts = line.split(" ");
 					const count = parseInt(parts[0]);
-					let cardName = parts.slice(1).join(" ").replace(".jpg", ""); // 🔹 Standardize name
+					let cardName = parts.slice(1).join(" ").replace(".jpg", ""); // Standardize name
 
 					if (!isNaN(count) && cardName) {
 						deck[cardName] = count;
@@ -229,6 +239,7 @@
 
 			reader.readAsText(file);
 		});
+
 
 		function updateDeckDisplay() {
 			const deckContainer = document.getElementById("deck");
