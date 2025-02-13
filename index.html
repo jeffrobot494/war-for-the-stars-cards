@@ -114,6 +114,24 @@
 		.upload-btn:hover {
 			background-color: #218838; /* Darker green on hover */
 		}
+		
+		.deck-btn {
+			background-color: #28a745; /* Match other green buttons */
+			color: white;
+			border: none;
+			padding: 8px 15px; /* Match padding */
+			font-size: 16px;
+			cursor: pointer;
+			border-radius: 5px;
+			transition: background 0.2s ease-in-out;
+			height: 40px; /* Ensure uniform height */
+			margin-left: 10px; /* Add spacing */
+		}
+
+		.deck-btn:hover {
+			background-color: #218838; /* Slightly darker green on hover */
+		}
+
 				
 		.top-nav {
 			text-align: center;
@@ -172,7 +190,7 @@
         <div class="deck-list" id="deck"></div>
         <button class="download-btn" onclick="downloadDeck()">Download Decklist</button>
 		<input type="file" id="upload-deck" accept=".txt" style="display: none;">
-		<button class="upload-btn" onclick="document.getElementById('upload-deck').click();">Upload Deck</button>
+		<button id="upload-btn" class="deck-btn" onclick="document.getElementById('upload-deck').click();">Upload Deck</button>
         <button class="clear-btn" onclick="clearDeck()">Clear Deck</button>
 		<button class="download-btn" onclick="downloadAllCards()">Download All Cards</button>
     </div>
@@ -208,10 +226,11 @@
 			reader.onload = function(e) {
 				const lines = e.target.result.split("\n");
 
-				// Extract the deck name from the first line (ignoring empty lines)
-				let deckName = "My Deck"; // Default name if no valid name is found
-				if (lines.length > 0 && lines[0].startsWith("### War for the Stars Deck: ")) {
-					deckName = lines[0].replace("### War for the Stars Deck: ", "").trim();
+				// Ensure deck name updates correctly
+				let deckName = "My Deck"; // Default name
+				if (lines.length > 0 && lines[0].startsWith("### War for the Stars Deck:")) {
+					deckName = lines[0].replace("### War for the Stars Deck:", "").trim();
+					console.log("Deck Name Found:", deckName); // Debugging
 				}
 
 				// Set the deck name in the UI
@@ -220,10 +239,10 @@
 				// Clear the existing deck
 				Object.keys(deck).forEach(key => delete deck[key]);
 
-				// Read card entries
-				lines.slice(1).forEach(line => { // Skip the first line (deck name)
+				// Read card entries (skip the first line because it's the deck name)
+				lines.slice(1).forEach(line => {
 					line = line.trim();
-					if (line === "" || line.startsWith("#")) return; // Skip empty lines and comments
+					if (line === "" || line.startsWith("#")) return;
 
 					const parts = line.split(" ");
 					const count = parseInt(parts[0]);
