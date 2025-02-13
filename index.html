@@ -267,13 +267,18 @@
 		}
 
 		function removeFromDeck(cardName) {
-			if (deck[cardName] > 1) {
+			cardName = cardName.replace(".jpg", ""); // 🔹 Standardize name
+
+			if (deck[cardName]) {
 				deck[cardName]--;
-			} else {
-				delete deck[cardName]; // Remove from the deck entirely if count reaches 0
+				if (deck[cardName] <= 0) {
+					delete deck[cardName]; // Remove from deck if count is 0
+				}
 			}
-			updateDeckDisplay(); // Ensure the UI updates immediately
+
+			updateDeckDisplay();
 		}
+
 
 
         function clearDeck() {
