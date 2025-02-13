@@ -233,8 +233,16 @@
 					console.log("Deck Name Found:", deckName); // Debugging
 				}
 
-				// Set the deck name in the UI
-				document.getElementById("deck-name").innerText = deckName;
+				// 🔹 Use BOTH innerText and textContent to force update
+				let deckTitleElement = document.getElementById("deck-name");
+				deckTitleElement.innerText = deckName;
+				deckTitleElement.textContent = deckName;
+
+				// 🔹 Add a tiny forced reflow to ensure UI updates
+				deckTitleElement.style.display = "none";
+				setTimeout(() => {
+					deckTitleElement.style.display = "block";
+				}, 10);
 
 				// Clear the existing deck
 				Object.keys(deck).forEach(key => delete deck[key]);
@@ -258,6 +266,7 @@
 
 			reader.readAsText(file);
 		});
+
 
 
 		function updateDeckDisplay() {
