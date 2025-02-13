@@ -16,8 +16,8 @@ FONT=Arial,10,,#F5F5F5,#404040
 TEXT="1-{(EFFECT)}",[EFFECT],{1071/400}%,{40583/600}%,{2366/25}%,{1253/40}%,LEFT,WORDWRAP
 ENDVISUAL
 
+save=,"cards\leader_[NAME].png"
 save=,"cards\leader_[NAME].jpg"
-
 
 
 

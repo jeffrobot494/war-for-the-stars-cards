@@ -13,3 +13,4 @@ TEXT=1,[NAME],2.25%,1.5%,95.75%,7%
 ENDVISUAL
 
 save=,"cards\objective_[NAME].png"
+save=,"cards\objective_[NAME].jpg"
