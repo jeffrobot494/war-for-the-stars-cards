@@ -202,20 +202,18 @@
 
 					const parts = line.split(" ");
 					const count = parseInt(parts[0]);
-					const cardName = parts.slice(1).join(" "); // Get full card name
+					let cardName = parts.slice(1).join(" ").replace(".jpg", ""); // 🔹 Standardize name
 
 					if (!isNaN(count) && cardName) {
 						deck[cardName] = count;
 					}
 				});
 
-				updateDeckDisplay(); // Ensure UI updates
+				updateDeckDisplay();
 			};
 
 			reader.readAsText(file);
 		});
-
-
 
 		function updateDeckDisplay() {
 			const deckContainer = document.getElementById("deck");
@@ -227,14 +225,12 @@
 
 				const item = document.createElement("div");
 				item.className = "deck-item";
-				item.innerText = `${deck[cardName]} ${cardName.replace(".jpg", "")}`;
-				item.onclick = () => addToDeck(cardName); // Left-click adds
-
-				// Ensure right-click removes a card
-				item.addEventListener("contextmenu", function(e) {
-					e.preventDefault(); // Prevents browser menu
-					removeFromDeck(cardName); // Removes one copy
-				});
+				item.innerText = `${deck[cardName]} ${cardName}`;
+				item.onclick = () => addToDeck(cardName);
+				item.oncontextmenu = (e) => {
+					e.preventDefault();
+					removeFromDeck(cardName);
+				};
 
 				deckContainer.appendChild(item);
 			}
@@ -242,7 +238,7 @@
 			document.getElementById("deck-count").innerText = totalCards;
 
 			document.querySelectorAll(".card-wrapper").forEach(wrapper => {
-				const name = wrapper.getAttribute("data-name");
+				const name = wrapper.getAttribute("data-name").replace(".jpg", ""); // 🔹 Standardize name
 				const counter = wrapper.querySelector(".card-counter");
 				const cardImg = wrapper.querySelector(".card");
 
@@ -258,11 +254,17 @@
 		}
 
 
+		function addToDeck(cardName) {
+			cardName = cardName.replace(".jpg", ""); // 🔹 Standardize name
 
-        function addToDeck(cardName) {
-            deck[cardName] = (deck[cardName] || 0) + 1;
-            updateDeckDisplay();
-        }
+			if (deck[cardName]) {
+				deck[cardName]++;
+			} else {
+				deck[cardName] = 1;
+			}
+
+			updateDeckDisplay();
+		}
 
 		function removeFromDeck(cardName) {
 			if (deck[cardName] > 1) {
