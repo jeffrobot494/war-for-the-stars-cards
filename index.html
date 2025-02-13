@@ -233,21 +233,18 @@
 					console.log("Deck Name Found:", deckName); // Debugging
 				}
 
-				// 🔹 Use BOTH innerText and textContent to force update
+				// 🔹 Fix: Update deck name input field
 				let deckTitleElement = document.getElementById("deck-name");
-				deckTitleElement.innerText = deckName;
-				deckTitleElement.textContent = deckName;
-
-				// 🔹 Add a tiny forced reflow to ensure UI updates
-				deckTitleElement.style.display = "none";
-				setTimeout(() => {
-					deckTitleElement.style.display = "block";
-				}, 10);
+				if (deckTitleElement) {
+					deckTitleElement.value = deckName; // Correct way to update input field
+				} else {
+					console.error("Error: Deck name input not found!");
+				}
 
 				// Clear the existing deck
 				Object.keys(deck).forEach(key => delete deck[key]);
 
-				// Read card entries (skip the first line because it's the deck name)
+				// Read card entries (skip first line because it's the deck name)
 				lines.slice(1).forEach(line => {
 					line = line.trim();
 					if (line === "" || line.startsWith("#")) return;
@@ -266,6 +263,7 @@
 
 			reader.readAsText(file);
 		});
+
 
 
 
