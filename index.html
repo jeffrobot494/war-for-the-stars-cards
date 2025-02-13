@@ -155,6 +155,9 @@
         <div class="deck-count">Total Cards: <span id="deck-count">0</span></div>
         <div class="deck-list" id="deck"></div>
         <button class="download-btn" onclick="downloadDeck()">Download Decklist</button>
+		<input type="file" id="upload-deck" accept=".txt" style="display: none;">
+		<button class="upload-btn" onclick="document.getElementById('upload-deck').click();">Upload Deck</button>
+
         <button class="clear-btn" onclick="clearDeck()">Clear Deck</button>
 		<button class="download-btn" onclick="downloadAllCards()">Download All Cards</button>
     </div>
@@ -181,6 +184,36 @@
 			document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active-filter"));
 			button.classList.add("active-filter");
 		}
+		
+		document.getElementById("upload-deck").addEventListener("change", function(event) {
+			const file = event.target.files[0];
+			if (!file) return;
+
+			const reader = new FileReader();
+			reader.onload = function(e) {
+				const lines = e.target.result.split("\n");
+				const newDeck = {};
+
+				lines.forEach(line => {
+					line = line.trim();
+					if (line === "" || line.startsWith("#")) return; // Skip empty lines and comments
+
+					const parts = line.split(" ");
+					const count = parseInt(parts[0]);
+					const cardName = parts.slice(1).join(" "); // Get the full card name
+
+					if (!isNaN(count) && cardName) {
+						newDeck[cardName] = count;
+					}
+				});
+
+				// Replace current deck with loaded deck
+				deck = newDeck;
+				updateDeckDisplay();
+			};
+			reader.readAsText(file);
+		});
+
 
 
 		function updateDeckDisplay() {
