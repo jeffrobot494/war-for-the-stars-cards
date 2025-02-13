@@ -98,23 +98,7 @@
         .clear-btn { background-color: #dc3545; }
         .clear-btn:hover { background-color: #c82333; }
         .download-btn:hover { background-color: #218838; }
-				
-		.upload-btn {
-			background-color: #28a745; /* Green color */
-			color: white;
-			border: none;
-			padding: 8px 15px; /* Match existing buttons */
-			font-size: 16px;
-			cursor: pointer;
-			border-radius: 5px;
-			transition: background 0.2s ease-in-out;
-			height: 40px; /* Ensure uniform button height */
-			margin-left: 10px; /* Add spacing between buttons */
-		}
-		.upload-btn:hover {
-			background-color: #218838; /* Darker green on hover */
-		}
-		
+
 		.deck-btn {
 			background-color: #28a745; /* Match other green buttons */
 			color: white;
@@ -161,7 +145,7 @@
 		</div>
 
         <h1>War for the Stars - Gallery and Deckbuilder</h1>
-		<p style="font-size: 14px; color: #666;">Version 1.9.1</p>
+		<p style="font-size: 14px; color: #666;">Version 1.9.2</p>
 
 
         <!-- Filter Buttons -->
@@ -190,7 +174,7 @@
         <div class="deck-list" id="deck"></div>
         <button class="download-btn" onclick="downloadDeck()">Download Decklist</button>
 		<input type="file" id="upload-deck" accept=".txt" style="display: none;">
-		<button id="upload-btn" class="deck-btn" onclick="document.getElementById('upload-deck').click();">Upload Deck</button>
+		<button id="upload-btn" class="download-btn">Upload Deck</button>
         <button class="clear-btn" onclick="clearDeck()">Clear Deck</button>
 		<button class="download-btn" onclick="downloadAllCards()">Download All Cards</button>
     </div>
@@ -440,6 +424,10 @@
 			
 		document.getElementById("deck").oncontextmenu = (e) => e.preventDefault();
 		
+		document.getElementById("upload-btn").addEventListener("click", function() {
+			document.getElementById("upload-deck").click();
+		});
+
 	</script>
 </body>
 </html>
