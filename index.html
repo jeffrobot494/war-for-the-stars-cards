@@ -3,105 +3,431 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <title>War for the Stars - Gallery and Deckbuilder</title>
     <style>
-        body { font-family: Arial, sans-serif; display: flex; text-align: center; }
+        body { font-family: Arial, sans-serif; text-align: center; display: flex; }
         .main-content { flex: 1; padding: 20px; margin-right: 320px; }
-        .top-nav { text-align: center; margin-bottom: 10px; }
-        .rules-link {
-            font-size: 18px; font-weight: bold; color: #007bff; text-decoration: none;
-            padding: 10px 15px; border-radius: 5px; transition: color 0.2s ease-in-out;
+        .button-container { margin-bottom: 20px; }
+        .filter-btn {
+            padding: 10px 15px;
+            margin: 5px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
         }
-        .rules-link:hover { color: #ffcc00; }
-        .button-container { margin-bottom: 20px; display: flex; gap: 10px; justify-content: center; }
-        .btn {
-            padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer;
-            transition: background 0.2s ease-in-out;
-        }
-        .filter-btn { background-color: #007bff; color: white; }
         .filter-btn:hover { background-color: #0056b3; }
         .active-filter { background-color: #ffcc00; color: black; }
-        .action-btn { width: 100%; padding: 10px; }
-        .green-btn { background-color: #28a745; color: white; }
-        .green-btn:hover { background-color: #218838; }
-        .red-btn { background-color: #dc3545; color: white; }
-        .red-btn:hover { background-color: #c82333; }
         .card-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
         .card-wrapper { position: relative; display: inline-block; }
         .card {
-            width: 200px; height: auto; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
-            cursor: pointer; transition: border 0.2s ease-in-out;
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+            cursor: pointer;
+            transition: border 0.2s ease-in-out;
         }
         .in-deck { border: 4px solid yellow; }
         .card-counter {
-            position: absolute; bottom: 5px; right: 10px;
-            background: rgba(0, 0, 0, 0.8); color: white; padding: 5px 8px;
-            border-radius: 5px; font-size: 14px; display: none;
+            position: absolute;
+            bottom: 5px;
+            right: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 5px 8px;
+            border-radius: 5px;
+            font-size: 14px;
+            display: none;
         }
         .deck-section {
-            width: 300px; padding: 20px; background: #f4f4f4; border-left: 3px solid #ccc;
-            position: fixed; right: 0; top: 0; height: 100%; overflow-y: auto;
+            width: 300px;
+            padding: 20px;
+            background: #f4f4f4;
+            border-left: 3px solid #ccc;
+            position: fixed;
+            right: 0;
+            top: 0;
+            height: 100%;
+            overflow-y: auto;
         }
-        .deck-header { display: flex; justify-content: center; font-weight: bold; font-size: 18px; }
-        .deck-title { outline: none; width: auto; border: none; background: none; text-align: center; font-size: 18px; }
+        .deck-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .deck-title {
+            outline: none;
+            width: auto;
+            border: none;
+            background: none;
+            text-align: center;
+            font-size: 18px;
+            cursor: text;
+        }
+        .pencil-icon {
+            cursor: pointer;
+            margin-left: 5px;
+        }
+        .deck-count {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .deck-item {
+            cursor: pointer;
+            padding: 5px;
+            border-bottom: 1px solid #ccc;
+        }
+        .download-btn, .clear-btn {
+            display: block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            border: none;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .clear-btn { background-color: #dc3545; }
+        .clear-btn:hover { background-color: #c82333; }
+        .download-btn:hover { background-color: #218838; }
+
+		.deck-btn {
+			background-color: #28a745; /* Match other green buttons */
+			color: white;
+			border: none;
+			padding: 8px 15px; /* Match padding */
+			font-size: 16px;
+			cursor: pointer;
+			border-radius: 5px;
+			transition: background 0.2s ease-in-out;
+			height: 40px; /* Ensure uniform height */
+			margin-left: 10px; /* Add spacing */
+		}
+
+		.deck-btn:hover {
+			background-color: #218838; /* Slightly darker green on hover */
+		}
+
+				
+		.top-nav {
+			text-align: center;
+			margin-bottom: 10px;
+		}
+
+		.rules-link {
+			font-size: 18px;
+			font-weight: bold;
+			color: #007bff;
+			text-decoration: none;
+			padding: 10px 15px;
+			border-radius: 5px;
+			transition: color 0.2s ease-in-out;
+		}
+
+		.rules-link:hover {
+			color: #ffcc00;
+		}
+
     </style>
 </head>
 <body>
     <div class="main-content">
-        <div class="top-nav"><a href="basic_rules.html" class="rules-link">📜 Rules Overview</a></div>
-        <h1>War for the Stars - Gallery and Deckbuilder</h1>
-        <p style="font-size: 14px; color: #666;">Version 1.9.2</p>
+		<div class="top-nav">
+			<a href="basic_rules.html" class="rules-link">📜 Rules Overview</a>
+		</div>
 
+        <h1>War for the Stars - Gallery and Deckbuilder</h1>
+		<p style="font-size: 14px; color: #666;">Version 1.9.2</p>
+
+
+        <!-- Filter Buttons -->
         <div class="button-container">
-            <button class="btn filter-btn active-filter" data-filter="all">All</button>
-            <button class="btn filter-btn" data-filter="module">Modules</button>
-            <button class="btn filter-btn" data-filter="order">Orders</button>
-            <button class="btn filter-btn" data-filter="leader">Leaders</button>
-            <button class="btn filter-btn" id="map-btn">Game Map</button>
+            <button class="filter-btn active-filter" onclick="filterCards('all', this)">All</button>
+            <button class="filter-btn" onclick="filterCards('module', this)">Modules</button>
+            <button class="filter-btn" onclick="filterCards('order', this)">Orders</button>
+            <button class="filter-btn" onclick="filterCards('leader', this)">Leaders</button>
+			<button class="filter-btn" onclick="showGameMap()">Game Map</button>
         </div>
 
         <div class="card-container" id="gallery"></div>
-        <div id="game-map" style="display: none;">
-            <img src="maps/Map_Construction Area_01.jpg" alt="Game Map"
-                 style="width: 100%; max-width: 1200px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.2);">
-        </div>
+		<div id="game-map" style="display: none;">
+			<img src="maps/Map_Construction Area_01.jpg" alt="Game Map" 
+			style="width: 100%; max-width: 1200px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.2);">
+		</div>
     </div>
 
+    <!-- Deck Section (Always Visible) -->
     <div class="deck-section">
         <div class="deck-header">
             <input type="text" id="deck-name" class="deck-title" value="Deck List" />
+            <span class="pencil-icon">✏️</span>
         </div>
         <div class="deck-count">Total Cards: <span id="deck-count">0</span></div>
         <div class="deck-list" id="deck"></div>
-        <button class="btn action-btn green-btn" id="upload-btn">Upload Deck</button>
-        <input type="file" id="upload-deck" accept=".txt" style="display: none;">
-        <button class="btn action-btn green-btn" onclick="downloadDeck()">Download Decklist</button>
-        <button class="btn action-btn red-btn" onclick="clearDeck()">Clear Deck</button>
-        <button class="btn action-btn green-btn" onclick="downloadAllCards()">Download All Cards</button>
+        <button class="download-btn" onclick="downloadDeck()">Download Decklist</button>
+		<input type="file" id="upload-deck" accept=".txt" style="display: none;">
+		<button id="upload-btn" class="download-btn">Upload Deck</button>
+        <button class="clear-btn" onclick="clearDeck()">Clear Deck</button>
+		<button class="download-btn" onclick="downloadAllCards()">Download All Cards</button>
     </div>
 
     <script>
-        document.querySelectorAll(".filter-btn").forEach(button => {
-            button.addEventListener("click", function() {
-                document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active-filter"));
-                this.classList.add("active-filter");
-                document.getElementById("gallery").style.display = "flex";
-                document.getElementById("game-map").style.display = "none";
-            });
-        });
+        const imageFolder = "cards/";
+        const deck = {}; // Stores card names and quantities
 
-        document.getElementById("map-btn").addEventListener("click", function() {
-            document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active-filter"));
-            this.classList.add("active-filter");
-            document.getElementById("gallery").style.display = "none";
-            document.getElementById("game-map").style.display = "block";
-        });
+		function filterCards(category, button) {
+			const gallery = document.getElementById("gallery");
+			const map = document.getElementById("game-map");
 
-        document.getElementById("upload-btn").addEventListener("click", function() {
-            document.getElementById("upload-deck").click();
-        });
+			// Hide the game map and show the card gallery
+			map.style.display = "none";
+			gallery.style.display = "flex";
 
-    </script>
+			// Show only the relevant cards based on category
+			document.querySelectorAll(".card-wrapper").forEach(wrapper => {
+				const cardName = wrapper.getAttribute("data-name").toLowerCase();
+				wrapper.style.display = (category === "all" || cardName.startsWith(category + "_")) ? "block" : "none";
+			});
+
+			// Move the yellow highlight to the clicked filter button
+			document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active-filter"));
+			button.classList.add("active-filter");
+		}
+		
+		document.getElementById("upload-deck").addEventListener("change", function(event) {
+			const file = event.target.files[0];
+			if (!file) return;
+
+			const reader = new FileReader();
+			reader.onload = function(e) {
+				const lines = e.target.result.split("\n");
+
+				// Ensure deck name updates correctly
+				let deckName = "My Deck"; // Default name
+				if (lines.length > 0 && lines[0].startsWith("### War for the Stars Deck:")) {
+					deckName = lines[0].replace("### War for the Stars Deck:", "").trim();
+					console.log("Deck Name Found:", deckName); // Debugging
+				}
+
+				// 🔹 Fix: Update deck name input field
+				let deckTitleElement = document.getElementById("deck-name");
+				if (deckTitleElement) {
+					deckTitleElement.value = deckName; // Correct way to update input field
+				} else {
+					console.error("Error: Deck name input not found!");
+				}
+
+				// Clear the existing deck
+				Object.keys(deck).forEach(key => delete deck[key]);
+
+				// Read card entries (skip first line because it's the deck name)
+				lines.slice(1).forEach(line => {
+					line = line.trim();
+					if (line === "" || line.startsWith("#")) return;
+
+					const parts = line.split(" ");
+					const count = parseInt(parts[0]);
+					let cardName = parts.slice(1).join(" ").replace(".jpg", ""); // Standardize name
+
+					if (!isNaN(count) && cardName) {
+						deck[cardName] = count;
+					}
+				});
+
+				updateDeckDisplay();
+			};
+
+			reader.readAsText(file);
+		});
+
+
+
+
+		function updateDeckDisplay() {
+			const deckContainer = document.getElementById("deck");
+			deckContainer.innerHTML = "";
+			let totalCards = 0;
+
+			for (const cardName in deck) {
+				totalCards += deck[cardName];
+
+				const item = document.createElement("div");
+				item.className = "deck-item";
+				item.innerText = `${deck[cardName]} ${cardName}`;
+				item.onclick = () => addToDeck(cardName);
+				item.oncontextmenu = (e) => {
+					e.preventDefault();
+					removeFromDeck(cardName);
+				};
+
+				deckContainer.appendChild(item);
+			}
+
+			document.getElementById("deck-count").innerText = totalCards;
+
+			document.querySelectorAll(".card-wrapper").forEach(wrapper => {
+				const name = wrapper.getAttribute("data-name").replace(".jpg", ""); // 🔹 Standardize name
+				const counter = wrapper.querySelector(".card-counter");
+				const cardImg = wrapper.querySelector(".card");
+
+				if (deck[name]) {
+					cardImg.classList.add("in-deck");
+					counter.style.display = "block";
+					counter.innerText = `x${deck[name]}`;
+				} else {
+					cardImg.classList.remove("in-deck");
+					counter.style.display = "none";
+				}
+			});
+		}
+
+
+		function addToDeck(cardName) {
+			cardName = cardName.replace(".jpg", ""); // 🔹 Standardize name
+
+			if (deck[cardName]) {
+				deck[cardName]++;
+			} else {
+				deck[cardName] = 1;
+			}
+
+			updateDeckDisplay();
+		}
+
+		function removeFromDeck(cardName) {
+			cardName = cardName.replace(".jpg", ""); // 🔹 Standardize name
+
+			if (deck[cardName]) {
+				deck[cardName]--;
+				if (deck[cardName] <= 0) {
+					delete deck[cardName]; // Remove from deck if count is 0
+				}
+			}
+
+			updateDeckDisplay();
+		}
+
+
+
+        function clearDeck() {
+            for (const card in deck) {
+                delete deck[card];
+            }
+            updateDeckDisplay();
+        }
+
+        function downloadDeck() {
+            const deckName = document.getElementById("deck-name").value.trim() || "decklist";
+            let deckText = `### War for the Stars Deck: ${deckName}\n`;
+
+            let deckList = Object.keys(deck).map(card => `${deck[card]} ${card.replace(".jpg", "")}`);
+            deckText += deckList.join("\n");
+
+            const blob = new Blob([deckText.trim()], { type: "text/plain" });
+            const a = document.createElement("a");
+            a.href = URL.createObjectURL(blob);
+            a.download = `${deckName.replace(/\s+/g, "_")}.txt`;
+            a.click();
+        }
+		
+		function showGameMap() {
+			const gallery = document.getElementById("gallery");
+			const map = document.getElementById("game-map");
+
+			// Hide the card gallery and show the game map
+			gallery.style.display = "none";
+			map.style.display = "block";
+
+			// Move the yellow highlight to the "Game Map" button
+			document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active-filter"));
+			document.querySelector("button[onclick='showGameMap()']").classList.add("active-filter");
+		}
+
+
+		
+		// Function to download all card images in a ZIP file
+		async function downloadAllCards() {
+			const zip = new JSZip();
+			const version = document.querySelector("p").innerText.replace("Version ", "").trim(); // Get version number
+			const zipFilename = `War for the Stars_Cards_v${version}.zip`;
+
+			try {
+				const response = await fetch("cards.json");
+				const images = await response.json();
+
+				const folder = zip.folder("War for the Stars Cards"); // Create folder inside ZIP
+
+				// Fetch each image and add it to the ZIP
+				const imagePromises = images.map(async (imageName) => {
+					const response = await fetch(`cards/${imageName}`);
+					const blob = await response.blob();
+					folder.file(imageName, blob);
+				});
+
+				await Promise.all(imagePromises); // Wait for all images to be added
+
+				// Generate the ZIP file and trigger download
+				zip.generateAsync({ type: "blob" }).then((content) => {
+					const a = document.createElement("a");
+					a.href = URL.createObjectURL(content);
+					a.download = zipFilename;
+					a.click();
+				});
+
+			} catch (error) {
+				console.error("Error downloading card images:", error);
+				alert("Failed to download card images.");
+			}
+		}
+
+		
+		fetch("cards.json")
+            .then(response => response.json())
+            .then(images => {
+                const gallery = document.getElementById("gallery");
+                images.forEach(name => {
+                    let cardWrapper = document.createElement("div");
+                    cardWrapper.className = "card-wrapper";
+                    cardWrapper.setAttribute("data-name", name);
+
+                    let img = document.createElement("img");
+                    img.src = imageFolder + name;
+                    img.className = "card";
+                    img.onclick = () => addToDeck(name);
+					
+					// Prevent the right-click menu on the entire deck section
+					img.addEventListener('contextmenu', function(event) {
+						event.preventDefault(); // Prevents the default right-click menu
+						// Add your custom function here, using 'event' to access details about the right-click
+						removeFromDeck(name);
+					});
+
+                    let counter = document.createElement("div");
+                    counter.className = "card-counter";
+                    counter.innerText = "x1";
+                    counter.style.display = "none";
+
+                    cardWrapper.appendChild(img);
+                    cardWrapper.appendChild(counter);
+                    gallery.appendChild(cardWrapper);
+                });
+            })
+            .catch(error => console.error("Error loading images:", error));
+			
+		document.getElementById("deck").oncontextmenu = (e) => e.preventDefault();
+		
+		document.getElementById("upload-btn").addEventListener("click", function() {
+			document.getElementById("upload-deck").click();
+		});
+
+	</script>
 </body>
 </html>
