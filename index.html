@@ -14,7 +14,7 @@
             padding: 0;
         }
         .hero {
-            background: url('imgs/header_video_02.gif') center/cover no-repeat;
+            background: url('imgs/header_video.gif') center/cover no-repeat;
             height: 400px;
             display: flex;
             justify-content: center;
@@ -71,7 +71,7 @@
                 let cards = await response.json();
                 if (cards.length > 0) {
                     let randomCard = cards[Math.floor(Math.random() * cards.length)];
-                    document.getElementById("card-of-the-day").src = "cards/"+randomCard;
+                    document.getElementById("card-of-the-day").src = randomCard;
                 }
             } catch (error) {
                 console.error("Error loading card of the day:", error);
@@ -89,18 +89,13 @@
     
     <div class="section">
         <h2>Build Your Fleet</h2>
-        <div class="placeholder">Placeholder image of ship-building demo</div>
+        <img src="imgs/ship_construction.gif" alt="Ship Construction" style="width: 80%; max-width: 600px; height: auto;">
         <p>Ready to command your fleet? Build your first deck!</p>
     </div>
     
     <div class="section">
         <h2>Card of the Day</h2>
         <img id="card-of-the-day" src="" alt="Card of the Day" style="width: 300px; height: auto; border: 2px solid white;">
-    </div>
-    
-    <div class="section">
-        <h2>Galactic Map Navigation</h2>
-        <div class="placeholder">Placeholder image of interactive star map</div>
     </div>
     
     <div class="section">
@@ -112,9 +107,9 @@
     <div class="footer">
         <h2>Choose your leader. Build your fleet. Conquer the stars.</h2>
         <div class="nav-links">
-            <a href="gallery.html">Browse Cards</a>
-            <a href="overview.html">Learn the Rules</a>
-            <a href="gallery.html">Build Your First Deck</a>
+            <a href="#">Browse Cards</a>
+            <a href="#">Learn the Rules</a>
+            <a href="#">Build Your First Deck</a>
         </div>
     </div>
 </body>
