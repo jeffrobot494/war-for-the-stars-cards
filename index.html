@@ -71,7 +71,7 @@
                 let cards = await response.json();
                 if (cards.length > 0) {
                     let randomCard = cards[Math.floor(Math.random() * cards.length)];
-                    document.getElementById("card-of-the-day").src = randomCard;
+                    document.getElementById("card-of-the-day").src = "cards/"+randomCard;
                 }
             } catch (error) {
                 console.error("Error loading card of the day:", error);
