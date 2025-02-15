@@ -2,7 +2,7 @@
 
 Construct powerful warships from scratch using your preconstructed deck and lead bold commanders into battle. Build an economic engine to fuel your war machine, control key locations, and unleash devastating Orders to dominate the system. Your ultimate goal: bring doom to your enemies' homeworlds and claim dominance over the stars.
 
-[imgs/populated_board.jpg, .5]
+[maps/Map_Construction Area_01.jpg, .5]
 
 2. Defend Your Homeworld
 
