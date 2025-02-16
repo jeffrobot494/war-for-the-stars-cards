@@ -1514,3 +1514,32 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-16 15:31:24
+[main e47698f] Auto-update: 2025-02-16 15:31:24
+ 27 files changed, 19 insertions(+), 1 deletion(-)
+ create mode 100644 art/Advanced Targeting Computer.png
+ create mode 100644 art/Ambassador Krell.png
+ create mode 100644 art/Ambassador Rostova.png
+ create mode 100644 art/Ambassador Von.png
+ create mode 100644 art/Dyson Sunwell.png
+ create mode 100644 art/Stellar Hedron Collider.png
+ create mode 100644 cards/leader_Ambassador Kren.jpg
+ create mode 100644 cards/leader_Ambassador Kren.png
+ create mode 100644 cards/leader_Ambassador Rostova.jpg
+ create mode 100644 cards/leader_Ambassador Rostova.png
+ create mode 100644 cards/leader_Ambassador Von.jpg
+ create mode 100644 cards/leader_Ambassador Von.png
+ create mode 100644 cards/module_Advanced Targeting Computer.jpg
+ create mode 100644 cards/module_Advanced Targeting Computer.png
+ create mode 100644 cards/module_Dyson Sunwell.jpg
+ create mode 100644 cards/module_Dyson Sunwell.png
+ create mode 100644 cards/module_Stellar Hedron Collider .jpg
+ create mode 100644 cards/module_Stellar Hedron Collider .png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   e1fc09c..e47698f  main -> main
+========== Update Completed: Sun Feb 16 15:31:30 CST 2025 ==========
+========== Update Started: Sun Feb 16 17:30:01 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
