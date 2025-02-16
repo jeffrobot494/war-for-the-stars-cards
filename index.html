@@ -34,17 +34,28 @@
         .section {
             padding: 50px 20px;
         }
-        .placeholder {
-            background: grey;
-            width: 80%;
-            max-width: 600px;
-            height: 200px;
-            margin: 20px auto;
+		.see-more-button {
+            background: #ffcc00;
+            color: #000;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            margin-top: 20px;
+            display: inline-block;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+        }
+        .card-container {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
-            align-items: center;
-            font-size: 18px;
-            font-weight: bold;
+            gap: 10px;
+        }
+        .card-container img {
+            width: 200px;
+            height: auto;
+            border: 2px solid white;
         }
         .footer {
             background: #111;
@@ -64,20 +75,31 @@
         }
     </style>
     <script>
-        async function getRandomCard() {
+        async function getRandomCards() {
             try {
                 let response = await fetch('cards.json');
                 let cards = await response.json();
-                if (cards.length > 0) {
-                    let randomCard = cards[Math.floor(Math.random() * cards.length)];
-                    document.getElementById("card-of-the-day").src = "cards/"+randomCard;
+                let selectedCards = [];
+                
+                while (selectedCards.length < 7 && cards.length > 0) {
+                    let randomIndex = Math.floor(Math.random() * cards.length);
+                    selectedCards.push(cards.splice(randomIndex, 1)[0]);
                 }
+                
+                let container = document.getElementById("card-container");
+                container.innerHTML = "";
+                selectedCards.forEach(card => {
+                    let img = document.createElement("img");
+                    img.src = "cards/" + card;
+                    img.alt = "Random Card";
+                    container.appendChild(img);
+                });
             } catch (error) {
-                console.error("Error loading card of the day:", error);
+                console.error("Error loading random cards:", error);
             }
         }
         
-        window.onload = getRandomCard;
+        window.onload = getRandomCards;
     </script>
 </head>
 <body>
@@ -88,33 +110,51 @@
     </video>
     </div>
     <h1>Build. Battle. Conquer. The War for the Stars Begins.</h1>
-    <a href="#" class="cta-button">Get Started</a>
+	<div class="footer">
+        <div class="nav-links">
+            <a href="gallery.html">Browse Cards</a>
+            <a href="overview.html">Learn the Rules</a>
+            <a href="gallery.html">Build Your First Deck</a>
+        </div>
+    </div>
+    <!--
+	<a href="#" class="cta-button">Get Started</a>
     
-	<div class="section">
+    <div class="section">
         <h2>Pledge Your Allegiance</h2>
 		<img src="imgs/final_four.jpg" alt="Ship Construction" style="width: 80%; max-width: 900px; height: auto;">
         <p>To one of a dozen factions vying for interstellar supremacy.</p>
     </div>
-	
+    --!>
     <div class="section">
         <h2>Build Your Fleet</h2>
         <img src="imgs/ship_construction.gif" alt="Ship Construction" style="width: 80%; max-width: 600px; height: auto;">
-        <p>Ready to command your fleet? Build your first deck!</p>
+        
+    </div>
+	
+	<div class="section">
+        <h2>Battle Your Rivals</h2>
+        <img src="imgs/battle.jpg" alt="battle" style="width: 100%; max-width: 800px; height: auto;">
+    </div>
+	
+	<div class="section">
+        <h2>War for the Stars</h2>
+        <img src="imgs/populated_board.jpg" alt="war" style="width: 100%; max-width: 800px; height: auto;">
     </div>
     
     <div class="section">
-        <h2>Card of the Day</h2>
-        <img id="card-of-the-day" src="" alt="Card of the Day" style="width: 300px; height: auto; border: 2px solid white;">
+        <h2>Random Cards of the Day</h2>
+        <div id="card-container" class="card-container"></div>
+		<button class="see-more-button" onclick="getRandomCards()">See More</button>
     </div>
-    
+    <!--
     <div class="section">
         <h2>New Commander's Guide</h2>
         <p>Learn how to build a deck in 5 minutes!</p>
         <div class="placeholder">Placeholder image of quick start guide</div>
     </div>
-    
+    --!>
     <div class="footer">
-        <h2>Choose your leader. Build your fleet. Conquer the stars.</h2>
         <div class="nav-links">
             <a href="gallery.html">Browse Cards</a>
             <a href="overview.html">Learn the Rules</a>
