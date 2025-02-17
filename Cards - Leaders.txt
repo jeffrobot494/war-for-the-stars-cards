@@ -1,4 +1,8 @@
-LINK="1AMsYoQ4pvxz6I74FW8BloelE14svXZ14v06cF3brc_8!Leaders"
+;link to magic-style
+LINK="1W_FgwrbdUViGUIOK7bdLhvRLxGjdTSUZ8bUxMZ8aDIA!Leaders"
+
+;link to grid-style
+;LINK="1AMsYoQ4pvxz6I74FW8BloelE14svXZ14v06cF3brc_8!Leaders"
 
 ;Settings
 UNIT = INCH

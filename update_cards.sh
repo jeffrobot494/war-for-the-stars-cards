@@ -17,7 +17,8 @@ echo "Staging changes..." | tee -a "$LOG_FILE"
 git add -A 2>&1 | tee -a "$LOG_FILE"
 
 # Step 3: Commit changes with timestamp
-COMMIT_MESSAGE="Auto-update: $(date '+%Y-%m-%d %H:%M:%S')"
+#COMMIT_MESSAGE="Auto-update: $(date '+%Y-%m-%d %H:%M:%S')"
+COMMIT_MESSAGE="Changed to magic-style"
 echo "Committing changes: $COMMIT_MESSAGE" | tee -a "$LOG_FILE"
 git commit -m "$COMMIT_MESSAGE" 2>&1 | tee -a "$LOG_FILE"
 
