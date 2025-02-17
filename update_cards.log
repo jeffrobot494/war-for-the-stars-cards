@@ -1639,3 +1639,19 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Changed to magic-style
+[main f205a84] Changed to magic-style
+ 56 files changed, 67 insertions(+), 36 deletions(-)
+ create mode 100644 art/Repair Crew.png
+ create mode 100644 cards/module_Repair Crew.jpg
+ create mode 100644 cards/module_Repair Crew.png
+ delete mode 100644 cards/objective_Asteroids.jpg
+ delete mode 100644 cards/objective_Asteroids.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   03c8136..f205a84  main -> main
+========== Update Completed: Mon Feb 17 11:56:58 CST 2025 ==========
+========== Update Started: Mon Feb 17 12:40:07 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
