@@ -1581,3 +1581,21 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-17 00:44:03
+[main faa1b07] Auto-update: 2025-02-17 00:44:03
+ 57 files changed, 15 insertions(+)
+ create mode 100644 art/Ambassador Han.png
+ create mode 100644 art/Ambassador N'chok.png
+ create mode 100644 audio/mythic_saurian_audio.mp3
+ create mode 100644 cards/leader_Ambassador Han.jpg
+ create mode 100644 cards/leader_Ambassador Han.png
+ create mode 100644 cards/leader_Ambassador N'chok.jpg
+ create mode 100644 cards/leader_Ambassador N'chok.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   51ef9d1..faa1b07  main -> main
+========== Update Completed: Mon Feb 17 00:44:12 CST 2025 ==========
+========== Update Started: Mon Feb 17 01:05:01 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
