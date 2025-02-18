@@ -1655,3 +1655,57 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-17 12:40:09
+[main 29206a2] Auto-update: 2025-02-17 12:40:09
+ 47 files changed, 59 insertions(+), 2 deletions(-)
+ create mode 100644 TTS Decks/Martian Mercenaries/Martian Mercenaries.png
+ create mode 100644 TTS Decks/Martian Mercenaries/Martian_Mercenaries.txt
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Ambassador Han.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Ambassador Kren.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Ambassador Rostova.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Ambassador Von.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Bronin Briggs, Shipbuilder.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Captain Jace Brigley.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Chip Roy, Engineer.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Dr. Veyna Kross.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Migdin Bowles.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Professor Alric Zane.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Zexter Fal, Fighter Pilot.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Advanced Targeting Computer.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Energon Cell.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Energy Shield.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Engineering Room.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Fuel Depot.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Garrison.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Impulse Core.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Ion Cannon.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Laser Drive.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Living Quarters.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Manipulating Arm.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Manned Turret.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Mining Laser.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Nuclear Warhead.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Power Core.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Small Laser.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Solar Collector.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Thruster.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_EMP Disruption.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Electronic Warfare I.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Electronic Warfare II.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Electronic Warfare III.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Emergency Jump.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Expedited Construction.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Get it Fixed!.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Give it All She's Got!.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_MK-I Torpedo.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Missile Barrage.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Outmaneuver.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Supply Shipment.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   f205a84..29206a2  main -> main
+========== Update Completed: Mon Feb 17 12:40:18 CST 2025 ==========
+========== Update Started: Mon Feb 17 20:15:23 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
