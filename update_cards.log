@@ -1721,3 +1721,20 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-17 20:45:22
+[main a6d7387] Auto-update: 2025-02-17 20:45:22
+ 9 files changed, 21 insertions(+), 5 deletions(-)
+ create mode 100644 art/G-type Main-sequence Star Sol.png
+ rename art/{Asteroids.png => Motherlode Asteroid Belt.png} (100%)
+ create mode 100644 cards/objective_G-type Main-sequence Star Sol.jpg
+ create mode 100644 cards/objective_G-type Main-sequence Star Sol.png
+ create mode 100644 cards/objective_Motherlode Asteroid Belt.jpg
+ create mode 100644 cards/objective_Motherlode Asteroid Belt.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   7092651..a6d7387  main -> main
+========== Update Completed: Mon Feb 17 20:45:25 CST 2025 ==========
+========== Update Started: Mon Feb 17 21:05:40 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
