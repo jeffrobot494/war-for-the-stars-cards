@@ -1,119 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>War for the Stars - Overview</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: black;
-            color: white;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-        }
-		h2 {
-			font-size: 24px;
-			font-weight: bold;
-			color: white;
-			margin-top: 30px;
-			padding-bottom: 5px;
-			border-bottom: 2px solid #333;
-			text-align: left;
-		}
-
-        .section {
-            margin-bottom: 40px;
-            border-bottom: 2px solid #666;
-            padding-bottom: 20px;
-        }
-        .image-container {
-            text-align: center;
-        }
-        .image-container img {
-            height: auto;
-            display: inline-block;
-            margin: 10px;
-        }
-		.image-row {
-			display: flex;
-			justify-content: flex-start; /* Align images to the left */
-			gap: 10px; /* Space between images */
-			flex-wrap: wrap; /* Allow images to wrap to a new line if needed */
-		}
-
-		.image-row img {
-			max-width: 30%;
-			height: auto;
-			border-radius: 8px;
-			box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
-		}
-
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>War for the Stars - Overview</title>
+  <!-- Google Fonts: Exo 2 for a futuristic yet readable vibe -->
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-bg: #0b0c10;
+      --secondary-bg: #1f2833;
+      --accent-color: #66fcf1;
+      --text-color: #c5c6c7;
+      --border-color: #45a29e;
+    }
+    
+    body {
+      font-family: 'Exo 2', sans-serif;
+      background: radial-gradient(ellipse at bottom, var(--secondary-bg) 0%, var(--primary-bg) 100%);
+      color: var(--text-color);
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: var(--accent-color);
+      text-shadow: 0 0 8px var(--accent-color);
+    }
+    
+    h2 {
+      font-size: 1.75em;
+      font-weight: 700;
+      color: var(--accent-color);
+      margin-top: 40px;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid var(--border-color);
+    }
+    
+    p {
+      font-size: 1.1em;
+      margin: 15px 0;
+      text-align: justify;
+    }
+    
+    .section {
+      margin-bottom: 50px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border-color);
+    }
+    
+    .top-nav {
+      margin-bottom: 30px;
+      text-align: left;
+    }
+    
+    .top-nav a {
+      color: var(--accent-color);
+      text-decoration: none;
+      font-size: 1.2em;
+      transition: color 0.3s ease;
+    }
+    
+    .top-nav a:hover {
+      color: var(--border-color);
+    }
+    
+    .image-row {
+      display: flex;
+      justify-content: flex-start;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
+    
+    .image-row img {
+      max-width: 30%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease;
+    }
+    
+    .image-row img:hover {
+      transform: scale(1.05);
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .image-row img {
+        max-width: 45%;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .image-row img {
+        max-width: 100%;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>War for the Stars - Overview</h1>
-	<div class="top-nav">
-		<a href="index.html" class="back-link">⬅️ Back to Home</a>
-	</div>
-    <div id="rules-content"></div>
-    <script>
-		async function loadRules() {
-			const response = await fetch("basic_rules.txt");
-			const text = await response.text();
-			const lines = text.split("\n");
-
-			let content = "";
-			let imageGroup = [];
-
-			lines.forEach(line => {
-				line = line.trim();
-
-				// Detect numbered section headings (e.g., "1. Building a Spaceship")
-				if (/^\d+\.\s/.test(line)) {
-					// If there's an image group waiting, wrap them into an image-row before inserting a new section
-					if (imageGroup.length > 0) {
-						content += `<div class="image-row">${imageGroup.join("")}</div>`;
-						imageGroup = [];
-					}
-					content += `<h2>${line}</h2>`;
-				} else if (line.startsWith("[") && line.endsWith("]")) {
-					// Extract image file and optional scale multiplier
-					let imgData = line.slice(1, -1).split(",");
-					let imgSrc = imgData[0].trim();
-					let scaleMultiplier = imgData.length > 1 ? parseFloat(imgData[1].trim()) : 1;
-					
-					// Style size based on multiplier
-					let imgStyle = `max-width: ${100 * scaleMultiplier}%;`;
-
-					let imgTag = `<img src="${imgSrc}" style="${imgStyle}">`;
-
-					// Add image to the group
-					imageGroup.push(imgTag);
-				} else {
-					// If there's an image group, insert it before adding text
-					if (imageGroup.length > 0) {
-						content += `<div class="image-row">${imageGroup.join("")}</div>`;
-						imageGroup = [];
-					}
-					content += `<p>${line}</p>`;
-				}
-			});
-
-			// Ensure any remaining images are added at the end
-			if (imageGroup.length > 0) {
-				content += `<div class="image-row">${imageGroup.join("")}</div>`;
-			}
-
-			document.getElementById("rules-content").innerHTML = content;
-		}
-
-		// Run the function when the page loads
-		window.onload = loadRules;
-
-    loadRules();
-    </script>
+  <div class="top-nav">
+    <a href="index.html">⬅️ Back to Home</a>
+  </div>
+  <h1>War for the Stars - Overview</h1>
+  <div id="rules-content"></div>
+  
+  <script>
+    async function loadRules() {
+      try {
+        const response = await fetch("basic_rules.txt");
+        const text = await response.text();
+        const lines = text.split("\n");
+        let content = "";
+        let imageGroup = [];
+  
+        lines.forEach(line => {
+          line = line.trim();
+          if (/^\d+\.\s/.test(line)) {
+            if (imageGroup.length > 0) {
+              content += `<div class="image-row">${imageGroup.join("")}</div>`;
+              imageGroup = [];
+            }
+            content += `<h2>${line}</h2>`;
+          } else if (line.startsWith("[") && line.endsWith("]")) {
+            let imgData = line.slice(1, -1).split(",");
+            let imgSrc = imgData[0].trim();
+            let scaleMultiplier = imgData.length > 1 ? parseFloat(imgData[1].trim()) : 1;
+            let imgStyle = `max-width: ${100 * scaleMultiplier}%;`;
+            let imgTag = `<img src="${imgSrc}" style="${imgStyle}">`;
+            imageGroup.push(imgTag);
+          } else {
+            if (imageGroup.length > 0) {
+              content += `<div class="image-row">${imageGroup.join("")}</div>`;
+              imageGroup = [];
+            }
+            content += `<p>${line}</p>`;
+          }
+        });
+  
+        if (imageGroup.length > 0) {
+          content += `<div class="image-row">${imageGroup.join("")}</div>`;
+        }
+  
+        document.getElementById("rules-content").innerHTML = content;
+      } catch (error) {
+        console.error("Error loading rules:", error);
+      }
+    }
+    
+    window.onload = loadRules;
+  </script>
 </body>
 </html>
