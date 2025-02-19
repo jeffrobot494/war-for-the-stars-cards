@@ -10,7 +10,6 @@ This is your homeworld. You must defend it from attack while simultaneously trav
 
 [imgs/planets.jpg, .5]
 
-
 3. Building a Spaceship
 
 Ships in War for the Stars are constructed from individual modules, each providing specific functionality. 
@@ -29,33 +28,34 @@ Adding modules to your ship costs energy, noted in the top right of cards. There
 [cards/module_Power Core.jpg, .15]
 [cards/module_Energon Cell.jpg, .15]
 
+5. The Play Space
+
+[cards/objective_Motherlode Asteroid Belt.jpg, .15]
+[cards/objective_G-type Main-sequence Star Sol.jpg, .15]
+[cards/objective_Marsa.jpg, .15]
+[cards/objective_Verene.jpg, .15]
+
+In a two-player match, the play space contains four zones, or "Orbits": the Asteroid Belt, the Sun,  Player 1's Home world, and Player 2's Home world. These are cards laid out between the players. Players place tokens on the cards to indicate the position of their ships. Move your ships to The Sun to harness its incredible energy. Move them to The Asteroid Belt to exploit the abundant minerals. Move to your opponent's homeworld to attack and destroy it!
+
 5. Battle
 
 [imgs/battle.jpg, .5]
 
-When you move your ship into a hex occupied by an enemy ship, a battle ensues. During battle, ships fire their weapons at each other. Damage is assigned to modules rather than the ship as a whole. When a module is damaged, it is disabled and ceases to function. Flip the card over to indicate disability. If a disabled module is damaged again, it is "destroyed" and moved from the ship to your discard pile.
+When ships do battle, they exchange fire with their weapons. Modules on ships are targeted individually for damage, so pick your targets wisely to neuter your opponent's ships!
 
-6. Stellar Objects
+6. Leaders
 
-Asteroids are mined for card advantage, and the sun will provide stupendous amounts of energy for those who exploit it.
-
-[cards/objective_Asteroids.jpg, .15]
-[cards/module_Mining Laser.jpg, .15]
-[cards/module_Solar Collector.jpg, .15]
-
-7. Leaders
-
-Your society is nothing without its leaders. Leaders are deployed for a small amount of energy and reside inside your ships, granting passive bonuses to your fleet. Some have abilities that trigger when they enter the battlefield.
+Your society is nothing without its leaders. Leaders reside inside your ships, granting passive bonuses to your fleet. Some have abilities that trigger when they enter the battlefield.
 
 [cards/leader_Tarkos Dren.jpg, .15]
 [cards/leader_Zep Gee.jpg, .15]
 [cards/leader_Convict 24601.jpg, .15]
 
-Each ship holds a single leader. You change a ship's leader by deploying a new one. The old Leader is blown out into the freezing vacuum of space and sent to your discard pile. Build the Living Quarters module to house multiple leaders.
+Watch out for where you station them, as leaders are killed if their module is destroyed.
 
 [cards/module_Living Quarters.jpg, .15]
 
-8. Orders
+7. Orders
 
 Orders are one-off cards with dramatic effects. They are issued by Leaders and target objects in the same hex.
 
@@ -67,15 +67,14 @@ Standing Orders persist until the Leader who issued them is killed.
 
 [cards/order_Full Power to Engines.jpg, .15]
 
-9. Your Starting Ship
+8. Your Starting Ship
 
-Before the game starts, each player takes out any number of modules, leaders, and/or Standing Orders with a sum total energy cost of 10 or less, and puts them into play in a hex over their homeworld. This is your starting ship.
+Before the game starts, each player takes out any number of modules, leaders, and/or Standing Orders with a sum total energy cost of 10 or less, and puts them into play over their homeworld. This is your starting ship.
 
 [imgs/starting_ship.jpg, .15]
 [imgs/starting_ship_02.jpg, .15]
 [imgs/starting_ship_03.jpg, .15]
 
-You're now ready to get started! Go build your deck and get started as questions arise, you can consult the Detailed Rules section of the book that begins on the next page.
-
+You're now ready to get started! Head over to the Card Gallery to start building your deck.
 
 
