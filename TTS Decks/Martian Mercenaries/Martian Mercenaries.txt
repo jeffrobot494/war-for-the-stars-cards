@@ -1,0 +1,32 @@
+### War for the Stars Deck: Deck List
+1 leader_Ambassador Kren
+1 leader_Chip Roy, Engineer
+1 leader_Dr. Veyna Kross
+1 leader_Migdin Bowles
+1 leader_Pilot Dave
+1 leader_Major Falcina
+1 leader_Professor Alric Zane
+1 module_Adaptive Plating
+1 module_Compact Fusion Core
+2 module_Construction Bay
+1 module_Cloning Lab
+1 module_Cryostasis Pod
+8 module_Energon Cell
+1 module_Energy Shield
+2 module_Laser Drive
+4 module_Manned Turret
+3 module_Mining Laser
+2 module_Probe
+1 module_Nuclear Warhead
+2 order_Electronic Warfare I
+1 order_Electronic Warfare III
+1 order_MK-I Torpedo
+2 order_Missile Barrage
+3 order_Get it Fixed!
+1 order_Outmaneuver
+3 order_Supply Shipment
+6 module_Power Core
+4 module_Impulse Core
+1 module_Repair Crew
+2 module_Small Laser
+1 order_Electronic Warfare II
