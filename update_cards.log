@@ -1924,3 +1924,51 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-21 11:46:02
+[main 957abc1] Auto-update: 2025-02-21 11:46:02
+ 165 files changed, 19 insertions(+), 17 deletions(-)
+ rename art/{Emergency Jump.png => Priority Jump.png} (100%)
+ delete mode 100644 cards/leader_Major Kael Draven.jpg
+ delete mode 100644 cards/leader_Major Kael Draven.png
+ delete mode 100644 cards/module_Basic Construction Bay.jpg
+ delete mode 100644 cards/module_Basic Construction Bay.png
+ delete mode 100644 cards/module_Cargo Bay.jpg
+ delete mode 100644 cards/module_Cargo Bay.png
+ delete mode 100644 cards/module_Cryostasis Pod.jpg
+ delete mode 100644 cards/module_Cryostasis Pod.png
+ create mode 100644 cards/module_Cryostasis Pods.jpg
+ create mode 100644 cards/module_Cryostasis Pods.png
+ delete mode 100644 cards/module_Energy Network.jpg
+ delete mode 100644 cards/module_Energy Network.png
+ delete mode 100644 cards/module_Entropy Engine.jpg
+ delete mode 100644 cards/module_Entropy Engine.png
+ delete mode 100644 cards/module_Manipulating Arm.jpg
+ delete mode 100644 cards/module_Manipulating Arm.png
+ delete mode 100644 cards/module_Rapid Construction Bay.jpg
+ delete mode 100644 cards/module_Rapid Construction Bay.png
+ delete mode 100644 cards/objective_G-type Main-sequence Star Sol.jpg
+ delete mode 100644 cards/objective_G-type Main-sequence Star Sol.png
+ delete mode 100644 cards/objective_Marsa.jpg
+ delete mode 100644 cards/objective_Marsa.png
+ delete mode 100644 cards/objective_Motherlode Asteroid Belt.jpg
+ delete mode 100644 cards/objective_Motherlode Asteroid Belt.png
+ delete mode 100644 cards/objective_Space.jpg
+ delete mode 100644 cards/objective_Space.png
+ delete mode 100644 cards/objective_Verene.jpg
+ delete mode 100644 cards/objective_Verene.png
+ delete mode 100644 cards/order_Emergency Jump.jpg
+ delete mode 100644 cards/order_Emergency Jump.png
+ delete mode 100644 cards/order_Power Siphon.jpg
+ delete mode 100644 cards/order_Power Siphon.png
+ create mode 100644 cards/order_Priority Jump.jpg
+ create mode 100644 cards/order_Priority Jump.png
+ delete mode 100644 cards/order_Wormhole Anomaly.jpg
+ delete mode 100644 cards/order_Wormhole Anomaly.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   03f34aa..957abc1  main -> main
+========== Update Completed: Fri Feb 21 11:46:33 CST 2025 ==========
+========== Update Started: Fri Feb 21 11:51:22 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
