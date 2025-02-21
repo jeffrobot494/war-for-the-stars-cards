@@ -297,6 +297,8 @@
     });
 	
 	function downloadDeckImage() {
+	// Get deck name
+	const deckName = document.getElementById("deck-name").value.trim() || "deck_image";
     // Create a canvas with the desired dimensions
     const canvas = document.createElement('canvas');
     canvas.width = 4096;
@@ -367,12 +369,12 @@
       }
     });
 
-    // Once all images are drawn, convert the canvas to a PNG and trigger the download.
+    // Once all images are drawn, convert the canvas to a JPG and trigger the download.
     Promise.all(promises).then(() => {
       canvas.toBlob(function(blob) {
         const a = document.createElement("a");
         a.href = URL.createObjectURL(blob);
-        a.download = "deck_image.png";
+        a.download = deckName + ".jpg";
         a.click();
       });
     });

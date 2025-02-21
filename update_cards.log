@@ -1991,3 +1991,33 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-21 14:10:03
+[main 5bd5614] Auto-update: 2025-02-21 14:10:03
+ 54 files changed, 113 insertions(+), 8 deletions(-)
+ create mode 100644 TTS Decks/deck_image.png
+ create mode 100644 art/Baron Harlan Keel.png
+ rename art/{Credit Network.png => Energon Network.png} (100%)
+ create mode 100644 art/Foreman Garek Voss.png
+ create mode 100644 art/Princess Erai.png
+ create mode 100644 cards/leader_Baron Harlan Keel.jpg
+ create mode 100644 cards/leader_Baron Harlan Keel.png
+ create mode 100644 cards/leader_Foreman Garek Voss.jpg
+ create mode 100644 cards/leader_Foreman Garek Voss.png
+ delete mode 100644 cards/leader_The Rebel King.jpg
+ delete mode 100644 cards/leader_The Rebel King.png
+ delete mode 100644 cards/module_Credit Network.jpg
+ delete mode 100644 cards/module_Credit Network.png
+ create mode 100644 cards/module_Energon Network.jpg
+ create mode 100644 cards/module_Energon Network.png
+ delete mode 100644 cards/module_Fuel Depot.jpg
+ delete mode 100644 cards/module_Fuel Depot.png
+ create mode 100644 cards/module_Negative Energy Field.jpg
+ create mode 100644 cards/module_Negative Energy Field.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   98c2e40..5bd5614  main -> main
+========== Update Completed: Fri Feb 21 14:10:12 CST 2025 ==========
+========== Update Started: Fri Feb 21 14:55:35 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
