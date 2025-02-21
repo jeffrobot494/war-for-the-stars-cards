@@ -1,0 +1,32 @@
+### War for the Stars Deck: Zangorian Armada
+1 leader_Chip Roy, Engineer
+1 leader_Captain Jace Brigley
+1 leader_Foreman Garek Voss
+1 leader_Bronin Briggs, Shipbuilder
+1 leader_Migdin Bowles
+1 leader_Professor Alric Zane
+1 leader_Tarkos Dren
+1 leader_Pilot Dave
+2 module_Armor Plating
+1 module_Communications Array
+4 module_Energon Cell
+2 module_Energy Shield
+2 module_Engineering Room
+1 module_Ion Cannon
+2 module_Impulse Core
+4 module_Laser Drive
+5 module_Mining Laser
+1 module_Nuclear Warhead
+3 module_Power Core
+6 module_Small Laser
+4 module_Solar Collector
+7 module_Thruster
+1 order_EMP Disruption
+2 order_Electronic Warfare I
+1 order_Electronic Warfare II
+1 order_Electronic Warfare III
+8 order_Supply Shipment
+1 order_Missile Barrage
+2 order_Outmaneuver
+1 order_Priority Jump
+1 module_Advanced Targeting Computer
