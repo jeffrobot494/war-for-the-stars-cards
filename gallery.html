@@ -51,11 +51,14 @@
     </div>
     <div class="deck-count">Total Cards: <span id="deck-count">0</span></div>
     <div class="deck-list" id="deck"></div>
-    <button class="download-btn" onclick="downloadDeck()">Download Decklist</button>
-    <input type="file" id="upload-deck" accept=".txt" style="display: none;">
-    <button id="upload-btn" class="download-btn">Upload Deck</button>
-    <button class="clear-btn" onclick="clearDeck()">Clear Deck</button>
-    <button class="download-btn" onclick="downloadAllCards()">Download All Cards</button>
+	<!-- Inside the deck-section, right after the existing Download Decklist button -->
+	<button class="download-btn" onclick="downloadDeck()">Download Decklist</button>
+	<button class="download-btn" onclick="downloadDeckImage()">Download deck image</button>
+	<input type="file" id="upload-deck" accept=".txt" style="display: none;">
+	<button id="upload-btn" class="download-btn">Upload Deck</button>
+	<button class="clear-btn" onclick="clearDeck()">Clear Deck</button>
+	<button class="download-btn" onclick="downloadAllCards()">Download All Cards</button>
+
   </div>
 
   <script>
@@ -292,6 +295,88 @@
     document.getElementById("upload-btn").addEventListener("click", function() {
       document.getElementById("upload-deck").click();
     });
+	
+	function downloadDeckImage() {
+    // Create a canvas with the desired dimensions
+    const canvas = document.createElement('canvas');
+    canvas.width = 4096;
+    canvas.height = 4096;
+    const ctx = canvas.getContext('2d');
+
+    // Fill the canvas background (optional – here, white)
+    ctx.fillStyle = "#fff";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // Grid configuration: 10 columns x 7 rows, each cell is 409x585 pixels.
+    const cols = 10;
+    const rows = 7;
+    const cellWidth = 409;
+    const cellHeight = 585;
+    const gridWidth = cellWidth * cols;  // 4090 pixels
+    const gridHeight = cellHeight * rows; // 4095 pixels
+    // Center the grid on the canvas (small margins may appear)
+    const offsetX = Math.floor((canvas.width - gridWidth) / 2);
+    const offsetY = Math.floor((canvas.height - gridHeight) / 2);
+
+    // Build an array of card names from the deck object.
+    // (deck keys are stored without the .jpg extension.)
+    let deckCards = [];
+    for (let card in deck) {
+      for (let i = 0; i < deck[card]; i++) {
+        deckCards.push(card);
+      }
+    }
+    // If more than 70 cards, trim to the first 70.
+    deckCards = deckCards.slice(0, 70);
+    // If less than 70, pad with nulls (which will render as blank cells).
+    while (deckCards.length < 70) {
+      deckCards.push(null);
+    }
+
+    // Prepare an array of Promises for loading and drawing each card image.
+    let promises = [];
+    deckCards.forEach((cardName, index) => {
+      const col = index % cols;
+      const row = Math.floor(index / cols);
+      const x = offsetX + col * cellWidth;
+      const y = offsetY + row * cellHeight;
+
+      if (cardName) {
+        // Create a new Image object for the card.
+        const img = new Image();
+        // Set crossOrigin in case of CORS issues (if your images are hosted accordingly).
+        img.crossOrigin = "anonymous";
+        // Construct the image URL (assuming all card images are .jpg files in the imageFolder).
+        img.src = imageFolder + cardName + ".jpg";
+        const p = new Promise((resolve, reject) => {
+          img.onload = function() {
+            ctx.drawImage(img, x, y, cellWidth, cellHeight);
+            resolve();
+          };
+          img.onerror = function() {
+            // If there’s an error loading the image, leave the cell blank.
+            console.error("Failed to load image for card:", cardName);
+            resolve();
+          };
+        });
+        promises.push(p);
+      } else {
+        // For blank cells, fill the area with a white rectangle (or any placeholder design).
+        ctx.fillStyle = "#fff";
+        ctx.fillRect(x, y, cellWidth, cellHeight);
+      }
+    });
+
+    // Once all images are drawn, convert the canvas to a PNG and trigger the download.
+    Promise.all(promises).then(() => {
+      canvas.toBlob(function(blob) {
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(blob);
+        a.download = "deck_image.png";
+        a.click();
+      });
+    });
+  }
   </script>
 </body>
 </html>
