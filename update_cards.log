@@ -2049,3 +2049,26 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-21 18:15:52
+[main 2012a13] Auto-update: 2025-02-21 18:15:52
+ 225 files changed, 20 insertions(+), 2 deletions(-)
+ create mode 100644 art/Activate the Tractor Beam.png
+ create mode 100644 art/Galactic Bazaar.png
+ create mode 100644 art/Zenzuul.png
+ create mode 100644 cards/objective_Galactic Bazaar.jpg
+ create mode 100644 cards/objective_Galactic Bazaar.png
+ create mode 100644 cards/objective_Zenzuul.jpg
+ create mode 100644 cards/objective_Zenzuul.png
+ create mode 100644 cards/order_Acitvate the Tractor Beam.jpg
+ create mode 100644 cards/order_Acitvate the Tractor Beam.png
+ create mode 100644 imgs/leader_border.png
+ create mode 100644 imgs/module_border.png
+ create mode 100644 imgs/order_border.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   04bceb9..2012a13  main -> main
+========== Update Completed: Fri Feb 21 18:18:27 CST 2025 ==========
+========== Update Started: Fri Feb 21 18:20:03 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
