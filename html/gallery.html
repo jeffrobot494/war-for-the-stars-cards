@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <title>War for the Stars - Gallery and Deckbuilder</title>
+  <!-- Google Fonts: Exo 2 for a futuristic yet readable vibe -->
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/war_for_the_stars.css">
+  <style>
+    body {
+      text-align: center;
+      display: flex;
+    }
+  </style>
+</head>
+<body>
+  <div class="main-content">
+    <h1>War for the Stars</h1>
+  <div class="footer">
+    <div class="nav-links">
+		<a href="../index.html" class="nav-link">Home Page</a>
+		<a href="overview.html" class="nav-link">Overview</a>
+	    <a href="gallery.html" class="nav-link">Deckbuilder</a>
+		<a href="shipbuilder.html" class="nav-link">Shipbuilder</a>
+		<a href="rules.html" class="nav-link">Full Rules</a>
+    </div>
+  </div>
+    <p style="font-size: 14px; color: #aaa;">Version 1.9.2</p>
+
+    <!-- Filter Buttons -->
+    <div class="button-container">
+      <button class="filter-btn active-filter" onclick="filterCards('all', this)">All</button>
+      <button class="filter-btn" onclick="filterCards('module', this)">Modules</button>
+      <button class="filter-btn" onclick="filterCards('order', this)">Orders</button>
+      <button class="filter-btn" onclick="filterCards('leader', this)">Leaders</button>
+      <button class="filter-btn" onclick="showGameMap()">Game Map</button>
+    </div>
+
+    <div class="card-container" id="gallery"></div>
+    <div id="game-map" style="display: none;">
+      <img src="maps/Map_Construction Area_01.jpg" alt="Game Map">
+    </div>
+  </div>
+
+  <!-- Deck Section (Always Visible) -->
+  <div class="deck-section">
+    <div class="deck-header">
+      <input type="text" id="deck-name" class="deck-title" value="Deck List" />
+      <span class="pencil-icon">✏️</span>
+    </div>
+    <div class="deck-count">Total Cards: <span id="deck-count">0</span></div>
+    <div class="deck-list" id="deck"></div>
+	<!-- Inside the deck-section, right after the existing Download Decklist button -->
+	<button class="download-btn" onclick="downloadDeck()">Download Decklist</button>
+	<button class="download-btn" onclick="downloadDeckImage()">Download deck image</button>
+	<input type="file" id="upload-deck" accept=".txt" style="display: none;">
+	<button id="upload-btn" class="download-btn">Upload Deck</button>
+	<button class="clear-btn" onclick="clearDeck()">Clear Deck</button>
+	<button class="download-btn" onclick="downloadAllCards()">Download All Cards</button>
+
+  </div>
+
+  <script>
+    const imageFolder = "../cards/";
+    const deck = {}; // Stores card names and quantities
+
+    function filterCards(category, button) {
+      const gallery = document.getElementById("gallery");
+      const map = document.getElementById("game-map");
+
+      // Hide the game map and show the card gallery
+      map.style.display = "none";
+      gallery.style.display = "flex";
+
+      // Show only the relevant cards based on category
+      document.querySelectorAll(".card-wrapper").forEach(wrapper => {
+        const cardName = wrapper.getAttribute("data-name").toLowerCase();
+        wrapper.style.display = (category === "all" || cardName.startsWith(category + "_")) ? "block" : "none";
+      });
+
+      // Move the yellow highlight to the clicked filter button
+      document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active-filter"));
+      button.classList.add("active-filter");
+    }
+    
+    document.getElementById("upload-deck").addEventListener("change", function(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const lines = e.target.result.split("\n");
+
+        // Ensure deck name updates correctly
+        let deckName = "My Deck"; // Default name
+        if (lines.length > 0 && lines[0].startsWith("### War for the Stars Deck:")) {
+          deckName = lines[0].replace("### War for the Stars Deck:", "").trim();
+          console.log("Deck Name Found:", deckName);
+        }
+
+        // Update deck name input field
+        let deckTitleElement = document.getElementById("deck-name");
+        if (deckTitleElement) {
+          deckTitleElement.value = deckName;
+        } else {
+          console.error("Error: Deck name input not found!");
+        }
+
+        // Clear the existing deck
+        Object.keys(deck).forEach(key => delete deck[key]);
+
+        // Read card entries (skip first line because it's the deck name)
+        lines.slice(1).forEach(line => {
+          line = line.trim();
+          if (line === "" || line.startsWith("#")) return;
+
+          const parts = line.split(" ");
+          const count = parseInt(parts[0]);
+          let cardName = parts.slice(1).join(" ").replace(".jpg", "");
+
+          if (!isNaN(count) && cardName) {
+            deck[cardName] = count;
+          }
+        });
+
+        updateDeckDisplay();
+      };
+
+      reader.readAsText(file);
+    });
+
+    function updateDeckDisplay() {
+      const deckContainer = document.getElementById("deck");
+      deckContainer.innerHTML = "";
+      let totalCards = 0;
+
+      for (const cardName in deck) {
+        totalCards += deck[cardName];
+
+        const item = document.createElement("div");
+        item.className = "deck-item";
+        item.innerText = `${deck[cardName]} ${cardName}`;
+        item.onclick = () => addToDeck(cardName);
+        item.oncontextmenu = (e) => {
+          e.preventDefault();
+          removeFromDeck(cardName);
+        };
+
+        deckContainer.appendChild(item);
+      }
+
+      document.getElementById("deck-count").innerText = totalCards;
+
+      document.querySelectorAll(".card-wrapper").forEach(wrapper => {
+        const name = wrapper.getAttribute("data-name").replace(".jpg", "");
+        const counter = wrapper.querySelector(".card-counter");
+        const cardImg = wrapper.querySelector(".card");
+
+        if (deck[name]) {
+          cardImg.classList.add("in-deck");
+          counter.style.display = "block";
+          counter.innerText = `x${deck[name]}`;
+        } else {
+          cardImg.classList.remove("in-deck");
+          counter.style.display = "none";
+        }
+      });
+    }
+
+    function addToDeck(cardName) {
+      cardName = cardName.replace(".jpg", "");
+
+      if (deck[cardName]) {
+        deck[cardName]++;
+      } else {
+        deck[cardName] = 1;
+      }
+
+      updateDeckDisplay();
+    }
+
+    function removeFromDeck(cardName) {
+      cardName = cardName.replace(".jpg", "");
+
+      if (deck[cardName]) {
+        deck[cardName]--;
+        if (deck[cardName] <= 0) {
+          delete deck[cardName];
+        }
+      }
+
+      updateDeckDisplay();
+    }
+
+    function clearDeck() {
+      for (const card in deck) {
+        delete deck[card];
+      }
+      updateDeckDisplay();
+    }
+
+    function downloadDeck() {
+      const deckName = document.getElementById("deck-name").value.trim() || "decklist";
+      let deckText = `### War for the Stars Deck: ${deckName}\n`;
+
+      let deckList = Object.keys(deck).map(card => `${deck[card]} ${card.replace(".jpg", "")}`);
+      deckText += deckList.join("\n");
+
+      const blob = new Blob([deckText.trim()], { type: "text/plain" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = `${deckName.replace(/\s+/g, "_")}.txt`;
+      a.click();
+    }
+
+    function showGameMap() {
+      const gallery = document.getElementById("gallery");
+      const map = document.getElementById("game-map");
+
+      // Hide the card gallery and show the game map
+      gallery.style.display = "none";
+      map.style.display = "block";
+
+      // Move the yellow highlight to the "Game Map" button
+      document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active-filter"));
+      document.querySelector("button[onclick='showGameMap()']").classList.add("active-filter");
+    }
+
+    // Function to download all card images in a ZIP file
+    async function downloadAllCards() {
+      const zip = new JSZip();
+      const version = document.querySelector("p").innerText.replace("Version ", "").trim();
+      const zipFilename = `War for the Stars_Cards_v${version}.zip`;
+
+      try {
+        const response = await fetch("../cards.json");
+        const images = await response.json();
+
+        const folder = zip.folder("War for the Stars Cards");
+
+        const imagePromises = images.map(async (imageName) => {
+          const response = await fetch(`../cards/${imageName}`);
+          const blob = await response.blob();
+          folder.file(imageName, blob);
+        });
+
+        await Promise.all(imagePromises);
+
+        zip.generateAsync({ type: "blob" }).then((content) => {
+          const a = document.createElement("a");
+          a.href = URL.createObjectURL(content);
+          a.download = zipFilename;
+          a.click();
+        });
+      } catch (error) {
+        console.error("Error downloading card images:", error);
+        alert("Failed to download card images.");
+      }
+    }
+
+    fetch("../cards.json")
+      .then(response => response.json())
+      .then(images => {
+        const gallery = document.getElementById("gallery");
+        images.forEach(name => {
+          let cardWrapper = document.createElement("div");
+          cardWrapper.className = "card-wrapper";
+          cardWrapper.setAttribute("data-name", name);
+
+          let img = document.createElement("img");
+          img.src = imageFolder + name;
+          img.className = "card";
+          img.onclick = () => addToDeck(name);
+
+          img.addEventListener('contextmenu', function(event) {
+            event.preventDefault();
+            removeFromDeck(name);
+          });
+
+          let counter = document.createElement("div");
+          counter.className = "card-counter";
+          counter.innerText = "x1";
+          counter.style.display = "none";
+
+          cardWrapper.appendChild(img);
+          cardWrapper.appendChild(counter);
+          gallery.appendChild(cardWrapper);
+        });
+      })
+      .catch(error => console.error("Error loading images:", error));
+
+    document.getElementById("deck").oncontextmenu = (e) => e.preventDefault();
+
+    document.getElementById("upload-btn").addEventListener("click", function() {
+      document.getElementById("upload-deck").click();
+    });
+	
+	function downloadDeckImage() {
+	// Get deck name
+	const deckName = document.getElementById("deck-name").value.trim() || "deck_image";
+    // Create a canvas with the desired dimensions
+    const canvas = document.createElement('canvas');
+    canvas.width = 4096;
+    canvas.height = 4096;
+    const ctx = canvas.getContext('2d');
+
+    // Fill the canvas background (optional – here, white)
+    ctx.fillStyle = "#fff";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // Grid configuration: 10 columns x 7 rows, each cell is 409x585 pixels.
+    const cols = 10;
+    const rows = 7;
+    const cellWidth = 409;
+    const cellHeight = 585;
+    const gridWidth = cellWidth * cols;  // 4090 pixels
+    const gridHeight = cellHeight * rows; // 4095 pixels
+    // Center the grid on the canvas (small margins may appear)
+    const offsetX = Math.floor((canvas.width - gridWidth) / 2);
+    const offsetY = Math.floor((canvas.height - gridHeight) / 2);
+
+    // Build an array of card names from the deck object.
+    // (deck keys are stored without the .jpg extension.)
+    let deckCards = [];
+    for (let card in deck) {
+      for (let i = 0; i < deck[card]; i++) {
+        deckCards.push(card);
+      }
+    }
+    // If more than 70 cards, trim to the first 70.
+    deckCards = deckCards.slice(0, 70);
+    // If less than 70, pad with nulls (which will render as blank cells).
+    while (deckCards.length < 70) {
+      deckCards.push(null);
+    }
+
+    // Prepare an array of Promises for loading and drawing each card image.
+    let promises = [];
+    deckCards.forEach((cardName, index) => {
+      const col = index % cols;
+      const row = Math.floor(index / cols);
+      const x = offsetX + col * cellWidth;
+      const y = offsetY + row * cellHeight;
+
+      if (cardName) {
+        // Create a new Image object for the card.
+        const img = new Image();
+        // Set crossOrigin in case of CORS issues (if your images are hosted accordingly).
+        img.crossOrigin = "anonymous";
+        // Construct the image URL (assuming all card images are .jpg files in the imageFolder).
+        img.src = imageFolder + cardName + ".jpg";
+        const p = new Promise((resolve, reject) => {
+          img.onload = function() {
+            ctx.drawImage(img, x, y, cellWidth, cellHeight);
+            resolve();
+          };
+          img.onerror = function() {
+            // If there’s an error loading the image, leave the cell blank.
+            console.error("Failed to load image for card:", cardName);
+            resolve();
+          };
+        });
+        promises.push(p);
+      } else {
+        // For blank cells, fill the area with a white rectangle (or any placeholder design).
+        ctx.fillStyle = "#fff";
+        ctx.fillRect(x, y, cellWidth, cellHeight);
+      }
+    });
+
+    // Once all images are drawn, convert the canvas to a JPG and trigger the download.
+    Promise.all(promises).then(() => {
+      canvas.toBlob(function(blob) {
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(blob);
+        a.download = deckName + ".jpg";
+        a.click();
+      });
+    });
+  }
+  </script>
+</body>
+</html>

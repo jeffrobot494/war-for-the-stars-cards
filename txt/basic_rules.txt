@@ -1,0 +1,91 @@
+1. Introduction
+
+Each player has a Construction Area where they build their ships. Between the players are the Zone cards. These represent locations the spaceships may visit and travel between, each offering a unique benefit.
+
+[introduction canvas]
+
+2. Defend Your Homeworld
+
+Your homeworld has 10 health. Defend it from attack while simultaneously traveling across the system to destroy your opponents'.
+
+[../cards/objective_Marsa.jpg, .15]+
+[../cards/objective_Verene.jpg, .15]+
+[../cards/objective_Zenzuul.jpg, .15]+
+[../cards/objective_Sector 7.jpg, .15]+
+
+3. Modules
+
+Ships in War for the Stars are constructed from individual modules, each providing specific functionality. 
+
+[../cards/module_Hypersonic Missiles.jpg, .15]+
+[../cards/module_Power Core.jpg, .15]+
+[../cards/module_Armor Plating.jpg, .15]+
+[../cards/module_Thruster.jpg, .15]+
+
+4. Build Your Spaceships
+
+Play modules adjacent to one another to build a ship.
+
+[../cards/module_Armor Plating.jpg, .15]+
+[../cards/module_Armor Plating.jpg, .15]
+[../cards/module_Hypersonic Missiles.jpg, .15]+
+[../cards/module_Power Core.jpg, .15]
+[../cards/module_Thruster.jpg, .15]+
+[../cards/module_Thruster.jpg, .15]
+
+
+4. Energy
+
+Playing modules costs energy, noted in the top right of cards. Energon Cell taps to add 1 to your energy pool. Solar Collector adds three, but only if your ship is at the sun zone.
+
+[../cards/module_Energon Cell.jpg, .15]+
+[../cards/module_Solar Collector.jpg, .15]
+
+5. The Play Space
+
+[../cards/objective_Motherlode Asteroid Belt.jpg, .15]+
+[../cards/objective_G-type Main-sequence Star Sol.jpg, .15]+
+[../cards/objective_Marsa.jpg, .15]+
+[../cards/objective_Verene.jpg, .15]
+
+In a two-player match, the play space contains four zones: the Asteroid Belt, the Sun,  and each player's Home world. These are cards laid out between the players. Move your ships to The Sun to harness its incredible energy. Move them to The Asteroid Belt to exploit the abundant minerals. Move to your opponent's homeworld to attack and destroy it!
+
+5. Battle
+
+[../imgs/battle.jpg, .5]
+
+When ships do battle, they exchange fire with their weapons. Modules on ships are targeted individually for damage, so pick your targets wisely to neuter your opponent's ships!
+
+6. Leaders
+
+Your society is nothing without its leaders. Leaders pilot your ships and grant bonuses to your fleet. Some have abilities that trigger when they enter the battlefield.
+
+[../cards/leader_Tarkos Dren.jpg, .15]+
+[../cards/leader_Zep Gee.jpg, .15]+
+[../cards/leader_Convict 24601.jpg, .15] 
+
+Leaders can be killed in battle.
+
+7. Orders
+
+Orders are one-off cards with dramatic effects. They are issued by Leaders and target objects in the same zone.
+
+[../cards/order_Missile Barrage.jpg, .15]+
+[../cards/order_Outmaneuver.jpg, .15]+
+[../cards/order_Supply Shipment.jpg, .15]
+
+Standing Orders persist until the Leader who issued them is killed.
+
+[../cards/order_Full Power to Engines.jpg, .15]
+
+8. Your Starting Ship
+
+Before the game starts, each player takes out any number of modules, leaders, and/or Standing Orders with a sum total energy cost of 10 or less, and puts them into play over their homeworld. This is your starting ship.
+
+[../imgs/starting_ship.jpg, .15]+
+[../imgs/starting_ship_02.jpg, .15]+
+[../imgs/starting_ship_03.jpg, .15]
+
+You're now ready to get started! Visit the Deckbuilder to try building a deck or check out the Full Rules to learn more!
+
+

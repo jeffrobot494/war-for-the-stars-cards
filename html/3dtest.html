@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3d test with three.js - 200 Full Resolution Cards</title>
+  <style>
+    /* Full-window canvas */
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <!-- Include three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script>
+    // Create scene, camera, and renderer.
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(
+      75,
+      window.innerWidth / window.innerHeight,
+      0.1,
+      1000
+    );
+    // Set the camera farther back so the grid is fully visible.
+    camera.position.z = 70;
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setClearColor(0x222222, 1);
+    document.body.appendChild(renderer.domElement);
+
+    window.addEventListener('resize', () => {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    // Create a group to hold all card meshes.
+    const cardGroup = new THREE.Group();
+    scene.add(cardGroup);
+
+    // Card dimensions in scene units (scaled from 409×585 pixels).
+    const cardWidth = 40.09;
+    const cardHeight = 50.85;
+    // Define gaps between cards.
+    const gapX = 1.0;
+    const gapY = 1.0;
+    // Define grid dimensions: 20 columns x 10 rows = 200 cards.
+    const columns = 20;
+    const rows = 10;
+    const gridWidth = columns * (cardWidth + gapX);
+    const gridHeight = rows * (cardHeight + gapY);
+
+    // Set up the texture loader and cache.
+    const loader = new THREE.TextureLoader();
+    const textureCache = {};
+
+    // Create a card mesh using a random card texture.
+    function createCardMesh(cardName) {
+      const geometry = new THREE.PlaneGeometry(cardWidth, cardHeight);
+      const material = new THREE.MeshBasicMaterial({ color: 0xffffff });
+      const mesh = new THREE.Mesh(geometry, material);
+
+      // Each card rotates around its own y-axis.
+      mesh.rotation.y = 0;
+      
+      const url = "cards/" + cardName;
+      if (textureCache[cardName]) {
+        material.map = textureCache[cardName];
+        material.needsUpdate = true;
+      } else {
+        loader.load(url, (texture) => {
+          textureCache[cardName] = texture;
+          material.map = texture;
+          material.needsUpdate = true;
+        }, undefined, (err) => {
+          console.error("Failed to load texture:", url, err);
+        });
+      }
+      return mesh;
+    }
+
+    // Fetch cards.json and arrange 200 cards in a grid.
+    fetch("cards.json")
+      .then(response => response.json())
+      .then(data => {
+        if (data && data.length > 0) {
+          // Loop over grid rows and columns.
+          for (let i = 0; i < rows; i++) {
+            for (let j = 0; j < columns; j++) {
+              // Pick a random card from the data array.
+              const randomIndex = Math.floor(Math.random() * data.length);
+              const cardName = data[randomIndex];
+              const cardMesh = createCardMesh(cardName);
+              
+              // Compute x and y so that the grid is centered.
+              const x = j * (cardWidth + gapX) - gridWidth / 2 + (cardWidth + gapX) / 2;
+              // In three.js, y increases upward; arrange rows top-to-bottom.
+              const y = gridHeight / 2 - i * (cardHeight + gapY) - (cardHeight + gapY) / 2;
+              cardMesh.position.set(x, y, 0);
+              
+              cardGroup.add(cardMesh);
+            }
+          }
+        } else {
+          console.error("cards.json is empty or invalid.");
+        }
+      })
+      .catch(err => console.error("Error fetching cards.json:", err));
+
+    // Animation loop: rotate each card around its own y-axis.
+    function animate() {
+      requestAnimationFrame(animate);
+      cardGroup.children.forEach(card => {
+        card.rotation.y += 0.01; // Adjust rotation speed if needed.
+      });
+      renderer.render(scene, camera);
+    }
+    animate();
+  </script>
+</body>
+</html>
