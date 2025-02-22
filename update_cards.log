@@ -2144,3 +2144,36 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-22 16:32:39
+[main 9c291ca] Auto-update: 2025-02-22 16:32:39
+ 51 files changed, 638 insertions(+), 309 deletions(-)
+ create mode 100644 TTS Decks/tts links.txt
+ create mode 100644 art/Sector 7.png
+ delete mode 100644 basic_rules.txt
+ create mode 100644 cards/objective_Sector 7.jpg
+ create mode 100644 cards/objective_Sector 7.png
+ rename old csss.css => css/old csss.css (100%)
+ rename war_for_the_stars.css => css/war_for_the_stars.css (93%)
+ create mode 100644 html/3dtest.html
+ rename gallery.html => html/gallery.html (97%)
+ create mode 100644 html/overview.html
+ rename rules.html => html/rules.html (91%)
+ rename shipbuilder.html => html/shipbuilder.html (87%)
+ create mode 100644 imgs/screenshot_ship.jpg
+ create mode 100644 js/overview.js
+ rename shipbuilder.js => js/shipbuilder.js (93%)
+ delete mode 100644 overview.html
+ delete mode 100644 resize_stitched_image.sh
+ delete mode 100644 stitch_images.sh
+ delete mode 100644 stitched_cards.jpg
+ delete mode 100644 stitched_cards_resized.jpg
+ create mode 100644 txt/basic_rules.txt
+ rename full_rules.txt => txt/full_rules.txt (100%)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   f20b639..9c291ca  main -> main
+========== Update Completed: Sat Feb 22 16:32:46 CST 2025 ==========
+========== Update Started: Sat Feb 22 17:44:31 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...

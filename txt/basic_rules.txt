@@ -41,15 +41,6 @@ Playing modules costs energy, noted in the top right of cards. Energon Cell taps
 [../cards/module_Energon Cell.jpg, .15]+
 [../cards/module_Solar Collector.jpg, .15]
 
-5. The Play Space
-
-[../cards/objective_Motherlode Asteroid Belt.jpg, .15]+
-[../cards/objective_G-type Main-sequence Star Sol.jpg, .15]+
-[../cards/objective_Marsa.jpg, .15]+
-[../cards/objective_Verene.jpg, .15]
-
-In a two-player match, the play space contains four zones: the Asteroid Belt, the Sun,  and each player's Home world. These are cards laid out between the players. Move your ships to The Sun to harness its incredible energy. Move them to The Asteroid Belt to exploit the abundant minerals. Move to your opponent's homeworld to attack and destroy it!
-
 5. Battle
 
 [../imgs/battle.jpg, .5]

@@ -35,7 +35,6 @@
       <button class="filter-btn" onclick="filterCards('module', this)">Modules</button>
       <button class="filter-btn" onclick="filterCards('order', this)">Orders</button>
       <button class="filter-btn" onclick="filterCards('leader', this)">Leaders</button>
-      <button class="filter-btn" onclick="showGameMap()">Game Map</button>
     </div>
 
     <div class="card-container" id="gallery"></div>
@@ -213,19 +212,6 @@
       a.href = URL.createObjectURL(blob);
       a.download = `${deckName.replace(/\s+/g, "_")}.txt`;
       a.click();
-    }
-
-    function showGameMap() {
-      const gallery = document.getElementById("gallery");
-      const map = document.getElementById("game-map");
-
-      // Hide the card gallery and show the game map
-      gallery.style.display = "none";
-      map.style.display = "block";
-
-      // Move the yellow highlight to the "Game Map" button
-      document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active-filter"));
-      document.querySelector("button[onclick='showGameMap()']").classList.add("active-filter");
     }
 
     // Function to download all card images in a ZIP file
