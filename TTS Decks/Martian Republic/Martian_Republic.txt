@@ -1,0 +1,36 @@
+### War for the Stars Deck: Martian Republic
+1 module_Armor Plating
+1 module_Cloaking Field
+1 module_Compact Fusion Core
+6 module_Energon Cell
+1 module_Energy Shield
+1 module_Cryostasis Pods
+1 module_Engineering Room
+1 module_Garrison
+2 module_Impulse Core
+5 module_Mining Laser
+3 module_Laser Drive
+1 module_Ion Cannon
+4 module_Manned Turret
+1 module_Negative Energy Field
+4 module_Power Core
+4 module_Solar Collector
+6 module_Small Laser
+6 module_Thruster
+1 leader_Elrond Hubbard
+1 leader_Chip Roy, Engineer
+1 leader_Captain Jace Brigley
+1 leader_Bronin Briggs, Shipbuilder
+1 leader_Foreman Garek Voss
+1 leader_Migdin Bowles
+1 leader_Pilot Dave
+2 leader_Tarkos Dren
+1 leader_Dr. Veyna Kross
+1 order_EMP Disruption
+1 order_Acitvate the Tractor Beam
+4 order_Supply Shipment
+1 order_Priority Jump
+1 order_Missile Barrage
+1 order_MK-I Torpedo
+1 order_Get it Fixed!
+1 module_Adaptive Plating
