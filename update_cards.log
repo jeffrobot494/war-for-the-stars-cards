@@ -2034,3 +2034,18 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-21 15:04:46
+[main 04bceb9] Auto-update: 2025-02-21 15:04:46
+ 5 files changed, 45 insertions(+)
+ create mode 100644 TTS Decks/Zangorian Armada.jpg
+ delete mode 100644 TTS Decks/Zangorian_Armada.png
+ create mode 100644 TTS Decks/Zangorian_Armada.txt
+ delete mode 100644 TTS Decks/deck_image.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   f31a4c5..04bceb9  main -> main
+========== Update Completed: Fri Feb 21 15:04:53 CST 2025 ==========
+========== Update Started: Fri Feb 21 18:15:48 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
