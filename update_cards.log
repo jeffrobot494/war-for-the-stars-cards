@@ -2300,3 +2300,22 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-23 13:08:34
+[main 7335250] Auto-update: 2025-02-23 13:08:34
+ 10 files changed, 29183 insertions(+), 3 deletions(-)
+ create mode 100644 models/ship marker/red_01.jpg
+ create mode 100644 models/ship marker/red_02.jpg
+ create mode 100644 models/ship marker/red_03.jpg
+ create mode 100644 models/ship marker/red_04.jpg
+ create mode 100644 models/ship marker/red_05.jpg
+ create mode 100644 models/ship marker/red_06.jpg
+ create mode 100644 models/ship marker/ship_marker.obj
+ create mode 100644 models/ship marker/ship_marker.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   66eae0a..7335250  main -> main
+========== Update Completed: Sun Feb 23 13:08:39 CST 2025 ==========
+========== Update Started: Sun Feb 23 13:27:23 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
