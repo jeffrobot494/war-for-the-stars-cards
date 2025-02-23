@@ -2367,3 +2367,24 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-23 15:44:40
+[main ccc2761] Auto-update: 2025-02-23 15:44:40
+ 53 files changed, 13 insertions(+)
+ create mode 100644 art/Heavy Laser Cannon.png
+ create mode 100644 art/Negative Energy Field.png
+ create mode 100644 art/Negative Energy Pulse.png
+ create mode 100644 art/Small Laser.jpg
+ create mode 100644 cards/module_Heavy Laser Cannon.jpg
+ create mode 100644 cards/module_Heavy Laser Cannon.png
+ create mode 100644 cards/order_Negative Energy Pulse.jpg
+ create mode 100644 cards/order_Negative Energy Pulse.png
+ create mode 100644 imgs/Small Laser.png
+ create mode 100644 models/ship marker/yellow_05.xcf
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   9cee253..ccc2761  main -> main
+========== Update Completed: Sun Feb 23 15:44:48 CST 2025 ==========
+========== Update Started: Sun Feb 23 16:10:17 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
