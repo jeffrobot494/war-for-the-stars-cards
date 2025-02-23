@@ -2403,3 +2403,19 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-23 16:20:02
+[main 57b7d64] Auto-update: 2025-02-23 16:20:02
+ 10 files changed, 54 insertions(+), 51 deletions(-)
+ delete mode 100644 TTS Decks/Martian Republic/Martian Republic.jpg
+ delete mode 100644 TTS Decks/Martian Republic/Martian_Republic.txt
+ create mode 100644 TTS Decks/Test_Deck_2-23.txt
+ delete mode 100644 TTS Decks/Zone Deck/Zone Deck.png
+ delete mode 100644 TTS Decks/Zone Deck/Zone Deck.tsdb
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   d197da3..57b7d64  main -> main
+========== Update Completed: Sun Feb 23 16:20:08 CST 2025 ==========
+========== Update Started: Sun Feb 23 16:29:13 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
