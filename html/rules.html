@@ -107,9 +107,8 @@
         // Process the full_rules.txt line-by-line.
         lines.forEach(line => {
           line = line.trim();
-          if (!line) {
-            currentSectionContent += "<br/>";
-          } else if (/^\d+\./.test(line)) {
+          if (!line) return;
+          if (/^\d+\./.test(line)) {
             // New section header (e.g., "1. Introduction")
             if (currentSectionHeader) {
               content += `<details ${isFirstSection ? "open" : ""}><summary>${currentSectionHeader}</summary>${currentSectionContent}</details>`;
