@@ -2600,3 +2600,22 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Auto-update: 2025-02-26 20:43:22
+[main 0e63135] Auto-update: 2025-02-26 20:43:22
+ 4 files changed, 21 insertions(+), 4 deletions(-)
+ rename TTS Decks/{deck_05.jpg => deck_01.jpg} (100%)
+ rename TTS Decks/{zone_deck2.jpg => zone_deck.jpg} (100%)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/jeffrobot494/war-for-the-stars-cards.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+========== Update Completed: Wed Feb 26 20:43:24 CST 2025 ==========
+========== Update Started: Thu Feb 27 16:27:00 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
