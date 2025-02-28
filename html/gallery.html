@@ -13,6 +13,27 @@
       text-align: center;
       display: flex;
     }
+    .module-card {
+  transition: transform 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  }
+
+  .module-card:hover {
+    transform: scale(1.05);
+    border: 2px solid var(--highlight-color);
+    box-shadow: 0 0 8px var(--highlight-color);
+  }
+
+  .module-card.in-deck {
+    border: 2px solid var(--highlight-color);
+    /* Removed the box-shadow from here */
+  }
+
+  /* When a card in the deck is hovered, it gets both effects */
+  .module-card.in-deck:hover {
+    box-shadow: 0 0 8px var(--highlight-color);
+  }
   </style>
 </head>
 <body>
@@ -154,20 +175,20 @@
       document.getElementById("deck-count").innerText = totalCards;
 
       document.querySelectorAll(".card-wrapper").forEach(wrapper => {
-        const name = wrapper.getAttribute("data-name").replace(".jpg", "");
-        const counter = wrapper.querySelector(".card-counter");
-        const cardImg = wrapper.querySelector(".card");
+      const name = wrapper.getAttribute("data-name").replace(".jpg", "");
+      const counter = wrapper.querySelector(".card-counter");
+      const cardImg = wrapper.querySelector(".module-card");
 
-        if (deck[name]) {
-          cardImg.classList.add("in-deck");
-          counter.style.display = "block";
-          counter.innerText = `x${deck[name]}`;
-        } else {
-          cardImg.classList.remove("in-deck");
-          counter.style.display = "none";
-        }
-      });
-    }
+      if (deck[name]) {
+        cardImg.classList.add("in-deck");
+        counter.style.display = "block";
+        counter.innerText = `x${deck[name]}`;
+      } else {
+        cardImg.classList.remove("in-deck");
+        counter.style.display = "none";
+      }
+    });
+  }
 
     function addToDeck(cardName) {
       cardName = cardName.replace(".jpg", "");
@@ -258,7 +279,7 @@
 
           let img = document.createElement("img");
           img.src = imageFolder + name;
-          img.className = "card";
+          img.className = "module-card";
           img.onclick = () => addToDeck(name);
 
           img.addEventListener('contextmenu', function(event) {
