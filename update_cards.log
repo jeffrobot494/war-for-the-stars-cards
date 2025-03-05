@@ -2837,3 +2837,60 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Auto-update: 2025-03-05 15:38:21
+[main f51fe67] Auto-update: 2025-03-05 15:38:21
+ 58 files changed, 3264 insertions(+), 15 deletions(-)
+ create mode 100644 TTS Decks/war-for-the-stars-cards/Cards - Leaders.txt
+ create mode 100644 TTS Decks/war-for-the-stars-cards/Cards-Modules.txt
+ create mode 100644 TTS Decks/war-for-the-stars-cards/Cards-Objectives.txt
+ create mode 100644 TTS Decks/war-for-the-stars-cards/Cards-Orders.txt
+ create mode 100644 TTS Decks/war-for-the-stars-cards/README.md
+ create mode 100644 TTS Decks/war-for-the-stars-cards/bfg-1.15.0.jar
+ create mode 100644 TTS Decks/war-for-the-stars-cards/cards.json
+ create mode 100644 TTS Decks/war-for-the-stars-cards/generate_card_list.sh
+ create mode 100644 TTS Decks/war-for-the-stars-cards/index.html
+ create mode 100644 TTS Decks/war-for-the-stars-cards/update_cards.log
+ create mode 100644 TTS Decks/war-for-the-stars-cards/update_cards.sh
+ rename "art/Korrhask Drek\342\200\231marr, War-Voice of the Unbroken.png" => art/Korrhask Drek'Mar, War-Voice of the Unbroken.png (100%)
+ rename "art/Syvrek Jhazi\342\200\231kor, The Fleshboiler.png" => art/Syvrek Jhazi'kor, The Fleshboiler.png (100%)
+ rename "art/Zaevra Zhun\342\200\231kai, The Mother of Shadows.png" => art/Zaevra Zhun'kai, The Mother of Shadows.png (100%)
+ delete mode 100644 cards/leader_Breeder.jpg
+ delete mode 100644 cards/leader_Breeder.png
+ delete mode 100644 cards/leader_David Wang.png
+ delete mode 100644 cards/leader_Durnan Dig, Explorer.png
+ delete mode 100644 cards/leader_Healer.jpg
+ delete mode 100644 cards/leader_Healer.png
+ create mode 100644 cards/leader_Korrhask Drek'Mar, War-Voice of the Unbroken.jpg
+ create mode 100644 cards/leader_Korrhask Drek'Mar, War-Voice of the Unbroken.png
+ delete mode 100644 "cards/leader_Korrhask Drek\342\200\231marr, War-Voice of the Unbroken.jpg"
+ delete mode 100644 "cards/leader_Korrhask Drek\342\200\231marr, War-Voice of the Unbroken.png"
+ delete mode 100644 cards/leader_Potionmaster.jpg
+ delete mode 100644 cards/leader_Potionmaster.png
+ delete mode 100644 cards/leader_Priestess.jpg
+ delete mode 100644 cards/leader_Priestess.png
+ delete mode 100644 cards/leader_Slave.jpg
+ delete mode 100644 cards/leader_Slave.png
+ create mode 100644 cards/leader_Syvrek Jhazi'kor, The Fleshboiler.jpg
+ create mode 100644 cards/leader_Syvrek Jhazi'kor, The Fleshboiler.png
+ delete mode 100644 "cards/leader_Syvrek Jhazi\342\200\231kor, The Fleshboiler.jpg"
+ delete mode 100644 "cards/leader_Syvrek Jhazi\342\200\231kor, The Fleshboiler.png"
+ create mode 100644 cards/leader_Zaevra Zhun'kai, The Mother of Shadows.jpg
+ create mode 100644 cards/leader_Zaevra Zhun'kai, The Mother of Shadows.png
+ delete mode 100644 "cards/leader_Zaevra Zhun\342\200\231kai, The Mother of Shadows.jpg"
+ delete mode 100644 "cards/leader_Zaevra Zhun\342\200\231kai, The Mother of Shadows.png"
+ delete mode 100644 cards/module_Stormdrayyver .jpg
+ delete mode 100644 cards/module_Stormdrayyver .png
+ create mode 100644 cards/module_Stormdrayyver.jpg
+ create mode 100644 cards/module_Stormdrayyver.png
+ create mode 100644 cards/module_T'zakh Reevorr.jpg
+ create mode 100644 cards/module_T'zakh Reevorr.png
+ delete mode 100644 "cards/module_T\342\200\231zakh Reevorr.jpg"
+ delete mode 100644 "cards/module_T\342\200\231zakh Reevorr.png"
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   e155751..f51fe67  main -> main
+========== Update Completed: Wed Mar  5 15:38:28 CST 2025 ==========
+========== Update Started: Wed Mar  5 16:40:42 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
