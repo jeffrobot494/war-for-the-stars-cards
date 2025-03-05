@@ -2745,3 +2745,83 @@ To https://github.com/jeffrobot494/war-for-the-stars-cards.git
 Running generate_card_list.sh...
 Updated cards.json with JPG files!
 Staging changes...
+Committing changes: Auto-update: 2025-03-04 20:27:53
+[main 72f6d54] Auto-update: 2025-03-04 20:27:53
+ 147 files changed, 38 insertions(+)
+ create mode 100644 art/Brigadier General Nikolai.png
+ create mode 100644 art/Daniella Wang.png
+ create mode 100644 art/Drazka Orun'ket, Keeper of Venoms.png
+ create mode 100644 art/Durnan Dig.png
+ create mode 100644 art/Fyredreenker.png
+ create mode 100644 "art/Korrhask Drek\342\200\231marr, War-Voice of the Unbroken.png"
+ create mode 100644 art/Sazhira Tanzuka, She Who Rules the Pillow Court.png
+ create mode 100644 art/Stormdrayyver.png
+ create mode 100644 "art/Syvrek Jhazi\342\200\231kor, The Fleshboiler.png"
+ create mode 100644 art/T'zakh Reevorr.png
+ create mode 100644 art/Tazrek Vhun'kaar, One-Eyed Death.png
+ create mode 100644 art/Zaesha Rhazwen, Taken in Fire.png
+ create mode 100644 "art/Zaevra Zhun\342\200\231kai, The Mother of Shadows.png"
+ create mode 100644 cards/leader_Breeder.jpg
+ create mode 100644 cards/leader_Breeder.png
+ create mode 100644 cards/leader_Brigadier General Nikolai.jpg
+ create mode 100644 cards/leader_Brigadier General Nikolai.png
+ create mode 100644 cards/leader_Daniella Wang.jpg
+ create mode 100644 cards/leader_Daniella Wang.png
+ create mode 100644 cards/leader_David Wang.png
+ create mode 100644 cards/leader_Destroyer.jpg
+ create mode 100644 cards/leader_Destroyer.png
+ create mode 100644 cards/leader_Drazka Orun'ket, Keeper of Venoms.jpg
+ create mode 100644 cards/leader_Drazka Orun'ket, Keeper of Venoms.png
+ create mode 100644 cards/leader_Durnan Dig, Explorer.png
+ create mode 100644 cards/leader_Durnan Dig.jpg
+ create mode 100644 cards/leader_Durnan Dig.png
+ create mode 100644 cards/leader_Healer.jpg
+ create mode 100644 cards/leader_Healer.png
+ create mode 100644 "cards/leader_Korrhask Drek\342\200\231marr, War-Voice of the Unbroken.jpg"
+ create mode 100644 "cards/leader_Korrhask Drek\342\200\231marr, War-Voice of the Unbroken.png"
+ create mode 100644 cards/leader_Pilot.jpg
+ create mode 100644 cards/leader_Pilot.png
+ create mode 100644 cards/leader_Potionmaster.jpg
+ create mode 100644 cards/leader_Potionmaster.png
+ create mode 100644 cards/leader_Priestess.jpg
+ create mode 100644 cards/leader_Priestess.png
+ create mode 100644 cards/leader_Sazhira Tanzuka, She Who Rules the Pillow Court.jpg
+ create mode 100644 cards/leader_Sazhira Tanzuka, She Who Rules the Pillow Court.png
+ create mode 100644 cards/leader_Seer.jpg
+ create mode 100644 cards/leader_Seer.png
+ create mode 100644 cards/leader_Slave.jpg
+ create mode 100644 cards/leader_Slave.png
+ create mode 100644 "cards/leader_Syvrek Jhazi\342\200\231kor, The Fleshboiler.jpg"
+ create mode 100644 "cards/leader_Syvrek Jhazi\342\200\231kor, The Fleshboiler.png"
+ create mode 100644 cards/leader_Tazrek Vhun'kaar, One-Eyed Death.jpg
+ create mode 100644 cards/leader_Tazrek Vhun'kaar, One-Eyed Death.png
+ create mode 100644 cards/leader_Zaesha Rhazwen, Taken in Fire.jpg
+ create mode 100644 cards/leader_Zaesha Rhazwen, Taken in Fire.png
+ create mode 100644 "cards/leader_Zaevra Zhun\342\200\231kai, The Mother of Shadows.jpg"
+ create mode 100644 "cards/leader_Zaevra Zhun\342\200\231kai, The Mother of Shadows.png"
+ create mode 100644 cards/module_Baiyu Pattern Fusion Reactor.jpg
+ create mode 100644 cards/module_Baiyu Pattern Fusion Reactor.png
+ create mode 100644 cards/module_Fyredreenker.jpg
+ create mode 100644 cards/module_Fyredreenker.png
+ create mode 100644 cards/module_Mezh-Talith.jpg
+ create mode 100644 cards/module_Mezh-Talith.png
+ create mode 100644 cards/module_Model-03 Emperor's Edict.jpg
+ create mode 100644 cards/module_Model-03 Emperor's Edict.png
+ create mode 100644 cards/module_Model-88 Dragon Drive.jpg
+ create mode 100644 cards/module_Model-88 Dragon Drive.png
+ create mode 100644 cards/module_Orzhen-Thul.jpg
+ create mode 100644 cards/module_Orzhen-Thul.png
+ create mode 100644 cards/module_Stormdrayyver .jpg
+ create mode 100644 cards/module_Stormdrayyver .png
+ create mode 100644 "cards/module_T\342\200\231zakh Reevorr.jpg"
+ create mode 100644 "cards/module_T\342\200\231zakh Reevorr.png"
+ create mode 100644 cards/module_Urza-Mekh.jpg
+ create mode 100644 cards/module_Urza-Mekh.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   cefe8c1..72f6d54  main -> main
+========== Update Completed: Tue Mar  4 20:28:05 CST 2025 ==========
+========== Update Started: Tue Mar  4 20:48:51 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
