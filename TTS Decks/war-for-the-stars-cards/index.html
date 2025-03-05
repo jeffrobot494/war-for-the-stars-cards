@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>War for the Stars</title>
+  <!-- Google Fonts: Exo 2 for a futuristic yet readable vibe -->
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/war_for_the_stars.css">
+  <style>
+   /* Index */
+    body {
+      text-align: center;
+    }
+    
+	p{
+		text-align: center;
+	}
+	
+    .hero {
+      height: 400px;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .hero video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+        
+    .section {
+      padding: 50px 20px;
+      margin-bottom: 50px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+  </style>
+  <script>
+    async function getRandomCards() {
+      try {
+        let response = await fetch(`cards.json?t=${new Date().getTime()}`);
+        let cards = await response.json();
+        let selectedCards = [];
+        
+        while (selectedCards.length < 7 && cards.length > 0) {
+          let randomIndex = Math.floor(Math.random() * cards.length);
+          selectedCards.push(cards.splice(randomIndex, 1)[0]);
+        }
+        
+        let container = document.getElementById("card-container");
+        container.innerHTML = "";
+        selectedCards.forEach(card => {
+          let img = document.createElement("img");
+          img.src = "cards/" + card;
+          img.alt = "Random Card";
+          container.appendChild(img);
+        });
+      } catch (error) {
+        console.error("Error loading random cards:", error);
+      }
+    }
+    
+    window.onload = getRandomCards;
+  </script>
+</head>
+<body>
+  <div class="hero">
+    <video autoplay muted loop playsinline>
+      <source src="imgs/header_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <h1>Build. Battle. Conquer. The War for the Stars Begins.</h1>
+  
+  <div class="footer">
+    <div class="nav-links">
+		<a href="index.html" class="nav-link">Home Page</a>
+		<a href="html/overview.html" class="nav-link">Overview</a>
+	    <a href="html/gallery.html" class="nav-link">Deckbuilder</a>
+		<a href="html/shipbuilder.html" class="nav-link">Shipbuilder</a>
+		<a href="html/rules.html" class="nav-link">Full Rules</a>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Build Your Fleet</h2>
+	<p>	Play modules from your hand to build custom spaceships.</p>
+    <img src="imgs/ship_construction.gif" alt="Ship Construction" style="width: 80%; max-width: 600px; height: auto;">
+  </div>
+  
+  <div class="section">
+    <h2>Battle Your Rivals</h2>
+	<p> Test your ship's mettle in fierce combat.</p>
+    <img src="imgs/battle.jpg" alt="Battle" style="width: 100%; max-width: 800px; height: auto;">
+  </div>
+  
+  <div class="section">
+    <h2>War for the Stars</h2>
+	<p> Expand your fleet to an empire and rule the galaxy.</p>
+    <img src="imgs/populated_board.jpg" alt="War" style="width: 100%; max-width: 800px; height: auto;">
+  </div>
+  
+  <div class="section">
+    <h2>Random Cards of the Day</h2>
+    <div id="card-container" class="card-container"></div>
+    <button class="see-more-button" onclick="getRandomCards()">See More</button>
+  </div>
+  
+  <div class="footer">
+    <div class="nav-links">
+		<a href="index.html" class="nav-link">Home Page</a>
+		<a href="html/overview.html" class="nav-link">Overview</a>
+	    <a href="html/gallery.html" class="nav-link">Deckbuilder</a> 
+		<a href="html/shipbuilder.html" class="nav-link">Shipbuilder</a>
+		<a href="html/rules.html" class="nav-link">Full Rules</a> 
+    </div>
+  </div>
+</body>
+</html>

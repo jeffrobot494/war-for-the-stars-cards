@@ -1,0 +1,2835 @@
+========== Update Started: Thu Feb  6 17:52:01 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+warning: in the working copy of 'cards.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'update_cards.log', LF will be replaced by CRLF the next time Git touches it
+Committing changes: Auto-update: 2025-02-06 17:52:01
+[main d49c738] Auto-update: 2025-02-06 17:52:01
+ 1 file changed, 1 insertion(+), 68 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/jeffrobot494/war-for-the-stars-cards.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+========== Update Completed: Thu Feb  6 17:52:02 CST 2025 ==========
+========== Update Started: Thu Feb  6 18:00:38 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-06 18:00:40
+[main a85eb30] Auto-update: 2025-02-06 18:00:40
+ 2 files changed, 18 insertions(+)
+ create mode 100644 maps/Map_5x3.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   c2b3d64..a85eb30  main -> main
+========== Update Completed: Thu Feb  6 18:00:48 CST 2025 ==========
+========== Update Started: Thu Feb  6 18:50:42 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-06 18:50:43
+[main b15212b] Auto-update: 2025-02-06 18:50:43
+ 8 files changed, 14 insertions(+)
+ create mode 100644 art/Chip Roy, Engineer.png
+ create mode 100644 art/Get it Fixed!.png
+ create mode 100644 cards/leader_Chip Roy, Engineer.png
+ create mode 100644 cards/order_Get it Fixed!.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   a85eb30..b15212b  main -> main
+========== Update Completed: Thu Feb  6 18:50:48 CST 2025 ==========
+========== Update Started: Thu Feb  6 19:28:12 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-06 19:28:13
+[main ce5ab55] Auto-update: 2025-02-06 19:28:13
+ 2 files changed, 15 insertions(+)
+ create mode 100644 art/Fighter Bay.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   b15212b..ce5ab55  main -> main
+========== Update Completed: Thu Feb  6 19:28:17 CST 2025 ==========
+========== Update Started: Thu Feb  6 19:28:47 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-06 19:28:48
+[main b232ce4] Auto-update: 2025-02-06 19:28:48
+ 2 files changed, 12 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   ce5ab55..b232ce4  main -> main
+========== Update Completed: Thu Feb  6 19:28:51 CST 2025 ==========
+========== Update Started: Fri Feb  7 11:01:49 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 11:01:50
+[main 04bd238] Auto-update: 2025-02-07 11:01:50
+ 2 files changed, 143 insertions(+), 73 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   b232ce4..04bd238  main -> main
+========== Update Completed: Fri Feb  7 11:01:53 CST 2025 ==========
+========== Update Started: Fri Feb  7 11:12:53 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 11:12:54
+[main 928e9b9] Auto-update: 2025-02-07 11:12:54
+ 2 files changed, 104 insertions(+), 19 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   04bd238..928e9b9  main -> main
+========== Update Completed: Fri Feb  7 11:12:56 CST 2025 ==========
+========== Update Started: Fri Feb  7 11:22:19 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 11:22:19
+[main c63c078] Auto-update: 2025-02-07 11:22:19
+ 2 files changed, 50 insertions(+), 33 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   928e9b9..c63c078  main -> main
+========== Update Completed: Fri Feb  7 11:22:21 CST 2025 ==========
+========== Update Started: Fri Feb  7 11:31:22 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 11:31:23
+[main b4be522] Auto-update: 2025-02-07 11:31:23
+ 2 files changed, 35 insertions(+), 19 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   c63c078..b4be522  main -> main
+========== Update Completed: Fri Feb  7 11:31:25 CST 2025 ==========
+========== Update Started: Fri Feb  7 11:36:01 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 11:36:02
+[main 7df9353] Auto-update: 2025-02-07 11:36:02
+ 2 files changed, 47 insertions(+), 12 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   b4be522..7df9353  main -> main
+========== Update Completed: Fri Feb  7 11:36:06 CST 2025 ==========
+========== Update Started: Fri Feb  7 11:41:26 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 11:41:27
+[main 5546cdd] Auto-update: 2025-02-07 11:41:27
+ 2 files changed, 54 insertions(+), 69 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   7df9353..5546cdd  main -> main
+========== Update Completed: Fri Feb  7 11:41:29 CST 2025 ==========
+========== Update Started: Fri Feb  7 11:46:27 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 11:46:27
+[main 3eecbd6] Auto-update: 2025-02-07 11:46:27
+ 2 files changed, 37 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   5546cdd..3eecbd6  main -> main
+========== Update Completed: Fri Feb  7 11:46:29 CST 2025 ==========
+========== Update Started: Fri Feb  7 11:52:28 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 11:52:28
+[main 8f3a3a0] Auto-update: 2025-02-07 11:52:28
+ 2 files changed, 53 insertions(+), 35 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   3eecbd6..8f3a3a0  main -> main
+========== Update Completed: Fri Feb  7 11:52:30 CST 2025 ==========
+========== Update Started: Fri Feb  7 11:58:48 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 11:58:48
+[main d8a05bd] Auto-update: 2025-02-07 11:58:48
+ 2 files changed, 23 insertions(+), 6 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   8f3a3a0..d8a05bd  main -> main
+========== Update Completed: Fri Feb  7 11:58:50 CST 2025 ==========
+========== Update Started: Fri Feb  7 12:03:03 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 12:03:03
+[main 4750f09] Auto-update: 2025-02-07 12:03:03
+ 2 files changed, 19 insertions(+), 1 deletion(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   d8a05bd..4750f09  main -> main
+========== Update Completed: Fri Feb  7 12:03:05 CST 2025 ==========
+========== Update Started: Fri Feb  7 12:03:25 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 12:03:25
+[main 5946f1c] Auto-update: 2025-02-07 12:03:25
+ 2 files changed, 12 insertions(+), 1 deletion(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   4750f09..5946f1c  main -> main
+========== Update Completed: Fri Feb  7 12:03:27 CST 2025 ==========
+========== Update Started: Fri Feb  7 12:05:50 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 12:05:50
+[main c888f98] Auto-update: 2025-02-07 12:05:50
+ 2 files changed, 13 insertions(+), 2 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   5946f1c..c888f98  main -> main
+========== Update Completed: Fri Feb  7 12:05:54 CST 2025 ==========
+========== Update Started: Fri Feb  7 12:10:46 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 12:10:46
+[main 1ad1cdd] Auto-update: 2025-02-07 12:10:46
+ 2 files changed, 27 insertions(+), 15 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   c888f98..1ad1cdd  main -> main
+========== Update Completed: Fri Feb  7 12:10:48 CST 2025 ==========
+========== Update Started: Fri Feb  7 12:16:46 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 12:16:47
+[main 0b38ea8] Auto-update: 2025-02-07 12:16:47
+ 2 files changed, 19 insertions(+), 10 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   1ad1cdd..0b38ea8  main -> main
+========== Update Completed: Fri Feb  7 12:16:49 CST 2025 ==========
+========== Update Started: Fri Feb  7 12:57:27 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 12:57:28
+[main 2916e46] Auto-update: 2025-02-07 12:57:28
+ 7 files changed, 11 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   0b38ea8..2916e46  main -> main
+========== Update Completed: Fri Feb  7 12:57:33 CST 2025 ==========
+========== Update Started: Fri Feb  7 13:46:34 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 13:46:35
+[main 713b593] Auto-update: 2025-02-07 13:46:35
+ 12 files changed, 14 insertions(+)
+ create mode 100644 art/Adaptive Plating.png
+ create mode 100644 art/Living Quarters.png
+ create mode 100644 art/Manned Turret.png
+ create mode 100644 cards/module_Adaptive Plating.png
+ create mode 100644 cards/module_Living Quaters.png
+ create mode 100644 cards/module_Manned Turret.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   2916e46..713b593  main -> main
+========== Update Completed: Fri Feb  7 13:46:40 CST 2025 ==========
+========== Update Started: Fri Feb  7 13:50:55 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 13:50:55
+[main 856fa49] Auto-update: 2025-02-07 13:50:55
+ 2 files changed, 56 insertions(+), 1 deletion(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   713b593..856fa49  main -> main
+========== Update Completed: Fri Feb  7 13:50:59 CST 2025 ==========
+========== Update Started: Fri Feb  7 13:53:54 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 13:53:54
+[main d786e0e] Auto-update: 2025-02-07 13:53:54
+ 4 files changed, 12 insertions(+), 1 deletion(-)
+ create mode 100644 cards/module_Living Quarters.png
+ delete mode 100644 cards/module_Living Quaters.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   856fa49..d786e0e  main -> main
+========== Update Completed: Fri Feb  7 13:53:56 CST 2025 ==========
+========== Update Started: Fri Feb  7 13:54:32 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-07 13:54:32
+[main e2c01b2] Auto-update: 2025-02-07 13:54:32
+ 2 files changed, 14 insertions(+), 1 deletion(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   d786e0e..e2c01b2  main -> main
+========== Update Completed: Fri Feb  7 13:54:34 CST 2025 ==========
+========== Update Started: Sun Feb  9 14:48:36 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-09 14:48:39
+[main c95858b] Auto-update: 2025-02-09 14:48:39
+ 96 files changed, 267 insertions(+), 64 deletions(-)
+ create mode 100644 art/Give it All She's Got!.png
+ create mode 100644 art/Ion Cannon.png
+ create mode 100644 art/Major Falcina.png
+ create mode 100644 art/Pilot Dave.png
+ create mode 100644 art/Small Laser.png
+ create mode 100644 card_backs/back_00.png
+ create mode 100644 card_backs/back_01.png
+ create mode 100644 card_backs/back_02.png
+ create mode 100644 card_backs/back_03.png
+ create mode 100644 card_backs/back_04.png
+ create mode 100644 card_grid.png
+ create mode 100644 cards/leader_Major Falcina.png
+ create mode 100644 cards/leader_Pilot Dave.png
+ create mode 100644 cards/module_Ion Cannon.png
+ create mode 100644 cards/module_Small Laser.png
+ delete mode 100644 cards/module_Thruster II.png
+ delete mode 100644 cards/order_Fighting Retreat.png
+ create mode 100644 cards/order_Give it All She's Got!.png
+ create mode 100644 create_grid.sh
+ create mode 100644 generate_starry_background.sh
+ create mode 100644 maps/Full Hex Grid Map.jpg
+ create mode 100644 maps/Full Hex Grid Map.png
+ create mode 100644 maps/Map_Sun_Hexes_Rectangles.jpg
+ create mode 100644 resize_stitched_image.sh
+ create mode 100644 starry_sky.png
+ create mode 100644 stitch_images.sh
+ create mode 100644 stitched_cards.jpg
+ create mode 100644 stitched_cards_resized.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   e2c01b2..c95858b  main -> main
+========== Update Completed: Sun Feb  9 14:48:51 CST 2025 ==========
+========== Update Started: Sun Feb  9 23:24:05 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-09 23:24:06
+[main 2804162] Auto-update: 2025-02-09 23:24:06
+ 16 files changed, 40 insertions(+), 76 deletions(-)
+ delete mode 100644 card_grid.png
+ create mode 100644 cards/module_Energy Network.png
+ delete mode 100644 create_grid.sh
+ delete mode 100644 generate_starry_background.sh
+ delete mode 100644 starry_sky.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   c95858b..2804162  main -> main
+========== Update Completed: Sun Feb  9 23:24:13 CST 2025 ==========
+========== Update Started: Mon Feb 10 00:47:01 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-10 00:47:02
+[main 03ccd9d] Auto-update: 2025-02-10 00:47:02
+ 34 files changed, 21 insertions(+)
+ create mode 100644 cards/module_Advanced Construction Bay.png
+ create mode 100644 cards/module_Energon Battery.png
+ create mode 100644 cards/module_Missile Pod.png
+ create mode 100644 cards/module_Nicol-Dyson Beam.png
+ create mode 100644 cards/module_Probe.png
+ delete mode 100644 maps/Full Hex Grid Map.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   2804162..03ccd9d  main -> main
+========== Update Completed: Mon Feb 10 00:47:09 CST 2025 ==========
+========== Update Started: Mon Feb 10 17:32:20 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-10 17:32:21
+[main 5a7002a] Auto-update: 2025-02-10 17:32:21
+ 8 files changed, 43 insertions(+), 6 deletions(-)
+ create mode 100644 maps/Construction Grid.png
+ create mode 100644 maps/Map_Construction Area_01.jpg
+ create mode 100644 maps/Smaller Hex Grid Map.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   03ccd9d..5a7002a  main -> main
+========== Update Completed: Mon Feb 10 17:32:47 CST 2025 ==========
+========== Update Started: Mon Feb 10 17:33:13 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-10 17:33:13
+[main e140d9d] Auto-update: 2025-02-10 17:33:13
+ 6 files changed, 15 insertions(+), 1 deletion(-)
+ delete mode 100644 maps/Construction Grid.png
+ delete mode 100644 maps/Map_5x3.png
+ delete mode 100644 maps/Map_Sun_Hexes_Rectangles.jpg
+ delete mode 100644 maps/Smaller Hex Grid Map.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   5a7002a..e140d9d  main -> main
+========== Update Completed: Mon Feb 10 17:33:15 CST 2025 ==========
+========== Update Started: Mon Feb 10 18:22:45 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-10 18:22:46
+[main 21a9b58] Auto-update: 2025-02-10 18:22:46
+ 2 files changed, 36 insertions(+), 9 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   e140d9d..21a9b58  main -> main
+========== Update Completed: Mon Feb 10 18:22:48 CST 2025 ==========
+========== Update Started: Mon Feb 10 20:50:38 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-10 20:50:40
+[main e91203f] Auto-update: 2025-02-10 20:50:40
+ 32 files changed, 18 insertions(+)
+ create mode 100644 art/Advanced Construction Bay.png
+ create mode 100644 art/Be Still.png
+ create mode 100644 art/Cryostasis Pod.png
+ create mode 100644 art/Energon Battery.png
+ create mode 100644 art/Entropy Engine.png
+ create mode 100644 art/Freeze Ray.png
+ create mode 100644 art/Missile Pod.png
+ create mode 100644 art/Mystic Malorno.png
+ create mode 100644 art/Nicol-Dyson Beam.png
+ create mode 100644 art/Probe.png
+ create mode 100644 art/Simple Construction Bay.png
+ create mode 100644 art/Volkar the Still.png
+ create mode 100644 cards/leader_Mystic Malorno.png
+ create mode 100644 cards/leader_Volkar the Still.png
+ create mode 100644 cards/module_Basic Construction Bay.png
+ create mode 100644 cards/module_Cryo-stasis Pod.png
+ create mode 100644 cards/module_Entropy Engine.png
+ create mode 100644 cards/module_Freeze Ray.png
+ create mode 100644 cards/order_Be Still.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   21a9b58..e91203f  main -> main
+========== Update Completed: Mon Feb 10 20:50:57 CST 2025 ==========
+========== Update Started: Mon Feb 10 21:14:22 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-10 21:14:23
+[main 9ce625b] Auto-update: 2025-02-10 21:14:23
+ 11 files changed, 30 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   e91203f..9ce625b  main -> main
+========== Update Completed: Mon Feb 10 21:14:29 CST 2025 ==========
+========== Update Started: Mon Feb 10 21:17:46 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-10 21:17:46
+[main b892233] Auto-update: 2025-02-10 21:17:46
+ 4 files changed, 12 insertions(+), 1 deletion(-)
+ rename art/{Simple Construction Bay.png => Basic Construction Bay.png} (100%)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   9ce625b..b892233  main -> main
+========== Update Completed: Mon Feb 10 21:17:50 CST 2025 ==========
+========== Update Started: Mon Feb 10 21:21:34 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-10 21:21:35
+[main e8bc924] Auto-update: 2025-02-10 21:21:35
+ 5 files changed, 13 insertions(+), 1 deletion(-)
+ delete mode 100644 cards/module_Cryo-stasis Pod.png
+ create mode 100644 cards/module_Cryostasis Pod.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   b892233..e8bc924  main -> main
+========== Update Completed: Mon Feb 10 21:21:38 CST 2025 ==========
+========== Update Started: Tue Feb 11 16:37:13 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-11 16:37:14
+[main 2483a09] Auto-update: 2025-02-11 16:37:14
+ 121 files changed, 130 insertions(+), 3 deletions(-)
+ create mode 100644 art/Mobile Beam Rifle.png
+ create mode 100644 art/Mobile Beam Saber.png
+ create mode 100644 art/Mobile Reactor Core.png
+ create mode 100644 art/Mobile Thrusters.png
+ create mode 100644 basic rules.html
+ create mode 100644 basic_rules.txt
+ create mode 100644 cards/leader_Bronin Briggs, Shipbuilder.jpg
+ create mode 100644 cards/leader_Captain Jace Brigley.jpg
+ create mode 100644 cards/leader_Chip Roy, Engineer.jpg
+ create mode 100644 cards/leader_Convict 24601.jpg
+ create mode 100644 cards/leader_Dr. Veyna Kross.jpg
+ create mode 100644 cards/leader_Elrond Hubbard.jpg
+ create mode 100644 cards/leader_Major Falcina.jpg
+ create mode 100644 cards/leader_Major Kael Draven.jpg
+ create mode 100644 cards/leader_Migdin Bowles.jpg
+ create mode 100644 cards/leader_Mystic Malorno.jpg
+ create mode 100644 cards/leader_Orin Solis.jpg
+ create mode 100644 cards/leader_Pilot Dave.jpg
+ create mode 100644 cards/leader_Professor Alric Zane.jpg
+ create mode 100644 cards/leader_Rocketman.jpg
+ create mode 100644 cards/leader_Sasha Brin.jpg
+ create mode 100644 cards/leader_Serena May, Ace Pilot.jpg
+ create mode 100644 cards/leader_Tarkos Dren.jpg
+ create mode 100644 cards/leader_Volkar the Still.jpg
+ create mode 100644 cards/leader_Zep Gee.jpg
+ create mode 100644 cards/leader_Zexter Fal, Fighter Pilot.jpg
+ create mode 100644 cards/module_Adaptive Plating.jpg
+ create mode 100644 cards/module_Advanced Construction Bay.jpg
+ create mode 100644 cards/module_Armor Plating.jpg
+ create mode 100644 cards/module_Basic Construction Bay.jpg
+ create mode 100644 cards/module_Beam Expander.jpg
+ create mode 100644 cards/module_C-M Pocket Drive.jpg
+ create mode 100644 cards/module_C-M Sapien Gate.jpg
+ create mode 100644 cards/module_Cargo Bay.jpg
+ create mode 100644 cards/module_Chen-Morrison Drive.jpg
+ create mode 100644 cards/module_Cloaking Field.jpg
+ create mode 100644 cards/module_Cloning Lab.jpg
+ create mode 100644 cards/module_Command and Control.jpg
+ create mode 100644 cards/module_Construction Bay.jpg
+ create mode 100644 cards/module_Cryostasis Pod.jpg
+ create mode 100644 cards/module_Drydock.jpg
+ create mode 100644 cards/module_Energon Battery.jpg
+ create mode 100644 cards/module_Energon Cell.jpg
+ create mode 100644 cards/module_Energy Network.jpg
+ create mode 100644 cards/module_Energy Shield.jpg
+ create mode 100644 cards/module_Energy Well.jpg
+ create mode 100644 cards/module_Engineering Room.jpg
+ create mode 100644 cards/module_Entropy Engine.jpg
+ create mode 100644 cards/module_Fighter Bay.jpg
+ create mode 100644 cards/module_Freeze Ray.jpg
+ create mode 100644 cards/module_Fusion Core.jpg
+ create mode 100644 cards/module_Gravity Well Generator.jpg
+ create mode 100644 cards/module_Hydrogen Thruster.jpg
+ create mode 100644 cards/module_Hypersonic Missiles.jpg
+ create mode 100644 cards/module_Icebreaker.jpg
+ create mode 100644 cards/module_Impulse Core.jpg
+ create mode 100644 cards/module_Ion Cannon.jpg
+ create mode 100644 cards/module_Laser Drive.jpg
+ create mode 100644 cards/module_Living Quarters.jpg
+ create mode 100644 cards/module_Manipulating Arm.jpg
+ create mode 100644 cards/module_Manipulating Arm.png
+ create mode 100644 cards/module_Manned Turret.jpg
+ create mode 100644 cards/module_Mining Laser.jpg
+ create mode 100644 cards/module_Missile Pod.jpg
+ create mode 100644 cards/module_Mobile Beam Rifle.jpg
+ create mode 100644 cards/module_Mobile Beam Rifle.png
+ create mode 100644 cards/module_Mobile Beam Saber.jpg
+ create mode 100644 cards/module_Mobile Beam Saber.png
+ create mode 100644 cards/module_Mobile Reactor Core.jpg
+ create mode 100644 cards/module_Mobile Reactor Core.png
+ create mode 100644 cards/module_Mobile Thrusters.jpg
+ create mode 100644 cards/module_Mobile Thrusters.png
+ create mode 100644 cards/module_Nicol-Dyson Beam.jpg
+ create mode 100644 cards/module_Nuclear Warhead.jpg
+ create mode 100644 cards/module_Power Core.jpg
+ create mode 100644 cards/module_Probe.jpg
+ create mode 100644 cards/module_Small Laser.jpg
+ create mode 100644 cards/module_Solar Collector.jpg
+ create mode 100644 cards/module_Solid Rocket Motor.jpg
+ create mode 100644 cards/module_Thruster.jpg
+ create mode 100644 cards/module_Tractor Beam.jpg
+ create mode 100644 cards/objective_Asteroids.jpg
+ create mode 100644 cards/order_Be Still.jpg
+ create mode 100644 cards/order_EMP Disruption.jpg
+ create mode 100644 cards/order_Electronic Warfare I.jpg
+ create mode 100644 cards/order_Electronic Warfare II.jpg
+ create mode 100644 cards/order_Electronic Warfare III.jpg
+ create mode 100644 cards/order_Emergency Jump.jpg
+ create mode 100644 cards/order_Expedited Construction.jpg
+ create mode 100644 cards/order_Full Power to Engines.jpg
+ create mode 100644 cards/order_Get it Fixed!.jpg
+ create mode 100644 cards/order_Give it All She's Got!.jpg
+ create mode 100644 cards/order_Kamikaze.jpg
+ create mode 100644 cards/order_MK-I Torpedo.jpg
+ create mode 100644 cards/order_Missile Barrage.jpg
+ create mode 100644 cards/order_Outmaneuver.jpg
+ create mode 100644 cards/order_Past the Red Line.jpg
+ create mode 100644 cards/order_Supply Shipment.jpg
+ create mode 100644 cards/order_Vigilance.jpg
+ create mode 100644 cards/order_Wormhole Anomaly.jpg
+ create mode 100644 imgs/battle.jpg
+ create mode 100644 imgs/example_ship_01.jpg
+ create mode 100644 imgs/example_ship_02.jpg
+ create mode 100644 imgs/planets.jpg
+ create mode 100644 imgs/populated_board.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   e8bc924..2483a09  main -> main
+========== Update Completed: Tue Feb 11 16:37:22 CST 2025 ==========
+========== Update Started: Tue Feb 11 16:38:06 CST 2025 ==========
+Running generate_card_list.sh...
+ls: cannot access 'cards/*.png': No such file or directory
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-11 16:38:06
+[main 6b0f999] Auto-update: 2025-02-11 16:38:06
+ 89 files changed, 117 insertions(+), 87 deletions(-)
+ delete mode 100644 cards/leader_Bronin Briggs, Shipbuilder.png
+ delete mode 100644 cards/leader_Captain Jace Brigley.png
+ delete mode 100644 cards/leader_Chip Roy, Engineer.png
+ delete mode 100644 cards/leader_Convict 24601.png
+ delete mode 100644 cards/leader_Dr. Veyna Kross.png
+ delete mode 100644 cards/leader_Elrond Hubbard.png
+ delete mode 100644 cards/leader_Major Falcina.png
+ delete mode 100644 cards/leader_Major Kael Draven.png
+ delete mode 100644 cards/leader_Migdin Bowles.png
+ delete mode 100644 cards/leader_Mystic Malorno.png
+ delete mode 100644 cards/leader_Orin Solis.png
+ delete mode 100644 cards/leader_Pilot Dave.png
+ delete mode 100644 cards/leader_Professor Alric Zane.png
+ delete mode 100644 cards/leader_Sasha Brin.png
+ delete mode 100644 cards/leader_Serena May, Ace Pilot.png
+ delete mode 100644 cards/leader_Tarkos Dren.png
+ delete mode 100644 cards/leader_Volkar the Still.png
+ delete mode 100644 cards/leader_Zep Gee.png
+ delete mode 100644 cards/leader_Zexter Fal, Fighter Pilot.png
+ delete mode 100644 cards/module_Adaptive Plating.png
+ delete mode 100644 cards/module_Advanced Construction Bay.png
+ delete mode 100644 cards/module_Armor Plating.png
+ delete mode 100644 cards/module_Basic Construction Bay.png
+ delete mode 100644 cards/module_Beam Expander.png
+ delete mode 100644 cards/module_C-M Pocket Drive.png
+ delete mode 100644 cards/module_C-M Sapien Gate.png
+ delete mode 100644 cards/module_Cargo Bay.png
+ delete mode 100644 cards/module_Chen-Morrison Drive.png
+ delete mode 100644 cards/module_Cloaking Field.png
+ delete mode 100644 cards/module_Cloning Lab.png
+ delete mode 100644 cards/module_Command and Control.png
+ delete mode 100644 cards/module_Construction Bay.png
+ delete mode 100644 cards/module_Cryostasis Pod.png
+ delete mode 100644 cards/module_Drydock.png
+ delete mode 100644 cards/module_Energon Battery.png
+ delete mode 100644 cards/module_Energon Cell.png
+ delete mode 100644 cards/module_Energy Network.png
+ delete mode 100644 cards/module_Energy Shield.png
+ delete mode 100644 cards/module_Energy Well.png
+ delete mode 100644 cards/module_Engineering Room.png
+ delete mode 100644 cards/module_Entropy Engine.png
+ delete mode 100644 cards/module_Fighter Bay.png
+ delete mode 100644 cards/module_Freeze Ray.png
+ delete mode 100644 cards/module_Fusion Core.png
+ delete mode 100644 cards/module_Gravity Well Generator.png
+ delete mode 100644 cards/module_Hydrogen Thruster.png
+ delete mode 100644 cards/module_Hypersonic Missiles.png
+ delete mode 100644 cards/module_Icebreaker.png
+ delete mode 100644 cards/module_Impulse Core.png
+ delete mode 100644 cards/module_Ion Cannon.png
+ delete mode 100644 cards/module_Laser Drive.png
+ delete mode 100644 cards/module_Living Quarters.png
+ delete mode 100644 cards/module_Manipulating Arm.png
+ delete mode 100644 cards/module_Manned Turret.png
+ delete mode 100644 cards/module_Mining Laser.png
+ delete mode 100644 cards/module_Missile Pod.png
+ delete mode 100644 cards/module_Mobile Beam Rifle.png
+ delete mode 100644 cards/module_Mobile Beam Saber.png
+ delete mode 100644 cards/module_Mobile Reactor Core.png
+ delete mode 100644 cards/module_Mobile Thrusters.png
+ delete mode 100644 cards/module_Nicol-Dyson Beam.png
+ delete mode 100644 cards/module_Nuclear Warhead.png
+ delete mode 100644 cards/module_Power Core.png
+ delete mode 100644 cards/module_Probe.png
+ delete mode 100644 cards/module_Small Laser.png
+ delete mode 100644 cards/module_Solar Collector.png
+ delete mode 100644 cards/module_Thruster.png
+ delete mode 100644 cards/module_Tractor Beam.png
+ delete mode 100644 cards/objective_Asteroids.png
+ delete mode 100644 cards/order_Be Still.png
+ delete mode 100644 cards/order_EMP Disruption.png
+ delete mode 100644 cards/order_Electronic Warfare I.png
+ delete mode 100644 cards/order_Electronic Warfare II.png
+ delete mode 100644 cards/order_Electronic Warfare III.png
+ delete mode 100644 cards/order_Emergency Jump.png
+ delete mode 100644 cards/order_Expedited Construction.png
+ delete mode 100644 cards/order_Full Power to Engines.png
+ delete mode 100644 cards/order_Get it Fixed!.png
+ delete mode 100644 cards/order_Give it All She's Got!.png
+ delete mode 100644 cards/order_Kamikaze.png
+ delete mode 100644 cards/order_MK-I Torpedo.png
+ delete mode 100644 cards/order_Missile Barrage.png
+ delete mode 100644 cards/order_Outmaneuver.png
+ delete mode 100644 cards/order_Past the Red Line.png
+ delete mode 100644 cards/order_Supply Shipment.png
+ delete mode 100644 cards/order_Vigilance.png
+ delete mode 100644 cards/order_Wormhole Anomaly.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   2483a09..6b0f999  main -> main
+========== Update Completed: Tue Feb 11 16:38:08 CST 2025 ==========
+========== Update Started: Tue Feb 11 16:48:48 CST 2025 ==========
+Running generate_card_list.sh...
+ls: cannot access 'cards/*.png': No such file or directory
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-11 16:48:49
+[main 5ce2636] Auto-update: 2025-02-11 16:48:49
+ 2 files changed, 123 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   6b0f999..5ce2636  main -> main
+========== Update Completed: Tue Feb 11 16:48:50 CST 2025 ==========
+========== Update Started: Tue Feb 11 17:23:39 CST 2025 ==========
+Running generate_card_list.sh...
+ls: cannot access 'cards/*.png': No such file or directory
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-11 17:23:40
+[main 2673f93] Auto-update: 2025-02-11 17:23:40
+ 2 files changed, 12 insertions(+)
+ rename basic rules.html => basic_rules.html (100%)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   5ce2636..2673f93  main -> main
+========== Update Completed: Tue Feb 11 17:23:41 CST 2025 ==========
+========== Update Started: Tue Feb 11 17:27:30 CST 2025 ==========
+Running generate_card_list.sh...
+ls: cannot access 'cards/*.png': No such file or directory
+Updated cards.json with PNG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-11 17:27:30
+[main 921598a] Auto-update: 2025-02-11 17:27:30
+ 2 files changed, 15 insertions(+), 2 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   2673f93..921598a  main -> main
+========== Update Completed: Tue Feb 11 17:27:32 CST 2025 ==========
+========== Update Started: Tue Feb 11 17:38:29 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-11 17:38:29
+[main 8d55172] Auto-update: 2025-02-11 17:38:29
+ 3 files changed, 111 insertions(+), 11 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   921598a..8d55172  main -> main
+========== Update Completed: Tue Feb 11 17:38:31 CST 2025 ==========
+========== Update Started: Tue Feb 11 17:42:44 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-11 17:42:44
+[main c26f145] Auto-update: 2025-02-11 17:42:44
+ 2 files changed, 34 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   8d55172..c26f145  main -> main
+========== Update Completed: Tue Feb 11 17:42:46 CST 2025 ==========
+========== Update Started: Tue Feb 11 21:34:52 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-11 21:34:52
+[main b032d5a] Auto-update: 2025-02-11 21:34:52
+ 4 files changed, 82 insertions(+), 45 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   c26f145..b032d5a  main -> main
+========== Update Completed: Tue Feb 11 21:34:54 CST 2025 ==========
+========== Update Started: Wed Feb 12 11:05:23 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 11:05:24
+[main 748f4ed] Auto-update: 2025-02-12 11:05:24
+ 2 files changed, 24 insertions(+), 13 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   b032d5a..748f4ed  main -> main
+========== Update Completed: Wed Feb 12 11:05:27 CST 2025 ==========
+========== Update Started: Wed Feb 12 11:08:02 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 11:08:02
+[main 67dabf5] Auto-update: 2025-02-12 11:08:02
+ 2 files changed, 15 insertions(+), 4 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   748f4ed..67dabf5  main -> main
+========== Update Completed: Wed Feb 12 11:08:06 CST 2025 ==========
+========== Update Started: Wed Feb 12 11:08:34 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 11:08:34
+[main be86aa8] Auto-update: 2025-02-12 11:08:34
+ 2 files changed, 17 insertions(+), 6 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   67dabf5..be86aa8  main -> main
+========== Update Completed: Wed Feb 12 11:08:36 CST 2025 ==========
+========== Update Started: Wed Feb 12 11:11:11 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 11:11:11
+[main 9087e1e] Auto-update: 2025-02-12 11:11:11
+ 2 files changed, 14 insertions(+), 8 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   be86aa8..9087e1e  main -> main
+========== Update Completed: Wed Feb 12 11:11:13 CST 2025 ==========
+========== Update Started: Wed Feb 12 11:17:49 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 11:17:49
+[main 6c754fc] Auto-update: 2025-02-12 11:17:49
+ 3 files changed, 87 insertions(+), 42 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   9087e1e..6c754fc  main -> main
+========== Update Completed: Wed Feb 12 11:17:51 CST 2025 ==========
+========== Update Started: Wed Feb 12 11:20:46 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 11:20:46
+[main d012350] Auto-update: 2025-02-12 11:20:46
+ 2 files changed, 49 insertions(+), 42 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   6c754fc..d012350  main -> main
+========== Update Completed: Wed Feb 12 11:20:48 CST 2025 ==========
+========== Update Started: Wed Feb 12 11:24:43 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 11:24:44
+[main bd95392] Auto-update: 2025-02-12 11:24:44
+ 3 files changed, 33 insertions(+), 14 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   d012350..bd95392  main -> main
+========== Update Completed: Wed Feb 12 11:24:46 CST 2025 ==========
+========== Update Started: Wed Feb 12 11:31:15 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 11:31:15
+[main 164db20] Auto-update: 2025-02-12 11:31:15
+ 2 files changed, 19 insertions(+), 6 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   bd95392..164db20  main -> main
+========== Update Completed: Wed Feb 12 11:31:17 CST 2025 ==========
+========== Update Started: Wed Feb 12 11:33:51 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 11:33:51
+[main 3e31f63] Auto-update: 2025-02-12 11:33:51
+ 2 files changed, 14 insertions(+), 3 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   164db20..3e31f63  main -> main
+========== Update Completed: Wed Feb 12 11:33:52 CST 2025 ==========
+========== Update Started: Wed Feb 12 11:44:26 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 11:44:26
+[main 02aa6e9] Auto-update: 2025-02-12 11:44:26
+ 2 files changed, 35 insertions(+), 16 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   3e31f63..02aa6e9  main -> main
+========== Update Completed: Wed Feb 12 11:44:28 CST 2025 ==========
+========== Update Started: Wed Feb 12 12:00:08 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 12:00:08
+[main eb33e62] Auto-update: 2025-02-12 12:00:08
+ 6 files changed, 23 insertions(+), 6 deletions(-)
+ create mode 100644 imgs/starting_ship.jpg
+ create mode 100644 imgs/starting_ship_02.jpg
+ create mode 100644 imgs/starting_ship_03.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   02aa6e9..eb33e62  main -> main
+========== Update Completed: Wed Feb 12 12:00:10 CST 2025 ==========
+========== Update Started: Wed Feb 12 12:02:45 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 12:02:45
+[main 7a09130] Auto-update: 2025-02-12 12:02:45
+ 2 files changed, 16 insertions(+), 2 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   eb33e62..7a09130  main -> main
+========== Update Completed: Wed Feb 12 12:02:48 CST 2025 ==========
+========== Update Started: Wed Feb 12 12:05:08 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 12:05:09
+[main 3fea3f5] Auto-update: 2025-02-12 12:05:09
+ 2 files changed, 16 insertions(+), 4 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   7a09130..3fea3f5  main -> main
+========== Update Completed: Wed Feb 12 12:05:10 CST 2025 ==========
+========== Update Started: Wed Feb 12 12:08:06 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 12:08:06
+[main efb21c2] Auto-update: 2025-02-12 12:08:06
+ 4 files changed, 15 insertions(+), 10 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   3fea3f5..efb21c2  main -> main
+========== Update Completed: Wed Feb 12 12:08:07 CST 2025 ==========
+========== Update Started: Wed Feb 12 12:40:34 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 12:40:34
+[main 0f73a1e] Auto-update: 2025-02-12 12:40:34
+ 3 files changed, 11 insertions(+), 2 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   efb21c2..0f73a1e  main -> main
+========== Update Completed: Wed Feb 12 12:40:36 CST 2025 ==========
+========== Update Started: Wed Feb 12 12:49:35 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 12:49:36
+[main 126e4cb] Auto-update: 2025-02-12 12:49:36
+ 2 files changed, 18 insertions(+), 7 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   0f73a1e..126e4cb  main -> main
+========== Update Completed: Wed Feb 12 12:49:37 CST 2025 ==========
+========== Update Started: Wed Feb 12 13:20:10 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 13:20:11
+[main c3825c7] Auto-update: 2025-02-12 13:20:11
+ 4 files changed, 12 insertions(+), 1 deletion(-)
+ delete mode 100644 cards/module_Advanced Construction Bay.jpg
+ create mode 100644 cards/module_Rapid Construction Bay.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   126e4cb..c3825c7  main -> main
+========== Update Completed: Wed Feb 12 13:20:13 CST 2025 ==========
+========== Update Started: Wed Feb 12 13:57:59 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 13:58:00
+[main 43f5e3c] Auto-update: 2025-02-12 13:58:00
+ 5 files changed, 14 insertions(+), 2 deletions(-)
+ create mode 100644 art/Rocket Man.png
+ create mode 100644 art/Solid Rocket Motor.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   c3825c7..43f5e3c  main -> main
+========== Update Completed: Wed Feb 12 13:58:03 CST 2025 ==========
+========== Update Started: Wed Feb 12 14:10:04 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 14:10:04
+[main 54dcd66] Auto-update: 2025-02-12 14:10:04
+ 3 files changed, 13 insertions(+)
+ rename art/{Advanced Construction Bay.png => Rapid Construction Bay.png} (100%)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   43f5e3c..54dcd66  main -> main
+========== Update Completed: Wed Feb 12 14:10:06 CST 2025 ==========
+========== Update Started: Wed Feb 12 18:07:49 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 18:07:50
+[main 514cbd0] Auto-update: 2025-02-12 18:07:50
+ 2 files changed, 45 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   54dcd66..514cbd0  main -> main
+========== Update Completed: Wed Feb 12 18:07:54 CST 2025 ==========
+========== Update Started: Wed Feb 12 18:13:23 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 18:13:23
+[main 438778f] Auto-update: 2025-02-12 18:13:23
+ 2 files changed, 19 insertions(+), 7 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   514cbd0..438778f  main -> main
+========== Update Completed: Wed Feb 12 18:13:24 CST 2025 ==========
+========== Update Started: Wed Feb 12 18:40:32 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 18:40:32
+[main 2c82fb6] Auto-update: 2025-02-12 18:40:32
+ 2 files changed, 30 insertions(+), 17 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   438778f..2c82fb6  main -> main
+========== Update Completed: Wed Feb 12 18:40:33 CST 2025 ==========
+========== Update Started: Wed Feb 12 18:52:16 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 18:52:16
+[main 2221dfa] Auto-update: 2025-02-12 18:52:16
+ 2 files changed, 20 insertions(+), 4 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   2c82fb6..2221dfa  main -> main
+========== Update Completed: Wed Feb 12 18:52:18 CST 2025 ==========
+========== Update Started: Wed Feb 12 18:56:41 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 18:56:41
+[main 58fdff9] Auto-update: 2025-02-12 18:56:41
+ 2 files changed, 27 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   2221dfa..58fdff9  main -> main
+========== Update Completed: Wed Feb 12 18:56:42 CST 2025 ==========
+========== Update Started: Wed Feb 12 18:57:12 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 18:57:12
+[main 4a66bd9] Auto-update: 2025-02-12 18:57:12
+ 2 files changed, 11 insertions(+), 1 deletion(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   58fdff9..4a66bd9  main -> main
+========== Update Completed: Wed Feb 12 18:57:13 CST 2025 ==========
+========== Update Started: Wed Feb 12 19:28:08 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 19:28:08
+[main e990b42] Auto-update: 2025-02-12 19:28:08
+ 2 files changed, 16 insertions(+), 5 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   4a66bd9..e990b42  main -> main
+========== Update Completed: Wed Feb 12 19:28:09 CST 2025 ==========
+========== Update Started: Wed Feb 12 19:30:15 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 19:30:15
+[main 9b78789] Auto-update: 2025-02-12 19:30:15
+ 2 files changed, 24 insertions(+), 2 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   e990b42..9b78789  main -> main
+========== Update Completed: Wed Feb 12 19:30:17 CST 2025 ==========
+========== Update Started: Wed Feb 12 19:35:39 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 19:35:39
+[main 17a3caa] Auto-update: 2025-02-12 19:35:39
+ 2 files changed, 38 insertions(+), 8 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   9b78789..17a3caa  main -> main
+========== Update Completed: Wed Feb 12 19:35:41 CST 2025 ==========
+========== Update Started: Wed Feb 12 19:41:19 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 19:41:19
+[main a80802c] Auto-update: 2025-02-12 19:41:19
+ 2 files changed, 22 insertions(+), 2 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   17a3caa..a80802c  main -> main
+========== Update Completed: Wed Feb 12 19:41:21 CST 2025 ==========
+========== Update Started: Wed Feb 12 19:51:18 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 19:51:19
+[main 176da2e] Auto-update: 2025-02-12 19:51:19
+ 2 files changed, 19 insertions(+), 10 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   a80802c..176da2e  main -> main
+========== Update Completed: Wed Feb 12 19:51:20 CST 2025 ==========
+========== Update Started: Wed Feb 12 19:56:40 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 19:56:40
+[main 749f1bb] Auto-update: 2025-02-12 19:56:40
+ 4 files changed, 19 insertions(+), 19 deletions(-)
+ create mode 100644 cards/leader_Rocket Man.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   176da2e..749f1bb  main -> main
+========== Update Completed: Wed Feb 12 19:56:42 CST 2025 ==========
+========== Update Started: Wed Feb 12 20:05:20 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 20:05:21
+[main 060c607] Auto-update: 2025-02-12 20:05:21
+ 2 files changed, 76 insertions(+), 390 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   749f1bb..060c607  main -> main
+========== Update Completed: Wed Feb 12 20:05:22 CST 2025 ==========
+========== Update Started: Wed Feb 12 20:09:37 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 20:09:37
+[main c85502e] Auto-update: 2025-02-12 20:09:37
+ 2 files changed, 401 insertions(+), 64 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   060c607..c85502e  main -> main
+========== Update Completed: Wed Feb 12 20:09:38 CST 2025 ==========
+========== Update Started: Wed Feb 12 20:39:40 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-12 20:39:41
+[main 04c2aae] Auto-update: 2025-02-12 20:39:41
+ 4 files changed, 136 insertions(+), 1 deletion(-)
+ delete mode 100644 cards/leader_Rocketman.jpg
+ create mode 100644 index2.html
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   c85502e..04c2aae  main -> main
+========== Update Completed: Wed Feb 12 20:39:42 CST 2025 ==========
+========== Update Started: Thu Feb 13 16:02:00 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-13 16:02:00
+[main 85dd132] Auto-update: 2025-02-13 16:02:00
+ 5 files changed, 15 insertions(+)
+ create mode 100644 art/Garrison.png
+ create mode 100644 cards/module_Garrison.jpg
+ create mode 100644 cards/module_Rocket Bay.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   04c2aae..85dd132  main -> main
+========== Update Completed: Thu Feb 13 16:02:06 CST 2025 ==========
+========== Update Started: Thu Feb 13 16:04:33 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-13 16:04:34
+[main 0b4590c] Auto-update: 2025-02-13 16:04:34
+ 2 files changed, 14 insertions(+)
+ create mode 100644 art/Rocket Bay.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   85dd132..0b4590c  main -> main
+========== Update Completed: Thu Feb 13 16:04:36 CST 2025 ==========
+========== Update Started: Thu Feb 13 16:33:37 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-13 16:33:37
+[main d82c230] Auto-update: 2025-02-13 16:33:37
+ 30 files changed, 12 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   0b4590c..d82c230  main -> main
+========== Update Completed: Thu Feb 13 16:33:41 CST 2025 ==========
+========== Update Started: Thu Feb 13 17:15:56 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-13 17:15:58
+[main 806e145] Auto-update: 2025-02-13 17:15:58
+ 97 files changed, 31 insertions(+), 17 deletions(-)
+ create mode 100644 cards/leader_Bronin Briggs, Shipbuilder.png
+ create mode 100644 cards/leader_Captain Jace Brigley.png
+ create mode 100644 cards/leader_Chip Roy, Engineer.png
+ create mode 100644 cards/leader_Convict 24601.png
+ create mode 100644 cards/leader_Dr. Veyna Kross.png
+ create mode 100644 cards/leader_Elrond Hubbard.png
+ create mode 100644 cards/leader_Major Falcina.png
+ create mode 100644 cards/leader_Major Kael Draven.png
+ create mode 100644 cards/leader_Migdin Bowles.png
+ create mode 100644 cards/leader_Mystic Malorno.png
+ create mode 100644 cards/leader_Orin Solis.png
+ create mode 100644 cards/leader_Pilot Dave.png
+ create mode 100644 cards/leader_Professor Alric Zane.png
+ create mode 100644 cards/leader_Rocket Man.png
+ create mode 100644 cards/leader_Sasha Brin.png
+ create mode 100644 cards/leader_Serena May, Ace Pilot.png
+ create mode 100644 cards/leader_Tarkos Dren.png
+ create mode 100644 cards/leader_Volkar the Still.png
+ create mode 100644 cards/leader_Zep Gee.png
+ create mode 100644 cards/leader_Zexter Fal, Fighter Pilot.png
+ create mode 100644 cards/module_Adaptive Plating.png
+ create mode 100644 cards/module_Armor Plating.png
+ create mode 100644 cards/module_Basic Construction Bay.png
+ create mode 100644 cards/module_Beam Expander.png
+ create mode 100644 cards/module_C-M Pocket Drive.png
+ create mode 100644 cards/module_C-M Sapien Gate.png
+ create mode 100644 cards/module_Cargo Bay.png
+ create mode 100644 cards/module_Chen-Morrison Drive.png
+ create mode 100644 cards/module_Cloaking Field.png
+ create mode 100644 cards/module_Cloning Lab.png
+ create mode 100644 cards/module_Command and Control.png
+ create mode 100644 cards/module_Construction Bay.png
+ create mode 100644 cards/module_Cryostasis Pod.png
+ create mode 100644 cards/module_Drydock.png
+ create mode 100644 cards/module_Energon Battery.png
+ create mode 100644 cards/module_Energon Cell.png
+ create mode 100644 cards/module_Energy Network.png
+ create mode 100644 cards/module_Energy Shield.png
+ create mode 100644 cards/module_Energy Well.png
+ create mode 100644 cards/module_Engineering Room.png
+ create mode 100644 cards/module_Entropy Engine.png
+ create mode 100644 cards/module_Fighter Bay.png
+ create mode 100644 cards/module_Freeze Ray.png
+ create mode 100644 cards/module_Fusion Core.png
+ create mode 100644 cards/module_Garrison.png
+ create mode 100644 cards/module_Gravity Well Generator.png
+ create mode 100644 cards/module_Hydrogen Thruster.png
+ create mode 100644 cards/module_Hypersonic Missiles.png
+ create mode 100644 cards/module_Icebreaker.png
+ create mode 100644 cards/module_Impulse Core.png
+ create mode 100644 cards/module_Ion Cannon.png
+ create mode 100644 cards/module_Laser Drive.png
+ create mode 100644 cards/module_Living Quarters.png
+ create mode 100644 cards/module_Manipulating Arm.png
+ create mode 100644 cards/module_Manned Turret.png
+ create mode 100644 cards/module_Mining Laser.png
+ create mode 100644 cards/module_Missile Pod.png
+ create mode 100644 cards/module_Mobile Beam Rifle.png
+ create mode 100644 cards/module_Mobile Beam Saber.png
+ create mode 100644 cards/module_Mobile Reactor Core.png
+ create mode 100644 cards/module_Mobile Thrusters.png
+ create mode 100644 cards/module_Nicol-Dyson Beam.png
+ create mode 100644 cards/module_Nuclear Warhead.png
+ create mode 100644 cards/module_Power Core.png
+ create mode 100644 cards/module_Probe.png
+ create mode 100644 cards/module_Rapid Construction Bay.png
+ create mode 100644 cards/module_Rocket Bay.png
+ create mode 100644 cards/module_Small Laser.png
+ create mode 100644 cards/module_Solar Collector.png
+ create mode 100644 cards/module_Solid Rocket Motor.png
+ create mode 100644 cards/module_Thruster.png
+ create mode 100644 cards/module_Tractor Beam.png
+ create mode 100644 cards/objective_Asteroids.png
+ create mode 100644 cards/order_Be Still.png
+ create mode 100644 cards/order_EMP Disruption.png
+ create mode 100644 cards/order_Electronic Warfare I.png
+ create mode 100644 cards/order_Electronic Warfare II.png
+ create mode 100644 cards/order_Electronic Warfare III.png
+ create mode 100644 cards/order_Emergency Jump.png
+ create mode 100644 cards/order_Expedited Construction.png
+ create mode 100644 cards/order_Full Power to Engines.png
+ create mode 100644 cards/order_Get it Fixed!.png
+ create mode 100644 cards/order_Give it All She's Got!.png
+ create mode 100644 cards/order_Kamikaze.png
+ create mode 100644 cards/order_MK-I Torpedo.png
+ create mode 100644 cards/order_Missile Barrage.png
+ create mode 100644 cards/order_Outmaneuver.png
+ create mode 100644 cards/order_Past the Red Line.png
+ create mode 100644 cards/order_Supply Shipment.png
+ create mode 100644 cards/order_Vigilance.png
+ create mode 100644 cards/order_Wormhole Anomaly.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   d82c230..806e145  main -> main
+========== Update Completed: Thu Feb 13 17:16:09 CST 2025 ==========
+========== Update Started: Thu Feb 13 17:36:18 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+========== Update Started: Fri Feb 14 13:53:26 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-14 13:53:27
+[main 1378d05] Auto-update: 2025-02-14 13:53:27
+ 32 files changed, 449 insertions(+), 125 deletions(-)
+ create mode 100644 art/Communications Array.png
+ create mode 100644 art/Compact Fusion Core.png
+ create mode 100644 art/Fuel Depot.png
+ create mode 100644 art/Iligin Wanderer.png
+ create mode 100644 art/Wormhole Generator.png
+ create mode 100644 art/Zyrconium Crystal.png
+ create mode 100644 cards/leader_Iligin Wanderer.jpg
+ create mode 100644 cards/leader_Iligin Wanderer.png
+ create mode 100644 cards/module_Communications Array.jpg
+ create mode 100644 cards/module_Communications Array.png
+ create mode 100644 cards/module_Compact Fusion Core.jpg
+ create mode 100644 cards/module_Compact Fusion Core.png
+ create mode 100644 cards/module_Fuel Depot.jpg
+ create mode 100644 cards/module_Fuel Depot.png
+ create mode 100644 cards/module_Wormhole Generator.jpg
+ create mode 100644 cards/module_Wormhole Generator.png
+ create mode 100644 cards/module_Zyrconium Chamber.jpg
+ create mode 100644 cards/module_Zyrconium Chamber.png
+ create mode 100644 cards/module_Zyrconium Crystal.jpg
+ create mode 100644 cards/module_Zyrconium Crystal.png
+ delete mode 100644 index2.html
+ create mode 100644 updated_index.html
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   7f23200..1378d05  main -> main
+========== Update Completed: Fri Feb 14 13:53:33 CST 2025 ==========
+========== Update Started: Fri Feb 14 14:29:42 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-14 14:29:43
+[main f0c2be7] Auto-update: 2025-02-14 14:29:43
+ 6 files changed, 33 insertions(+), 1 deletion(-)
+ delete mode 100644 cards/module_Zyrconium Chamber.jpg
+ delete mode 100644 cards/module_Zyrconium Chamber.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   1378d05..f0c2be7  main -> main
+========== Update Completed: Fri Feb 14 14:29:45 CST 2025 ==========
+========== Update Started: Fri Feb 14 15:30:36 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-14 15:30:37
+[main 3a0abeb] Auto-update: 2025-02-14 15:30:37
+ 4 files changed, 884 insertions(+), 871 deletions(-)
+ create mode 100644 maps/moving.gif
+ rename updated_index.html => old_index.html (96%)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   f0c2be7..3a0abeb  main -> main
+========== Update Completed: Fri Feb 14 15:30:43 CST 2025 ==========
+========== Update Started: Fri Feb 14 15:34:18 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-14 15:34:18
+[main e91d3c3] Auto-update: 2025-02-14 15:34:18
+ 3 files changed, 125 insertions(+), 10 deletions(-)
+ create mode 100644 home.html
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   3a0abeb..e91d3c3  main -> main
+========== Update Completed: Fri Feb 14 15:34:20 CST 2025 ==========
+========== Update Started: Fri Feb 14 17:09:58 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-14 17:09:59
+[main 3bcfb2a] Auto-update: 2025-02-14 17:09:59
+ 7 files changed, 535 insertions(+), 948 deletions(-)
+ rename old_index.html => gallery.html (95%)
+ delete mode 100644 home.html
+ create mode 100644 imgs/header_video_01.gif
+ create mode 100644 imgs/header_video_02.gif
+ rename basic_rules.html => overview.html (94%)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   e91d3c3..3bcfb2a  main -> main
+========== Update Completed: Fri Feb 14 17:10:06 CST 2025 ==========
+========== Update Started: Fri Feb 14 17:12:20 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-14 17:12:20
+[main 74b5489] Auto-update: 2025-02-14 17:12:20
+ 2 files changed, 17 insertions(+), 1 deletion(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   3bcfb2a..74b5489  main -> main
+========== Update Completed: Fri Feb 14 17:12:22 CST 2025 ==========
+========== Update Started: Fri Feb 14 17:54:57 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-14 17:54:57
+[main 1bfaf49] Auto-update: 2025-02-14 17:54:57
+ 3 files changed, 17 insertions(+), 11 deletions(-)
+ create mode 100644 imgs/ship_construction.gif
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   74b5489..1bfaf49  main -> main
+========== Update Completed: Fri Feb 14 17:55:00 CST 2025 ==========
+========== Update Started: Fri Feb 14 17:57:04 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-14 17:57:04
+[main 332a129] Auto-update: 2025-02-14 17:57:04
+ 4 files changed, 12 insertions(+)
+ create mode 100644 imgs/header_video.gif
+ delete mode 100644 imgs/header_video_01.gif
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   1bfaf49..332a129  main -> main
+========== Update Completed: Fri Feb 14 17:57:06 CST 2025 ==========
+========== Update Started: Fri Feb 14 18:49:46 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-14 18:49:47
+[main cc9b3a2] Auto-update: 2025-02-14 18:49:47
+ 2 files changed, 17 insertions(+), 4 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   332a129..cc9b3a2  main -> main
+========== Update Completed: Fri Feb 14 18:49:49 CST 2025 ==========
+========== Update Started: Fri Feb 14 18:51:33 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-14 18:51:34
+[main 2a227b5] Auto-update: 2025-02-14 18:51:34
+ 2 files changed, 12 insertions(+), 1 deletion(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   cc9b3a2..2a227b5  main -> main
+========== Update Completed: Fri Feb 14 18:51:36 CST 2025 ==========
+========== Update Started: Fri Feb 14 18:52:39 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-14 18:52:40
+[main dd065fd] Auto-update: 2025-02-14 18:52:40
+ 2 files changed, 12 insertions(+), 1 deletion(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   2a227b5..dd065fd  main -> main
+========== Update Completed: Fri Feb 14 18:52:41 CST 2025 ==========
+========== Update Started: Fri Feb 14 20:35:23 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-14 20:35:23
+[main 743c974] Auto-update: 2025-02-14 20:35:23
+ 2 files changed, 12 insertions(+), 1 deletion(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   dd065fd..743c974  main -> main
+========== Update Completed: Fri Feb 14 20:35:25 CST 2025 ==========
+========== Update Started: Fri Feb 14 21:17:51 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-14 21:17:51
+[main e43f276] Auto-update: 2025-02-14 21:17:51
+ 3 files changed, 17 insertions(+)
+ create mode 100644 imgs/final_four.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   743c974..e43f276  main -> main
+========== Update Completed: Fri Feb 14 21:17:53 CST 2025 ==========
+========== Update Started: Fri Feb 14 21:21:48 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-14 21:21:48
+[main 3de60f6] Auto-update: 2025-02-14 21:21:48
+ 2 files changed, 14 insertions(+), 2 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   e43f276..3de60f6  main -> main
+========== Update Completed: Fri Feb 14 21:21:49 CST 2025 ==========
+========== Update Started: Fri Feb 14 21:22:14 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-14 21:22:14
+[main 5ab25c8] Auto-update: 2025-02-14 21:22:14
+ 2 files changed, 12 insertions(+), 1 deletion(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   3de60f6..5ab25c8  main -> main
+========== Update Completed: Fri Feb 14 21:22:16 CST 2025 ==========
+========== Update Started: Fri Feb 14 21:41:20 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-14 21:41:20
+[main 1f015cb] Auto-update: 2025-02-14 21:41:20
+ 4 files changed, 16 insertions(+), 2 deletions(-)
+ create mode 100644 imgs/header_video.mp4
+ create mode 100644 imgs/martian_princess_loop.mp4
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   5ab25c8..1f015cb  main -> main
+========== Update Completed: Fri Feb 14 21:41:24 CST 2025 ==========
+========== Update Started: Sat Feb 15 18:13:21 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-15 18:13:22
+[main 4202624] Auto-update: 2025-02-15 18:13:22
+ 12 files changed, 77 insertions(+), 24 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   1f015cb..4202624  main -> main
+========== Update Completed: Sat Feb 15 18:13:26 CST 2025 ==========
+========== Update Started: Sat Feb 15 19:37:34 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-15 19:37:35
+[main e1fc09c] Auto-update: 2025-02-15 19:37:35
+ 40 files changed, 12 insertions(+), 1 deletion(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   4202624..e1fc09c  main -> main
+========== Update Completed: Sat Feb 15 19:37:40 CST 2025 ==========
+========== Update Started: Sun Feb 16 15:31:23 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-16 15:31:24
+[main e47698f] Auto-update: 2025-02-16 15:31:24
+ 27 files changed, 19 insertions(+), 1 deletion(-)
+ create mode 100644 art/Advanced Targeting Computer.png
+ create mode 100644 art/Ambassador Krell.png
+ create mode 100644 art/Ambassador Rostova.png
+ create mode 100644 art/Ambassador Von.png
+ create mode 100644 art/Dyson Sunwell.png
+ create mode 100644 art/Stellar Hedron Collider.png
+ create mode 100644 cards/leader_Ambassador Kren.jpg
+ create mode 100644 cards/leader_Ambassador Kren.png
+ create mode 100644 cards/leader_Ambassador Rostova.jpg
+ create mode 100644 cards/leader_Ambassador Rostova.png
+ create mode 100644 cards/leader_Ambassador Von.jpg
+ create mode 100644 cards/leader_Ambassador Von.png
+ create mode 100644 cards/module_Advanced Targeting Computer.jpg
+ create mode 100644 cards/module_Advanced Targeting Computer.png
+ create mode 100644 cards/module_Dyson Sunwell.jpg
+ create mode 100644 cards/module_Dyson Sunwell.png
+ create mode 100644 cards/module_Stellar Hedron Collider .jpg
+ create mode 100644 cards/module_Stellar Hedron Collider .png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   e1fc09c..e47698f  main -> main
+========== Update Completed: Sun Feb 16 15:31:30 CST 2025 ==========
+========== Update Started: Sun Feb 16 17:30:01 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-16 17:30:01
+[main bb8c6a4] Auto-update: 2025-02-16 17:30:01
+ 2 files changed, 29 insertions(+)
+ rename art/{Ambassador Krell.png => Ambassador Kren.png} (100%)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   e47698f..bb8c6a4  main -> main
+========== Update Completed: Sun Feb 16 17:30:03 CST 2025 ==========
+========== Update Started: Sun Feb 16 17:42:32 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-16 17:42:33
+[main 5c55cbe] Auto-update: 2025-02-16 17:42:33
+ 6 files changed, 13 insertions(+)
+ create mode 100644 cards/module_Stellar Hedron Collider.jpg
+ create mode 100644 cards/module_Stellar Hedron Collider.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   bb8c6a4..5c55cbe  main -> main
+========== Update Completed: Sun Feb 16 17:42:35 CST 2025 ==========
+========== Update Started: Sun Feb 16 17:49:44 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-16 17:49:44
+[main 51ef9d1] Auto-update: 2025-02-16 17:49:44
+ 4 files changed, 13 insertions(+), 1 deletion(-)
+ delete mode 100644 cards/module_Stellar Hedron Collider .jpg
+ delete mode 100644 cards/module_Stellar Hedron Collider .png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   5c55cbe..51ef9d1  main -> main
+========== Update Completed: Sun Feb 16 17:49:45 CST 2025 ==========
+========== Update Started: Mon Feb 17 00:44:01 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-17 00:44:03
+[main faa1b07] Auto-update: 2025-02-17 00:44:03
+ 57 files changed, 15 insertions(+)
+ create mode 100644 art/Ambassador Han.png
+ create mode 100644 art/Ambassador N'chok.png
+ create mode 100644 audio/mythic_saurian_audio.mp3
+ create mode 100644 cards/leader_Ambassador Han.jpg
+ create mode 100644 cards/leader_Ambassador Han.png
+ create mode 100644 cards/leader_Ambassador N'chok.jpg
+ create mode 100644 cards/leader_Ambassador N'chok.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   51ef9d1..faa1b07  main -> main
+========== Update Completed: Mon Feb 17 00:44:12 CST 2025 ==========
+========== Update Started: Mon Feb 17 01:05:01 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-17 01:05:03
+[main ed7f449] Auto-update: 2025-02-17 01:05:03
+ 3 files changed, 18 insertions(+)
+ create mode 100644 audio/freedom_audio.mp3
+ create mode 100644 audio/space_adventure_audio.mp3
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   faa1b07..ed7f449  main -> main
+========== Update Completed: Mon Feb 17 01:05:11 CST 2025 ==========
+========== Update Started: Mon Feb 17 02:46:22 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-17 02:46:25
+[main 8da4e7e] Auto-update: 2025-02-17 02:46:25
+ 3 files changed, 13 insertions(+)
+ create mode 100644 maps/inner_system_no_grid.jpg
+ create mode 100644 maps/inner_system_no_grid.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   ed7f449..8da4e7e  main -> main
+========== Update Completed: Mon Feb 17 02:46:34 CST 2025 ==========
+========== Update Started: Mon Feb 17 03:49:48 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-17 03:49:48
+[main 03c8136] Auto-update: 2025-02-17 03:49:48
+ 4 files changed, 13 insertions(+)
+ create mode 100644 maps/full_system_clean_inner.jpg
+ delete mode 100644 maps/inner_system_no_grid.png
+ delete mode 100644 maps/moving.gif
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   8da4e7e..03c8136  main -> main
+========== Update Completed: Mon Feb 17 03:49:51 CST 2025 ==========
+========== Update Started: Mon Feb 17 11:56:50 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Changed to magic-style
+[main f205a84] Changed to magic-style
+ 56 files changed, 67 insertions(+), 36 deletions(-)
+ create mode 100644 art/Repair Crew.png
+ create mode 100644 cards/module_Repair Crew.jpg
+ create mode 100644 cards/module_Repair Crew.png
+ delete mode 100644 cards/objective_Asteroids.jpg
+ delete mode 100644 cards/objective_Asteroids.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   03c8136..f205a84  main -> main
+========== Update Completed: Mon Feb 17 11:56:58 CST 2025 ==========
+========== Update Started: Mon Feb 17 12:40:07 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-17 12:40:09
+[main 29206a2] Auto-update: 2025-02-17 12:40:09
+ 47 files changed, 59 insertions(+), 2 deletions(-)
+ create mode 100644 TTS Decks/Martian Mercenaries/Martian Mercenaries.png
+ create mode 100644 TTS Decks/Martian Mercenaries/Martian_Mercenaries.txt
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Ambassador Han.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Ambassador Kren.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Ambassador Rostova.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Ambassador Von.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Bronin Briggs, Shipbuilder.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Captain Jace Brigley.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Chip Roy, Engineer.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Dr. Veyna Kross.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Migdin Bowles.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Professor Alric Zane.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Zexter Fal, Fighter Pilot.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Advanced Targeting Computer.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Energon Cell.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Energy Shield.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Engineering Room.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Fuel Depot.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Garrison.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Impulse Core.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Ion Cannon.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Laser Drive.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Living Quarters.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Manipulating Arm.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Manned Turret.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Mining Laser.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Nuclear Warhead.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Power Core.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Small Laser.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Solar Collector.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Thruster.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_EMP Disruption.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Electronic Warfare I.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Electronic Warfare II.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Electronic Warfare III.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Emergency Jump.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Expedited Construction.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Get it Fixed!.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Give it All She's Got!.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_MK-I Torpedo.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Missile Barrage.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Outmaneuver.jpg
+ create mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Supply Shipment.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   f205a84..29206a2  main -> main
+========== Update Completed: Mon Feb 17 12:40:18 CST 2025 ==========
+========== Update Started: Mon Feb 17 20:15:23 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-17 20:15:24
+[main 7092651] Auto-update: 2025-02-17 20:15:24
+ 2 files changed, 54 insertions(+)
+ create mode 100644 maps/full_system_map_clean.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   29206a2..7092651  main -> main
+========== Update Completed: Mon Feb 17 20:15:28 CST 2025 ==========
+========== Update Started: Mon Feb 17 20:45:21 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-17 20:45:22
+[main a6d7387] Auto-update: 2025-02-17 20:45:22
+ 9 files changed, 21 insertions(+), 5 deletions(-)
+ create mode 100644 art/G-type Main-sequence Star Sol.png
+ rename art/{Asteroids.png => Motherlode Asteroid Belt.png} (100%)
+ create mode 100644 cards/objective_G-type Main-sequence Star Sol.jpg
+ create mode 100644 cards/objective_G-type Main-sequence Star Sol.png
+ create mode 100644 cards/objective_Motherlode Asteroid Belt.jpg
+ create mode 100644 cards/objective_Motherlode Asteroid Belt.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   7092651..a6d7387  main -> main
+========== Update Completed: Mon Feb 17 20:45:25 CST 2025 ==========
+========== Update Started: Mon Feb 17 21:05:40 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-17 21:05:40
+[main 466a715] Auto-update: 2025-02-17 21:05:40
+ 6 files changed, 18 insertions(+)
+ create mode 100644 art/Space.jpg
+ create mode 100644 art/Space.png
+ create mode 100644 cards/objective_Space.jpg
+ create mode 100644 cards/objective_Space.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   a6d7387..466a715  main -> main
+========== Update Completed: Mon Feb 17 21:05:42 CST 2025 ==========
+========== Update Started: Tue Feb 18 18:38:12 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-18 18:38:15
+[main 496b10f] Auto-update: 2025-02-18 18:38:15
+ 128 files changed, 1300 insertions(+), 679 deletions(-)
+ create mode 100644 gallery - Copy.html
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   466a715..496b10f  main -> main
+========== Update Completed: Tue Feb 18 18:38:25 CST 2025 ==========
+========== Update Started: Tue Feb 18 19:03:24 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-18 19:03:25
+[main dac8d60] Auto-update: 2025-02-18 19:03:25
+ 10 files changed, 30 insertions(+), 444 deletions(-)
+ create mode 100644 art/Marsa.png
+ create mode 100644 art/Verene.png
+ create mode 100644 cards/objective_Marsa.jpg
+ create mode 100644 cards/objective_Marsa.png
+ create mode 100644 cards/objective_Verene.jpg
+ create mode 100644 cards/objective_Verene.png
+ delete mode 100644 gallery - Copy.html
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   496b10f..dac8d60  main -> main
+========== Update Completed: Tue Feb 18 19:03:29 CST 2025 ==========
+========== Update Started: Wed Feb 19 10:26:19 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-19 10:26:20
+[main 2584d91] Auto-update: 2025-02-19 10:26:20
+ 5 files changed, 333 insertions(+), 11 deletions(-)
+ create mode 100644 imgs/rules_background_video.mp4
+ create mode 100644 rules.html
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   dac8d60..2584d91  main -> main
+========== Update Completed: Wed Feb 19 10:26:27 CST 2025 ==========
+========== Update Started: Wed Feb 19 10:30:17 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-19 10:30:20
+[main f4a91ca] Auto-update: 2025-02-19 10:30:20
+ 117 files changed, 15 insertions(+), 1 deletion(-)
+ create mode 100644 cards/order_Power Siphon.jpg
+ create mode 100644 cards/order_Power Siphon.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   2584d91..f4a91ca  main -> main
+========== Update Completed: Wed Feb 19 10:30:30 CST 2025 ==========
+========== Update Started: Wed Feb 19 15:56:38 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-19 15:56:39
+[main 69b3529] Auto-update: 2025-02-19 15:56:39
+ 139 files changed, 601 insertions(+), 175 deletions(-)
+ create mode 100644 TTS Decks/Martian Mercenaries/Martian Mercenaries.tsdb
+ create mode 100644 TTS Decks/Zone Deck/Zone Deck.png
+ create mode 100644 TTS Decks/Zone Deck/Zone Deck.tsdb
+ rename art/{Energy Network.png => Credit Network.png} (100%)
+ create mode 100644 art/Salvage Crew.png
+ create mode 100644 art/Siphon Power.png
+ create mode 100644 cards/module_Credit Network.jpg
+ create mode 100644 cards/module_Credit Network.png
+ create mode 100644 cards/module_Salvage Crew.jpg
+ create mode 100644 cards/module_Salvage Crew.png
+ create mode 100644 cards/order_Siphon Power.jpg
+ create mode 100644 cards/order_Siphon Power.png
+ create mode 100644 full_rules.txt
+ create mode 100644 rules - Copy.html
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   f4a91ca..69b3529  main -> main
+========== Update Completed: Wed Feb 19 15:56:50 CST 2025 ==========
+========== Update Started: Wed Feb 19 17:34:32 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-19 17:34:33
+[main b31136d] Auto-update: 2025-02-19 17:34:33
+ 61 files changed, 27 insertions(+), 299 deletions(-)
+ create mode 100644 cards/leader_Princess Erai.jpg
+ create mode 100644 cards/leader_Princess Erai.png
+ create mode 100644 cards/leader_The Rebel King.jpg
+ create mode 100644 cards/leader_The Rebel King.png
+ delete mode 100644 rules - Copy.html
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   69b3529..b31136d  main -> main
+========== Update Completed: Wed Feb 19 17:34:38 CST 2025 ==========
+========== Update Started: Wed Feb 19 17:35:42 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-19 17:35:43
+[main bf12ee6] Auto-update: 2025-02-19 17:35:43
+ 3 files changed, 16 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   b31136d..bf12ee6  main -> main
+========== Update Completed: Wed Feb 19 17:35:44 CST 2025 ==========
+========== Update Started: Wed Feb 19 17:50:49 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-19 17:50:50
+[main 79f0ea7] Auto-update: 2025-02-19 17:50:50
+ 5 files changed, 114 insertions(+), 112 deletions(-)
+ create mode 100644 TTS Decks/Martian Mercenaries/Martian Mercenaries.txt
+ delete mode 100644 TTS Decks/Martian Mercenaries/Martian_Mercenaries.txt
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   bf12ee6..79f0ea7  main -> main
+========== Update Completed: Wed Feb 19 17:50:59 CST 2025 ==========
+========== Update Started: Wed Feb 19 17:55:56 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-19 17:55:57
+[main 40e931a] Auto-update: 2025-02-19 17:55:57
+ 2 files changed, 13 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   79f0ea7..40e931a  main -> main
+========== Update Completed: Wed Feb 19 17:56:02 CST 2025 ==========
+========== Update Started: Wed Feb 19 18:20:35 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-19 18:20:35
+[main 48ea024] Auto-update: 2025-02-19 18:20:35
+ 2 files changed, 11 insertions(+)
+ rename TTS Decks/Martian Mercenaries/{Martian Mercenaries.png => Martian Mercenaries 2.png} (100%)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   40e931a..48ea024  main -> main
+========== Update Completed: Wed Feb 19 18:20:37 CST 2025 ==========
+========== Update Started: Wed Feb 19 18:52:38 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-19 18:52:38
+[main 7ac064c] Auto-update: 2025-02-19 18:52:38
+ 2 files changed, 12 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   48ea024..7ac064c  main -> main
+========== Update Completed: Wed Feb 19 18:52:41 CST 2025 ==========
+========== Update Started: Thu Feb 20 11:14:35 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-20 11:14:36
+[main 03f34aa] Auto-update: 2025-02-20 11:14:36
+ 10 files changed, 1279 insertions(+), 515 deletions(-)
+ create mode 100644 old csss.css
+ create mode 100644 screenshots/Screenshot 2025-02-19 204725.jpg
+ create mode 100644 shipbuilder.html
+ create mode 100644 shipbuilder.js
+ create mode 100644 war_for_the_stars.css
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   7ac064c..03f34aa  main -> main
+========== Update Completed: Thu Feb 20 11:14:38 CST 2025 ==========
+========== Update Started: Fri Feb 21 11:46:00 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-21 11:46:02
+[main 957abc1] Auto-update: 2025-02-21 11:46:02
+ 165 files changed, 19 insertions(+), 17 deletions(-)
+ rename art/{Emergency Jump.png => Priority Jump.png} (100%)
+ delete mode 100644 cards/leader_Major Kael Draven.jpg
+ delete mode 100644 cards/leader_Major Kael Draven.png
+ delete mode 100644 cards/module_Basic Construction Bay.jpg
+ delete mode 100644 cards/module_Basic Construction Bay.png
+ delete mode 100644 cards/module_Cargo Bay.jpg
+ delete mode 100644 cards/module_Cargo Bay.png
+ delete mode 100644 cards/module_Cryostasis Pod.jpg
+ delete mode 100644 cards/module_Cryostasis Pod.png
+ create mode 100644 cards/module_Cryostasis Pods.jpg
+ create mode 100644 cards/module_Cryostasis Pods.png
+ delete mode 100644 cards/module_Energy Network.jpg
+ delete mode 100644 cards/module_Energy Network.png
+ delete mode 100644 cards/module_Entropy Engine.jpg
+ delete mode 100644 cards/module_Entropy Engine.png
+ delete mode 100644 cards/module_Manipulating Arm.jpg
+ delete mode 100644 cards/module_Manipulating Arm.png
+ delete mode 100644 cards/module_Rapid Construction Bay.jpg
+ delete mode 100644 cards/module_Rapid Construction Bay.png
+ delete mode 100644 cards/objective_G-type Main-sequence Star Sol.jpg
+ delete mode 100644 cards/objective_G-type Main-sequence Star Sol.png
+ delete mode 100644 cards/objective_Marsa.jpg
+ delete mode 100644 cards/objective_Marsa.png
+ delete mode 100644 cards/objective_Motherlode Asteroid Belt.jpg
+ delete mode 100644 cards/objective_Motherlode Asteroid Belt.png
+ delete mode 100644 cards/objective_Space.jpg
+ delete mode 100644 cards/objective_Space.png
+ delete mode 100644 cards/objective_Verene.jpg
+ delete mode 100644 cards/objective_Verene.png
+ delete mode 100644 cards/order_Emergency Jump.jpg
+ delete mode 100644 cards/order_Emergency Jump.png
+ delete mode 100644 cards/order_Power Siphon.jpg
+ delete mode 100644 cards/order_Power Siphon.png
+ create mode 100644 cards/order_Priority Jump.jpg
+ create mode 100644 cards/order_Priority Jump.png
+ delete mode 100644 cards/order_Wormhole Anomaly.jpg
+ delete mode 100644 cards/order_Wormhole Anomaly.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   03f34aa..957abc1  main -> main
+========== Update Completed: Fri Feb 21 11:46:33 CST 2025 ==========
+========== Update Started: Fri Feb 21 11:51:22 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-21 11:51:22
+[main 98c2e40] Auto-update: 2025-02-21 11:51:22
+ 10 files changed, 52 insertions(+)
+ create mode 100644 cards/objective_G-type Main-sequence Star Sol.jpg
+ create mode 100644 cards/objective_G-type Main-sequence Star Sol.png
+ create mode 100644 cards/objective_Marsa.jpg
+ create mode 100644 cards/objective_Marsa.png
+ create mode 100644 cards/objective_Motherlode Asteroid Belt.jpg
+ create mode 100644 cards/objective_Motherlode Asteroid Belt.png
+ create mode 100644 cards/objective_Verene.jpg
+ create mode 100644 cards/objective_Verene.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   957abc1..98c2e40  main -> main
+========== Update Completed: Fri Feb 21 11:51:27 CST 2025 ==========
+========== Update Started: Fri Feb 21 14:10:01 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-21 14:10:03
+[main 5bd5614] Auto-update: 2025-02-21 14:10:03
+ 54 files changed, 113 insertions(+), 8 deletions(-)
+ create mode 100644 TTS Decks/deck_image.png
+ create mode 100644 art/Baron Harlan Keel.png
+ rename art/{Credit Network.png => Energon Network.png} (100%)
+ create mode 100644 art/Foreman Garek Voss.png
+ create mode 100644 art/Princess Erai.png
+ create mode 100644 cards/leader_Baron Harlan Keel.jpg
+ create mode 100644 cards/leader_Baron Harlan Keel.png
+ create mode 100644 cards/leader_Foreman Garek Voss.jpg
+ create mode 100644 cards/leader_Foreman Garek Voss.png
+ delete mode 100644 cards/leader_The Rebel King.jpg
+ delete mode 100644 cards/leader_The Rebel King.png
+ delete mode 100644 cards/module_Credit Network.jpg
+ delete mode 100644 cards/module_Credit Network.png
+ create mode 100644 cards/module_Energon Network.jpg
+ create mode 100644 cards/module_Energon Network.png
+ delete mode 100644 cards/module_Fuel Depot.jpg
+ delete mode 100644 cards/module_Fuel Depot.png
+ create mode 100644 cards/module_Negative Energy Field.jpg
+ create mode 100644 cards/module_Negative Energy Field.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   98c2e40..5bd5614  main -> main
+========== Update Completed: Fri Feb 21 14:10:12 CST 2025 ==========
+========== Update Started: Fri Feb 21 14:55:35 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-21 14:55:38
+[main f31a4c5] Auto-update: 2025-02-21 14:55:38
+ 9 files changed, 44 insertions(+), 34 deletions(-)
+ create mode 100644 TTS Decks/Zangorian_Armada.png
+ rename art/{Cryostasis Pod.png => Cryostasis Pods.png} (100%)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   5bd5614..f31a4c5  main -> main
+========== Update Completed: Fri Feb 21 14:55:49 CST 2025 ==========
+========== Update Started: Fri Feb 21 15:04:44 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-21 15:04:46
+[main 04bceb9] Auto-update: 2025-02-21 15:04:46
+ 5 files changed, 45 insertions(+)
+ create mode 100644 TTS Decks/Zangorian Armada.jpg
+ delete mode 100644 TTS Decks/Zangorian_Armada.png
+ create mode 100644 TTS Decks/Zangorian_Armada.txt
+ delete mode 100644 TTS Decks/deck_image.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   f31a4c5..04bceb9  main -> main
+========== Update Completed: Fri Feb 21 15:04:53 CST 2025 ==========
+========== Update Started: Fri Feb 21 18:15:48 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-21 18:15:52
+[main 2012a13] Auto-update: 2025-02-21 18:15:52
+ 225 files changed, 20 insertions(+), 2 deletions(-)
+ create mode 100644 art/Activate the Tractor Beam.png
+ create mode 100644 art/Galactic Bazaar.png
+ create mode 100644 art/Zenzuul.png
+ create mode 100644 cards/objective_Galactic Bazaar.jpg
+ create mode 100644 cards/objective_Galactic Bazaar.png
+ create mode 100644 cards/objective_Zenzuul.jpg
+ create mode 100644 cards/objective_Zenzuul.png
+ create mode 100644 cards/order_Acitvate the Tractor Beam.jpg
+ create mode 100644 cards/order_Acitvate the Tractor Beam.png
+ create mode 100644 imgs/leader_border.png
+ create mode 100644 imgs/module_border.png
+ create mode 100644 imgs/order_border.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   04bceb9..2012a13  main -> main
+========== Update Completed: Fri Feb 21 18:18:27 CST 2025 ==========
+========== Update Started: Fri Feb 21 18:20:03 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-21 18:20:03
+[main df9d783] Auto-update: 2025-02-21 18:20:03
+ 5 files changed, 23 insertions(+)
+ rename TTS Decks/{Zangorian Armada.jpg => deck_01.jpg} (100%)
+ create mode 100644 TTS Decks/deck_02.jpg
+ create mode 100644 TTS Decks/deck_03.jpg
+ create mode 100644 TTS Decks/deck_04.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   2012a13..df9d783  main -> main
+========== Update Completed: Fri Feb 21 18:20:06 CST 2025 ==========
+========== Update Started: Fri Feb 21 18:30:04 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-21 18:30:07
+[main f20b639] Auto-update: 2025-02-21 18:30:07
+ 51 files changed, 51 insertions(+), 87 deletions(-)
+ delete mode 100644 TTS Decks/Martian Mercenaries/Martian Mercenaries.tsdb
+ delete mode 100644 TTS Decks/Martian Mercenaries/Martian Mercenaries.txt
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Ambassador Han.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Ambassador Kren.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Ambassador Rostova.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Ambassador Von.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Bronin Briggs, Shipbuilder.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Captain Jace Brigley.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Chip Roy, Engineer.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Dr. Veyna Kross.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Migdin Bowles.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Professor Alric Zane.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/leader_Zexter Fal, Fighter Pilot.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Advanced Targeting Computer.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Energon Cell.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Energy Shield.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Engineering Room.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Fuel Depot.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Garrison.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Impulse Core.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Ion Cannon.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Laser Drive.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Living Quarters.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Manipulating Arm.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Manned Turret.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Mining Laser.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Nuclear Warhead.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Power Core.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Small Laser.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Solar Collector.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/module_Thruster.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_EMP Disruption.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Electronic Warfare I.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Electronic Warfare II.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Electronic Warfare III.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Emergency Jump.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Expedited Construction.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Get it Fixed!.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Give it All She's Got!.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_MK-I Torpedo.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Missile Barrage.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Outmaneuver.jpg
+ delete mode 100644 TTS Decks/Martian Mercenaries/bulk images/order_Supply Shipment.jpg
+ rename TTS Decks/{Martian Mercenaries/Martian Mercenaries 2.png => Martian Republic/Martian Republic.jpg} (59%)
+ create mode 100644 TTS Decks/Martian Republic/Martian_Republic.txt
+ create mode 100644 TTS Decks/zone_deck.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   df9d783..f20b639  main -> main
+========== Update Completed: Fri Feb 21 18:30:17 CST 2025 ==========
+========== Update Started: Sat Feb 22 16:32:37 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-22 16:32:39
+[main 9c291ca] Auto-update: 2025-02-22 16:32:39
+ 51 files changed, 638 insertions(+), 309 deletions(-)
+ create mode 100644 TTS Decks/tts links.txt
+ create mode 100644 art/Sector 7.png
+ delete mode 100644 basic_rules.txt
+ create mode 100644 cards/objective_Sector 7.jpg
+ create mode 100644 cards/objective_Sector 7.png
+ rename old csss.css => css/old csss.css (100%)
+ rename war_for_the_stars.css => css/war_for_the_stars.css (93%)
+ create mode 100644 html/3dtest.html
+ rename gallery.html => html/gallery.html (97%)
+ create mode 100644 html/overview.html
+ rename rules.html => html/rules.html (91%)
+ rename shipbuilder.html => html/shipbuilder.html (87%)
+ create mode 100644 imgs/screenshot_ship.jpg
+ create mode 100644 js/overview.js
+ rename shipbuilder.js => js/shipbuilder.js (93%)
+ delete mode 100644 overview.html
+ delete mode 100644 resize_stitched_image.sh
+ delete mode 100644 stitch_images.sh
+ delete mode 100644 stitched_cards.jpg
+ delete mode 100644 stitched_cards_resized.jpg
+ create mode 100644 txt/basic_rules.txt
+ rename full_rules.txt => txt/full_rules.txt (100%)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   f20b639..9c291ca  main -> main
+========== Update Completed: Sat Feb 22 16:32:46 CST 2025 ==========
+========== Update Started: Sat Feb 22 17:44:31 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-22 17:44:32
+[main d2204b8] Auto-update: 2025-02-22 17:44:32
+ 3 files changed, 33 insertions(+), 23 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   9c291ca..d2204b8  main -> main
+========== Update Completed: Sat Feb 22 17:44:34 CST 2025 ==========
+========== Update Started: Sat Feb 22 17:53:49 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-22 17:53:50
+[main 6c16238] Auto-update: 2025-02-22 17:53:50
+ 11 files changed, 11 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   d2204b8..6c16238  main -> main
+========== Update Completed: Sat Feb 22 17:53:53 CST 2025 ==========
+========== Update Started: Sat Feb 22 17:56:48 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-22 17:56:49
+[main 458b80b] Auto-update: 2025-02-22 17:56:49
+ 5 files changed, 11 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   6c16238..458b80b  main -> main
+========== Update Completed: Sat Feb 22 17:56:51 CST 2025 ==========
+========== Update Started: Sat Feb 22 21:17:19 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-22 21:17:20
+[main 7d05731] Auto-update: 2025-02-22 21:17:20
+ 8 files changed, 109 insertions(+), 96 deletions(-)
+ rename art/{Activate the Tractor Beam.png => Activate Tractor Beam.png} (100%)
+ create mode 100644 cards/order_Activate Tractor Beam.jpg
+ create mode 100644 cards/order_Activate Tractor Beam.png
+ create mode 100644 maps/full_system_map_ships.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   458b80b..7d05731  main -> main
+========== Update Completed: Sat Feb 22 21:17:27 CST 2025 ==========
+========== Update Started: Sat Feb 22 21:17:51 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-22 21:17:52
+[main 7618789] Auto-update: 2025-02-22 21:17:52
+ 7 files changed, 15 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   7d05731..7618789  main -> main
+========== Update Completed: Sat Feb 22 21:17:55 CST 2025 ==========
+========== Update Started: Sat Feb 22 21:20:12 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-22 21:20:13
+[main fd6278d] Auto-update: 2025-02-22 21:20:13
+ 7 files changed, 11 insertions(+)
+ create mode 100644 TTS Decks/Objectives.jpg
+ delete mode 100644 TTS Decks/deck_02.jpg
+ delete mode 100644 TTS Decks/deck_03.jpg
+ delete mode 100644 TTS Decks/deck_04.jpg
+ delete mode 100644 TTS Decks/zone_deck.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   7618789..fd6278d  main -> main
+========== Update Completed: Sat Feb 22 21:20:20 CST 2025 ==========
+========== Update Started: Sat Feb 22 22:28:11 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-22 22:28:12
+[main 589a416] Auto-update: 2025-02-22 22:28:12
+ 3 files changed, 16 insertions(+)
+ create mode 100644 TTS Decks/deck_02.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   fd6278d..589a416  main -> main
+========== Update Completed: Sat Feb 22 22:28:13 CST 2025 ==========
+========== Update Started: Sat Feb 22 22:33:43 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-22 22:33:43
+[main 09b8109] Auto-update: 2025-02-22 22:33:43
+ 2 files changed, 12 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   589a416..09b8109  main -> main
+========== Update Completed: Sat Feb 22 22:33:45 CST 2025 ==========
+========== Update Started: Sat Feb 22 22:39:35 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-22 22:39:35
+[main f1b7b98] Auto-update: 2025-02-22 22:39:35
+ 4 files changed, 11 insertions(+)
+ create mode 100644 TTS Decks/deck_03.jpg
+ create mode 100644 TTS Decks/deck_04.jpg
+ rename TTS Decks/{Objectives.jpg => zone_deck.jpg} (100%)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   09b8109..f1b7b98  main -> main
+========== Update Completed: Sat Feb 22 22:39:37 CST 2025 ==========
+========== Update Started: Sat Feb 22 23:43:41 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-22 23:43:42
+[main 66eae0a] Auto-update: 2025-02-22 23:43:42
+ 2 files changed, 14 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   f1b7b98..66eae0a  main -> main
+========== Update Completed: Sat Feb 22 23:43:45 CST 2025 ==========
+========== Update Started: Sun Feb 23 13:08:33 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-23 13:08:34
+[main 7335250] Auto-update: 2025-02-23 13:08:34
+ 10 files changed, 29183 insertions(+), 3 deletions(-)
+ create mode 100644 models/ship marker/red_01.jpg
+ create mode 100644 models/ship marker/red_02.jpg
+ create mode 100644 models/ship marker/red_03.jpg
+ create mode 100644 models/ship marker/red_04.jpg
+ create mode 100644 models/ship marker/red_05.jpg
+ create mode 100644 models/ship marker/red_06.jpg
+ create mode 100644 models/ship marker/ship_marker.obj
+ create mode 100644 models/ship marker/ship_marker.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   66eae0a..7335250  main -> main
+========== Update Completed: Sun Feb 23 13:08:39 CST 2025 ==========
+========== Update Started: Sun Feb 23 13:27:23 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-23 13:27:23
+[main 4b61c67] Auto-update: 2025-02-23 13:27:23
+ 11 files changed, 19 insertions(+)
+ create mode 100644 models/ship marker/blue_01.jpg
+ create mode 100644 models/ship marker/blue_02.jpg
+ create mode 100644 models/ship marker/blue_03.jpg
+ create mode 100644 models/ship marker/blue_04.jpg
+ create mode 100644 models/ship marker/blue_05.jpg
+ create mode 100644 models/ship marker/green_01.jpg
+ create mode 100644 models/ship marker/green_02.jpg
+ create mode 100644 models/ship marker/green_03.jpg
+ create mode 100644 models/ship marker/green_04.jpg
+ create mode 100644 models/ship marker/green_05.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   7335250..4b61c67  main -> main
+========== Update Completed: Sun Feb 23 13:27:25 CST 2025 ==========
+========== Update Started: Sun Feb 23 13:44:43 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-23 13:44:43
+[main 48aacea] Auto-update: 2025-02-23 13:44:43
+ 6 files changed, 21 insertions(+)
+ create mode 100644 models/ship marker/yellow_01.jpg
+ create mode 100644 models/ship marker/yellow_02.jpg
+ create mode 100644 models/ship marker/yellow_03.jpg
+ create mode 100644 models/ship marker/yellow_04.jpg
+ create mode 100644 models/ship marker/yellow_05.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   4b61c67..48aacea  main -> main
+========== Update Completed: Sun Feb 23 13:44:45 CST 2025 ==========
+========== Update Started: Sun Feb 23 13:54:18 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-23 13:54:18
+[main 9cee253] Auto-update: 2025-02-23 13:54:18
+ 6 files changed, 16 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   48aacea..9cee253  main -> main
+========== Update Completed: Sun Feb 23 13:54:20 CST 2025 ==========
+========== Update Started: Sun Feb 23 15:44:38 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-23 15:44:40
+[main ccc2761] Auto-update: 2025-02-23 15:44:40
+ 53 files changed, 13 insertions(+)
+ create mode 100644 art/Heavy Laser Cannon.png
+ create mode 100644 art/Negative Energy Field.png
+ create mode 100644 art/Negative Energy Pulse.png
+ create mode 100644 art/Small Laser.jpg
+ create mode 100644 cards/module_Heavy Laser Cannon.jpg
+ create mode 100644 cards/module_Heavy Laser Cannon.png
+ create mode 100644 cards/order_Negative Energy Pulse.jpg
+ create mode 100644 cards/order_Negative Energy Pulse.png
+ create mode 100644 imgs/Small Laser.png
+ create mode 100644 models/ship marker/yellow_05.xcf
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   9cee253..ccc2761  main -> main
+========== Update Completed: Sun Feb 23 15:44:48 CST 2025 ==========
+========== Update Started: Sun Feb 23 16:10:17 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-23 16:10:19
+[main d197da3] Auto-update: 2025-02-23 16:10:19
+ 46 files changed, 21 insertions(+), 2 deletions(-)
+ delete mode 100644 cards/module_Laser Drive.jpg
+ delete mode 100644 cards/module_Laser Drive.png
+ delete mode 100644 cards/order_Acitvate the Tractor Beam.jpg
+ delete mode 100644 cards/order_Acitvate the Tractor Beam.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   ccc2761..d197da3  main -> main
+========== Update Completed: Sun Feb 23 16:10:26 CST 2025 ==========
+========== Update Started: Sun Feb 23 16:20:01 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-23 16:20:02
+[main 57b7d64] Auto-update: 2025-02-23 16:20:02
+ 10 files changed, 54 insertions(+), 51 deletions(-)
+ delete mode 100644 TTS Decks/Martian Republic/Martian Republic.jpg
+ delete mode 100644 TTS Decks/Martian Republic/Martian_Republic.txt
+ create mode 100644 TTS Decks/Test_Deck_2-23.txt
+ delete mode 100644 TTS Decks/Zone Deck/Zone Deck.png
+ delete mode 100644 TTS Decks/Zone Deck/Zone Deck.tsdb
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   d197da3..57b7d64  main -> main
+========== Update Completed: Sun Feb 23 16:20:08 CST 2025 ==========
+========== Update Started: Sun Feb 23 16:29:13 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-23 16:29:14
+[main 4c1fb9e] Auto-update: 2025-02-23 16:29:14
+ 5 files changed, 16 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   57b7d64..4c1fb9e  main -> main
+========== Update Completed: Sun Feb 23 16:29:20 CST 2025 ==========
+========== Update Started: Sun Feb 23 17:02:24 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-23 17:02:25
+[main 81ea61a] Auto-update: 2025-02-23 17:02:25
+ 9 files changed, 11 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   4c1fb9e..81ea61a  main -> main
+========== Update Completed: Sun Feb 23 17:02:27 CST 2025 ==========
+========== Update Started: Sun Feb 23 17:08:45 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-23 17:08:45
+[main 62d7f98] Auto-update: 2025-02-23 17:08:45
+ 5 files changed, 11 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   81ea61a..62d7f98  main -> main
+========== Update Completed: Sun Feb 23 17:08:50 CST 2025 ==========
+========== Update Started: Sun Feb 23 18:26:15 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-23 18:26:15
+[main 1ecf8d6] Auto-update: 2025-02-23 18:26:15
+ 2 files changed, 11 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   62d7f98..1ecf8d6  main -> main
+========== Update Completed: Sun Feb 23 18:26:17 CST 2025 ==========
+========== Update Started: Wed Feb 26 17:46:25 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-26 17:46:33
+[main a327785] Auto-update: 2025-02-26 17:46:33
+ 229 files changed, 81 insertions(+), 38 deletions(-)
+ create mode 100644 screenshots/2-23.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   1ecf8d6..a327785  main -> main
+========== Update Completed: Wed Feb 26 17:46:53 CST 2025 ==========
+========== Update Started: Wed Feb 26 17:54:49 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-26 17:54:50
+[main 9cebc11] Auto-update: 2025-02-26 17:54:50
+ 1 file changed, 12 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   a327785..9cebc11  main -> main
+========== Update Completed: Wed Feb 26 17:54:53 CST 2025 ==========
+========== Update Started: Wed Feb 26 18:02:52 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-26 18:02:53
+[main 74c745e] Auto-update: 2025-02-26 18:02:53
+ 15 files changed, 11 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   9cebc11..74c745e  main -> main
+========== Update Completed: Wed Feb 26 18:02:59 CST 2025 ==========
+========== Update Started: Wed Feb 26 18:27:58 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-26 18:27:58
+[main f943900] Auto-update: 2025-02-26 18:27:58
+ 8 files changed, 11 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   74c745e..f943900  main -> main
+========== Update Completed: Wed Feb 26 18:28:01 CST 2025 ==========
+========== Update Started: Wed Feb 26 18:34:27 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-26 18:34:28
+[main b8a4efa] Auto-update: 2025-02-26 18:34:28
+ 5 files changed, 11 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   f943900..b8a4efa  main -> main
+========== Update Completed: Wed Feb 26 18:34:30 CST 2025 ==========
+========== Update Started: Wed Feb 26 18:43:49 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-26 18:43:50
+[main 2698f79] Auto-update: 2025-02-26 18:43:50
+ 6 files changed, 11 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   b8a4efa..2698f79  main -> main
+========== Update Completed: Wed Feb 26 18:43:55 CST 2025 ==========
+========== Update Started: Wed Feb 26 19:12:09 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-26 19:12:09
+[main b1352a8] Auto-update: 2025-02-26 19:12:09
+ 2 files changed, 11 insertions(+)
+ rename TTS Decks/{zone_deck.jpg => zone_deck2.jpg} (100%)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/jeffrobot494/war-for-the-stars-cards.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+========== Update Completed: Wed Feb 26 19:12:10 CST 2025 ==========
+========== Update Started: Wed Feb 26 19:16:36 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-26 19:16:37
+[main d997cb8] Auto-update: 2025-02-26 19:16:37
+ 1 file changed, 18 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/jeffrobot494/war-for-the-stars-cards.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+========== Update Completed: Wed Feb 26 19:16:38 CST 2025 ==========
+========== Update Started: Wed Feb 26 19:18:06 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-26 19:18:06
+[main 5b507a6] Auto-update: 2025-02-26 19:18:06
+ 2 files changed, 17 insertions(+)
+ rename TTS Decks/{deck_01.jpg => deck_05.jpg} (100%)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/jeffrobot494/war-for-the-stars-cards.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+========== Update Completed: Wed Feb 26 19:18:07 CST 2025 ==========
+========== Update Started: Wed Feb 26 20:41:12 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-26 20:41:13
+[main 841b226] Auto-update: 2025-02-26 20:41:13
+ 33 files changed, 18 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/jeffrobot494/war-for-the-stars-cards.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+========== Update Completed: Wed Feb 26 20:41:14 CST 2025 ==========
+========== Update Started: Wed Feb 26 20:43:22 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-26 20:43:22
+[main 0e63135] Auto-update: 2025-02-26 20:43:22
+ 4 files changed, 21 insertions(+), 4 deletions(-)
+ rename TTS Decks/{deck_05.jpg => deck_01.jpg} (100%)
+ rename TTS Decks/{zone_deck2.jpg => zone_deck.jpg} (100%)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/jeffrobot494/war-for-the-stars-cards.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+========== Update Completed: Wed Feb 26 20:43:24 CST 2025 ==========
+========== Update Started: Thu Feb 27 16:27:00 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-27 16:27:00
+[main 585ed72] Auto-update: 2025-02-27 16:27:00
+ 1 file changed, 19 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/jeffrobot494/war-for-the-stars-cards.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+========== Update Completed: Thu Feb 27 16:27:04 CST 2025 ==========
+========== Update Started: Thu Feb 27 16:40:47 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-27 16:40:47
+[main 74c8561] Auto-update: 2025-02-27 16:40:47
+ 1 file changed, 17 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/jeffrobot494/war-for-the-stars-cards.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+========== Update Completed: Thu Feb 27 16:40:48 CST 2025 ==========
+========== Update Started: Thu Feb 27 16:42:52 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-27 16:42:52
+[main 7e80629] Auto-update: 2025-02-27 16:42:52
+ 2 files changed, 17 insertions(+)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/jeffrobot494/war-for-the-stars-cards.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+========== Update Completed: Thu Feb 27 16:42:53 CST 2025 ==========
+========== Update Started: Thu Feb 27 16:44:46 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-27 16:44:46
+[main 92aad59] Auto-update: 2025-02-27 16:44:46
+ 2 files changed, 17 insertions(+)
+ delete mode 100644 TTS Decks/zone_deck.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/jeffrobot494/war-for-the-stars-cards.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+========== Update Completed: Thu Feb 27 16:44:47 CST 2025 ==========
+========== Update Started: Thu Feb 27 16:51:31 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-27 16:51:31
+[main 80e24dd] Auto-update: 2025-02-27 16:51:31
+ 3 files changed, 18 insertions(+), 1 deletion(-)
+ create mode 100644 TTS Decks/zone_deck.jpg
+ delete mode 100644 TTS Decks/zone_deck2.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   6ea5d4e..80e24dd  main -> main
+========== Update Completed: Thu Feb 27 16:51:37 CST 2025 ==========
+========== Update Started: Thu Feb 27 16:59:12 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-27 16:59:12
+[main a19e9b7] Auto-update: 2025-02-27 16:59:12
+ 8 files changed, 13 insertions(+)
+ delete mode 100644 maps/Full Hex Grid Map.jpg
+ delete mode 100644 maps/Map_Construction Area_01.jpg
+ delete mode 100644 maps/full_system_clean_inner.jpg
+ delete mode 100644 maps/full_system_map_clean.jpg
+ delete mode 100644 maps/full_system_map_ships.jpg
+ delete mode 100644 maps/inner_system_no_grid.jpg
+ create mode 100644 maps/map.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   80e24dd..a19e9b7  main -> main
+========== Update Completed: Thu Feb 27 16:59:17 CST 2025 ==========
+========== Update Started: Fri Feb 28 00:26:51 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-28 00:26:53
+[main 7569c5f] Auto-update: 2025-02-28 00:26:53
+ 13 files changed, 19 insertions(+)
+ create mode 100644 TTS Decks/screentop.jpg
+ create mode 100644 art/Malik Dross, Naval Intelligence.png
+ create mode 100644 cards/leader_Malik Dross, Naval Intelligence.jpg
+ create mode 100644 cards/leader_Malik Dross, Naval Intelligence.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   a19e9b7..7569c5f  main -> main
+========== Update Completed: Fri Feb 28 00:27:00 CST 2025 ==========
+========== Update Started: Fri Feb 28 10:25:38 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-02-28 10:25:39
+[main cefe8c1] Auto-update: 2025-02-28 10:25:39
+ 2 files changed, 51 insertions(+), 15 deletions(-)
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   7569c5f..cefe8c1  main -> main
+========== Update Completed: Fri Feb 28 10:25:41 CST 2025 ==========
+========== Update Started: Tue Mar  4 20:27:48 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-03-04 20:27:53
+[main 72f6d54] Auto-update: 2025-03-04 20:27:53
+ 147 files changed, 38 insertions(+)
+ create mode 100644 art/Brigadier General Nikolai.png
+ create mode 100644 art/Daniella Wang.png
+ create mode 100644 art/Drazka Orun'ket, Keeper of Venoms.png
+ create mode 100644 art/Durnan Dig.png
+ create mode 100644 art/Fyredreenker.png
+ create mode 100644 "art/Korrhask Drek\342\200\231marr, War-Voice of the Unbroken.png"
+ create mode 100644 art/Sazhira Tanzuka, She Who Rules the Pillow Court.png
+ create mode 100644 art/Stormdrayyver.png
+ create mode 100644 "art/Syvrek Jhazi\342\200\231kor, The Fleshboiler.png"
+ create mode 100644 art/T'zakh Reevorr.png
+ create mode 100644 art/Tazrek Vhun'kaar, One-Eyed Death.png
+ create mode 100644 art/Zaesha Rhazwen, Taken in Fire.png
+ create mode 100644 "art/Zaevra Zhun\342\200\231kai, The Mother of Shadows.png"
+ create mode 100644 cards/leader_Breeder.jpg
+ create mode 100644 cards/leader_Breeder.png
+ create mode 100644 cards/leader_Brigadier General Nikolai.jpg
+ create mode 100644 cards/leader_Brigadier General Nikolai.png
+ create mode 100644 cards/leader_Daniella Wang.jpg
+ create mode 100644 cards/leader_Daniella Wang.png
+ create mode 100644 cards/leader_David Wang.png
+ create mode 100644 cards/leader_Destroyer.jpg
+ create mode 100644 cards/leader_Destroyer.png
+ create mode 100644 cards/leader_Drazka Orun'ket, Keeper of Venoms.jpg
+ create mode 100644 cards/leader_Drazka Orun'ket, Keeper of Venoms.png
+ create mode 100644 cards/leader_Durnan Dig, Explorer.png
+ create mode 100644 cards/leader_Durnan Dig.jpg
+ create mode 100644 cards/leader_Durnan Dig.png
+ create mode 100644 cards/leader_Healer.jpg
+ create mode 100644 cards/leader_Healer.png
+ create mode 100644 "cards/leader_Korrhask Drek\342\200\231marr, War-Voice of the Unbroken.jpg"
+ create mode 100644 "cards/leader_Korrhask Drek\342\200\231marr, War-Voice of the Unbroken.png"
+ create mode 100644 cards/leader_Pilot.jpg
+ create mode 100644 cards/leader_Pilot.png
+ create mode 100644 cards/leader_Potionmaster.jpg
+ create mode 100644 cards/leader_Potionmaster.png
+ create mode 100644 cards/leader_Priestess.jpg
+ create mode 100644 cards/leader_Priestess.png
+ create mode 100644 cards/leader_Sazhira Tanzuka, She Who Rules the Pillow Court.jpg
+ create mode 100644 cards/leader_Sazhira Tanzuka, She Who Rules the Pillow Court.png
+ create mode 100644 cards/leader_Seer.jpg
+ create mode 100644 cards/leader_Seer.png
+ create mode 100644 cards/leader_Slave.jpg
+ create mode 100644 cards/leader_Slave.png
+ create mode 100644 "cards/leader_Syvrek Jhazi\342\200\231kor, The Fleshboiler.jpg"
+ create mode 100644 "cards/leader_Syvrek Jhazi\342\200\231kor, The Fleshboiler.png"
+ create mode 100644 cards/leader_Tazrek Vhun'kaar, One-Eyed Death.jpg
+ create mode 100644 cards/leader_Tazrek Vhun'kaar, One-Eyed Death.png
+ create mode 100644 cards/leader_Zaesha Rhazwen, Taken in Fire.jpg
+ create mode 100644 cards/leader_Zaesha Rhazwen, Taken in Fire.png
+ create mode 100644 "cards/leader_Zaevra Zhun\342\200\231kai, The Mother of Shadows.jpg"
+ create mode 100644 "cards/leader_Zaevra Zhun\342\200\231kai, The Mother of Shadows.png"
+ create mode 100644 cards/module_Baiyu Pattern Fusion Reactor.jpg
+ create mode 100644 cards/module_Baiyu Pattern Fusion Reactor.png
+ create mode 100644 cards/module_Fyredreenker.jpg
+ create mode 100644 cards/module_Fyredreenker.png
+ create mode 100644 cards/module_Mezh-Talith.jpg
+ create mode 100644 cards/module_Mezh-Talith.png
+ create mode 100644 cards/module_Model-03 Emperor's Edict.jpg
+ create mode 100644 cards/module_Model-03 Emperor's Edict.png
+ create mode 100644 cards/module_Model-88 Dragon Drive.jpg
+ create mode 100644 cards/module_Model-88 Dragon Drive.png
+ create mode 100644 cards/module_Orzhen-Thul.jpg
+ create mode 100644 cards/module_Orzhen-Thul.png
+ create mode 100644 cards/module_Stormdrayyver .jpg
+ create mode 100644 cards/module_Stormdrayyver .png
+ create mode 100644 "cards/module_T\342\200\231zakh Reevorr.jpg"
+ create mode 100644 "cards/module_T\342\200\231zakh Reevorr.png"
+ create mode 100644 cards/module_Urza-Mekh.jpg
+ create mode 100644 cards/module_Urza-Mekh.png
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   cefe8c1..72f6d54  main -> main
+========== Update Completed: Tue Mar  4 20:28:05 CST 2025 ==========
+========== Update Started: Tue Mar  4 20:48:51 CST 2025 ==========
+Running generate_card_list.sh...
+Updated cards.json with JPG files!
+Staging changes...
+Committing changes: Auto-update: 2025-03-04 20:48:56
+[main e155751] Auto-update: 2025-03-04 20:48:56
+ 139 files changed, 80 insertions(+)
+ delete mode 100644 TTS Decks/screentop.jpg
+Pushing to GitHub...
+To https://github.com/jeffrobot494/war-for-the-stars-cards.git
+   72f6d54..e155751  main -> main
+========== Update Completed: Tue Mar  4 20:49:09 CST 2025 ==========

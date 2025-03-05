@@ -1,0 +1,28 @@
+;link to magic-style
+LINK="1W_FgwrbdUViGUIOK7bdLhvRLxGjdTSUZ8bUxMZ8aDIA!Leaders"
+
+;link to grid-style
+;LINK="1AMsYoQ4pvxz6I74FW8BloelE14svXZ14v06cF3brc_8!Leaders"
+
+;Settings
+UNIT = INCH
+PAGE = 8.5, 11, PORTRAIT
+BORDER = RECTANGLE, #00000, .1
+
+VISUAL=, 10, 10
+IMAGE=,"imgs\leader_border.png",0%,0%,100%,100%
+FONT=Arial,11,,#F5F5F5,#404040
+TEXT="1-{(NAME)}",[NAME],{677/400}%,{79/60}%,{16417/200}%,{1599/200}%,LEFT
+TEXT=,"[ENERGY COST]e",{33681/400}%,{301/200}%,{5133/400}%,{4967/600}%,RIGHT
+IMAGE=,"art\[NAME].png",0%,7.5%,100%,51.5%
+TEXT="1-{(TYPE)}",[TYPE],{31/20}%,{3539/60}%,{38871/400}%,{4007/600}%,LEFT
+FONT=Arial,10,,#F5F5F5,#404040
+TEXT="1-{(EFFECT)}",[EFFECT],{1071/400}%,{40583/600}%,{2366/25}%,{1253/40}%,LEFT,WORDWRAP
+ENDVISUAL
+
+save=,"cards\leader_[NAME].png"
+save=,"cards\leader_[NAME].jpg"
+
+
+
+

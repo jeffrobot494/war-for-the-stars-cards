@@ -1,0 +1,23 @@
+;link to magic-style
+LINK="1W_FgwrbdUViGUIOK7bdLhvRLxGjdTSUZ8bUxMZ8aDIA!Objectives"
+
+;link to grid-style
+;LINK="1AMsYoQ4pvxz6I74FW8BloelE14svXZ14v06cF3brc_8!Objectives"
+
+;Settings
+UNIT = INCH
+PAGE = 8.5, 11, PORTRAIT
+BORDER = RECTANGLE, #00000, .1
+
+VISUAL=, 10, 10
+RECTANGLE=,0%,0%,100%,100%,#000000
+IMAGE=,"art\[NAME].png",{1071/400}%,{1599/200}%,{38251/400}%,{35729/600}%
+FONT=Arial,10,,#F5F5F5,#404040
+TEXT="1-{(NAME)}",[NAME],{451/200}%,{301/200}%,{38307/400}%,{1693/300}%
+FONT=Arial,8,,#F5F5F5,#404040
+TEXT="1-{(EFFECT)}",[EFFECT],{203/80}%,{22013/300}%,{38307/400}%,{1507/60}%,LEFT,WORDWRAP
+TEXT=,"[TYPE] zone",{1071/400}%,{13603/200}%,{38307/400}%,{903/200}%,LEFT,WORDWRAP
+ENDVISUAL
+
+save=,"cards\objective_[NAME].png"
+save=,"cards\objective_[NAME].jpg"
