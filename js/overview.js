@@ -84,7 +84,7 @@ function initIntroductionHTML() {
   introDiv.style.position = "relative";
   introDiv.style.width = "1200px";
   introDiv.style.height = "800px";
-  introDiv.style.backgroundImage = 'url("../maps/full_system_map_clean.jpg")';
+  introDiv.style.backgroundImage = 'url("../maps/map.jpg")';
   introDiv.style.backgroundSize = "cover";
   introDiv.style.backgroundPosition = "center";
   
